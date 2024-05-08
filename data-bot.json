@@ -478,18 +478,18 @@
         "ID": 11040,
         "Position": "Retired_Faculty"
       },
-{
-"Name" : "مریم السادات میرکمالی" ,
-"Room" : "332",
-"P.O.Box": "11155-9161",
-"Phone": "+98 21 6616 4582",
-"Fax" : "+98 21 6602 2711",
-"E-Mail": "mirkamali@sharif.edu",
-"web": "http://http//sharif.edu/~mirkamali",
-"pic":"https://www.physics.sharif.edu/documents/1230674/5123170/mirkamali.jpg/28b7a01c-f49e-bd4a-ecf4-7905ce35020c?t=1675749861031",
-"ID": 11041,
-"Position": "Faculty"
-}
+      {
+        "Name": "مریم السادات میرکمالی",
+        "Room": "332",
+        "P.O.Box": "11155-9161",
+        "Phone": "+98 21 6616 4582",
+        "Fax": "+98 21 6602 2711",
+        "E-Mail": "mirkamali@sharif.edu",
+        "web": "http://http//sharif.edu/~mirkamali",
+        "pic": "https://www.physics.sharif.edu/documents/1230674/5123170/mirkamali.jpg/28b7a01c-f49e-bd4a-ecf4-7905ce35020c?t=1675749861031",
+        "ID": 11041,
+        "Position": "Faculty"
+      }
     ]
   },
   {
@@ -502,7 +502,6 @@
         "web": "http://math.sharif.ir/faculties/ebrahimi",
         "Position": "Faculty",
         "ID": 12001,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/fa/wp-content/uploads/sites/2/2017/11/P3060260-200x300.jpg"
       },
       {
@@ -513,7 +512,6 @@
         "web": "http://math.sharif.ir/faculties/mardeshir",
         "Position": "Faculty",
         "ID": 12002,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/ardeshir.JPG"
       },
       {
@@ -524,7 +522,6 @@
         "web": "http://math.sharif.ir/faculties/zadeh",
         "Position": "Faculty",
         "ID": 12003,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/Esfahanizadeh1.JPG"
       },
       {
@@ -535,7 +532,6 @@
         "web": "http://math.sharif.ir/faculties/s_akbari",
         "Position": "Faculty",
         "ID": 12004,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/akbari.jpg"
       },
       {
@@ -546,7 +542,6 @@
         "web": "http://sharif.ir/~bahraini / http://math.sharif.ir/faculties/bahraini",
         "Position": "Faculty",
         "ID": 12005,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/bahreini_0.JPG"
       },
       {
@@ -557,7 +552,6 @@
         "web": "http://sharif.ir/~pournaki",
         "Position": "Faculty",
         "ID": 12006,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/pournaki.jpg"
       },
       {
@@ -568,7 +562,6 @@
         "web": "http://sharif.ir/~mtefagh",
         "Position": "Faculty",
         "ID": 12007,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/wp-content/uploads/sites/2/2021/12/IMG_0009-2-e1638687187620.jpg"
       },
       {
@@ -579,7 +572,6 @@
         "web": "http://math.sharif.ir/faculties/ajafari",
         "Position": "Faculty",
         "ID": 12008,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/jafari.JPG"
       },
       {
@@ -590,7 +582,6 @@
         "web": "http://math.sharif.ir/faculties/mirsadeghi",
         "Position": "Faculty",
         "ID": 12009,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/hajimirsadeghi.jpg"
       },
       {
@@ -601,7 +592,6 @@
         "web": "http://sharif.ir/~daneshgar / http://math.sharif.ir/faculties/daneshgar",
         "Position": "Faculty",
         "ID": 12010,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/Dabeshgar_0.JPG"
       },
       {
@@ -612,7 +602,6 @@
         "web": "http://sharif.ir/~razvan / http://math.sharif.ir/faculties/razvan",
         "Position": "Faculty",
         "ID": 12011,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/Razvan_0.jpg"
       },
       {
@@ -623,7 +612,6 @@
         "web": "http://sharif.ir/~rastegar / http://math.sharif.ir/faculties/rastegar",
         "Position": "Faculty",
         "ID": 12012,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/rastegar.JPG"
       },
       {
@@ -634,7 +622,6 @@
         "web": "http://sharif.ir/~ranjbarm / http://math.sharif.ir/faculties/ranjbarm",
         "Position": "Faculty",
         "ID": 12013,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/Ranjbar.JPG"
       },
       {
@@ -645,7 +632,6 @@
         "web": "http://sharif.ir/~zarei",
         "Position": "Faculty",
         "ID": 12014,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/zarei_0.jpg"
       },
       {
@@ -656,7 +642,6 @@
         "web": "http://math.sharif.ir/faculties/sharifitabar",
         "Position": "Faculty",
         "ID": 12015,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/fa/wp-content/uploads/sites/2/2017/11/P1040887-e1549216968962.jpg"
       },
       {
@@ -667,7 +652,6 @@
         "web": "http://math.sharif.ir/faculties/safdari",
         "Position": "Faculty",
         "ID": 12016,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/fa/wp-content/uploads/sites/2/2022/09/photoooo-copy.jpg"
       },
       {
@@ -678,7 +662,6 @@
         "web": "http://math.sharif.ir/faculties/alishahi",
         "Position": "Faculty",
         "ID": 12017,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/alishahi-main_0.JPG"
       },
       {
@@ -689,7 +672,6 @@
         "web": "http://sharif.ir/~mmahmoudi / http://math.sharif.ir/faculties/mmahmoudi",
         "Position": "Faculty",
         "ID": 12018,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/gholamzadeh_mahmoudi.jpg"
       },
       {
@@ -700,7 +682,6 @@
         "web": "http://sharif.ir/~fotouhi / http://math.sharif.ir/faculties/fotouhi",
         "Position": "Faculty",
         "ID": 12019,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/fotuhi.JPG"
       },
       {
@@ -711,7 +692,6 @@
         "web": "http://math.sharif.ir/faculties/foroughmand",
         "Position": "Faculty",
         "ID": 12020,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/mohammad-hadi-foroughmand-araabi.jpg"
       },
       {
@@ -722,7 +702,6 @@
         "web": "http://sharif.ir/~hfarhadi / http://math.sharif.ir/faculties/hfarhadi",
         "Position": "Faculty",
         "ID": 12021,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/fa/wp-content/uploads/sites/2/2017/11/Farhadi.jpg"
       },
       {
@@ -733,7 +712,6 @@
         "web": "http://math.sharif.ir/faculties/fanai",
         "Position": "Faculty",
         "ID": 12022,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/fa/wp-content/uploads/sites/2/2017/11/HamidrezaFanai-.jpg"
       },
       {
@@ -744,7 +722,6 @@
         "web": "http://math.sharif.ir/faculties/moghadasi",
         "Position": "Faculty",
         "ID": 12023,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/moghadasi.JPG"
       },
       {
@@ -755,76 +732,67 @@
         "web": "http://math.sharif.ir/faculties/nezamm",
         "Position": "Faculty",
         "ID": 12024,
-        "Position": "Faculty",
         "pic": "http://math.sharif.ir/files/faculty-avatars/amiri.JPG"
       },
       {
         "Name": "محمود حصارکی",
         "E-Mail": "hesaraki[at]sharif[dot]ir",
         "web": "http://sharif.ir/~hesaraki / http://math.sharif.ir/faculties/hesaraki",
-        "Position": "Retired",
-        "ID": 12025,
         "Position": "Retired_Faculty",
+        "ID": 12025,
         "pic": "http://math.sharif.ir/files/faculty-avatars/hesaraki_0.jpg"
       },
       {
         "Name": "بیژن ظهوری زنگنه",
         "E-Mail": "zangeneh[at]sharif[dot]ir",
         "web": "http://math.sharif.ir/faculties/zangeneh",
-        "Position": "Retired",
-        "ID": 12026,
         "Position": "Retired_Faculty",
+        "ID": 12026,
         "pic": "http://math.sharif.ir/files/faculty-avatars/zangene.JPG"
       },
       {
         "Name": "محمد مهدوی هزاوه ای",
         "E-Mail": "mahdavih[at]sharif[dot]ir",
         "web": "http://sharif.ir/~mahdavih / http://math.sharif.ir/faculties/mahdavih",
-        "Position": "Retired",
-        "ID": 12027,
         "Position": "Retired_Faculty",
+        "ID": 12027,
         "pic": "http://math.sharif.ir/files/faculty-avatars/hazave.JPG"
       },
       {
         "Name": "یحیی تابش",
         "E-Mail": "tabesh[at]sharif[dot]ir",
-        "Position": "Retired",
-        "ID": 12028,
         "Position": "Retired_Faculty",
+        "ID": 12028,
         "pic": "http://math.sharif.ir/files/faculty-avatars/tabesh.JPG"
       },
       {
         "Name": "سیاوش شهشهانی",
         "E-Mail": "shahshah[at]sharif[dot]ir",
         "web": "http://sharif.ir/~shahshah",
-        "Position": "Retired",
-        "ID": 12029,
         "Position": "Retired_Faculty",
+        "ID": 12029,
         "pic": "http://math.sharif.ir/files/faculty-avatars/Shahshahani.JPG"
       },
       {
         "Name": "سید عبادالله محمودیان",
         "E-Mail": "emahmood[at]sharif[dot]ir",
         "web": "http://sharif.ir/~emahmood / http://math.sharif.ir/faculties/emahmood",
-        "Position": "Retired",
-        "ID": 12030,
         "Position": "Retired_Faculty",
+        "ID": 12030,
         "pic": "http://math.sharif.ir/files/faculty-avatars/mahmoodian.JPG"
       },
       {
         "Name": "بهمن مهری",
         "E-Mail": "mehri[at]sharif[dot]ir",
-        "Position": "Retired",
-        "ID": 12031,
         "Position": "Retired_Faculty",
+        "ID": 12031,
         "pic": "http://math.sharif.ir/files/faculty-avatars/mehri.JPG"
       },
       {
         "Name": "محمدعلی نجفی",
         "E-Mail": "najafima[at]sharif[dot]ir",
-        "Position": "Retired",
-        "ID": 12032,
         "Position": "Retired_Faculty",
+        "ID": 12032,
         "pic": "http://math.sharif.ir/files/faculty-avatars/najafi.jpg"
       },
       {
