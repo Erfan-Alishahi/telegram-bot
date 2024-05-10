@@ -6,20 +6,17 @@ import os
 # Load the API token securely from an environment variable
 API_TOKEN = "6614220572:AAGIObyk0jZbZjAforJCysqdkhNLlbpZHzg"
 bot = telebot.TeleBot(API_TOKEN)
-jsn = open('data-bot.json', 'r', encoding='utf-8')
-databot = json.load(jsn)
-# Download the JSON data
-url = "https://raw.githubusercontent.com/Erfan-Alishahi/database/main/secondary-database.json"
-response = requests.get(url)
-if response.status_code == 200:
-    nested_data = response.json()
-else:
-    raise Exception("Could not retrieve data from the provided URL")
 
-# Flatten the nested JSON structure into a list of dictionaries
-data = []
-for key, value in nested_data.items():
-    data.extend(value)
+# Download the first JSON data
+url_first = "https://raw.githubusercontent.com/Erfan-Alishahi/database/main/secondary-database.json"
+response_first = requests.get(url_first)
+if response_first.status_code == 200:
+    primary_data = response_first.json()
+else:
+    raise Exception("Could not retrieve data from the primary URL")
+
+jsn = open('data-bot.json', 'r', encoding='utf-8')
+secondary_data = json.load(jsn)
 
 # Handle '/start'
 @bot.message_handler(commands=['start'])
@@ -33,18 +30,18 @@ def send_welcome(message):
 @bot.message_handler(content_types=['text'])
 def people(message):
     found = False
-    for person in data:
-        if message.text == person['Name']:
-            found = True
-            for i in range(len(databot)):
-                if message.text == databot[i]['NameFa']:
-                    string = str()
-                    for x,y in databot[i].items():
-                        if x != "pic":
-                            string += f"{x}: {y}\n"
-                    bot.send_photo(message.chat.id,databot[i]["pic"], string)
-                    break
-            break
+    for department, department_data in primary_data.items():
+        for person in department_data:
+            if message.text == person['Name']:
+                found = True
+                person_id = person['ID']
+                department_secondary_data = secondary_data.get(department, [])
+                for secondary_person in department_secondary_data:
+                    if secondary_person.get('ID') == person_id:
+                        info_str = "\n".join([f"{key}: {value}" for key, value in secondary_person.items()])
+                        bot.send_photo(message.chat.id,secondary_person.get('pic'),info_str)
+                        break
+                break
 
     if not found:
         bot.send_message(message.chat.id, "متاسفانه اطلاعاتی در مورد این استاد یافت نشد.")
