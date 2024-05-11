@@ -28,17 +28,19 @@ secondary_data = json.load(jsn)
 # Function to find similar names
 def find_similar_names_1(name):
     matches = []
+    name_parts=name.split(" ")
     for department_data in primary_data.values():
         for person in department_data:
-            if name.lower() in person['Name'].lower():
-                matches.append((person['Name'],person["Department"]))
-    return matches
+            for na in name_parts:
+                if na.lower() in person['Name'].lower():
+                    matches.append((person['Name'],person["Department"]))
+    return list(set(matches))
 def find_similar_names_2(name):
     matches = []
     for department_data in primary_data.values():
         for person in department_data:
             similarity_ratio = fuzz.ratio(name, person['Name'])
-            if similarity_ratio >= 61:
+            if similarity_ratio >= 51:
                 matches.append((person['Name'],person['Department']))
     return matches
 
@@ -89,7 +91,7 @@ def people(message):
             bot.send_message(message.chat.id, f"استاد مورد نظر یافت نشد، از لیست پیشنهادی زیر انتخاب کنید:\n \n {final_rec_names}",parse_mode="markdown")
             return
         else:
-            similar_names = find_similar_names_1(name)
+            similar_names = find_similar_names_2(name)
             if similar_names:
             # if len(similar_names) == 1:
             #     name = similar_names[0]
