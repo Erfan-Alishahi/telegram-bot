@@ -5,7 +5,7 @@ import os
 from fuzzywuzzy import fuzz
 
 # Load the API token securely from an environment variable
-API_TOKEN = "6614220572:AAGIObyk0jZbZjAforJCysqdkhNLlbpZHzg"
+API_TOKEN = "7055613975:AAFYOluPx0WUoAKhv_2Ft334fnsu9x9ei1A"
 bot = telebot.TeleBot(API_TOKEN)
 
 # Download the first JSON data
@@ -40,7 +40,11 @@ def find_similar_names(name):
 def send_welcome(message):
     bot.send_message(
         message.chat.id,
-        "سلام دوست عزیز، برای پیدا کردن اطلاعات استاد مورد نظر، کافیست نام وی را به انگلیسی وارد کنید."
+        """
+سلام دوست عزیز، به بات ما خوش آمدید!
+برای پیدا کردن اطلاعات استاد مورد نظر، کافیست نام وی را به انگلیسی وارد کنید.
+در صورتی که نام را به درستی ندانید، می‌توانید تقریبا مشابه نام را وارد کنید و بات تلاش خواهد کرد تا نام متناظر را پیدا کند.
+"""
     )
 
 # Handle searching for people by name
@@ -59,6 +63,8 @@ def people(message):
                 for secondary_person in department_secondary_data:
                     if secondary_person.get('ID') == person_id:
                         info_str = "\n".join([f"{key}: {value}" for key, value in secondary_person.items() if key != 'pic' and key !='ID'])
+                        info_str += "\nDepartment : "
+                        info_str += person['Department']
                         bot.send_photo(message.chat.id,secondary_person.get('pic'),info_str)
                         break
                 break
@@ -82,6 +88,8 @@ def people(message):
                         for secondary_person in department_secondary_data:
                             if secondary_person.get('ID') == person_id:
                                 info_str = "\n".join([f"{key}: {value}" for key, value in secondary_person.items() if key != 'pic' and key !='ID'])
+                                info_str += "\nDepartment : "
+                                info_str += person['Department']
                                 bot.send_photo(message.chat.id,secondary_person.get('pic'),info_str)
                                 break
                         break
