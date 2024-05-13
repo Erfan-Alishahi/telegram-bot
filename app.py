@@ -88,7 +88,7 @@ def people(message):
             final_rec_names=""
             for f in similar_names:
                 final_rec_names+= f"`{f[0]}` | دانشکده : {f[1]} \n"
-            bot.send_message(message.chat.id, f"استاد مورد نظر یافت نشد، از لیست پیشنهادی زیر انتخاب کنید:\n \n {final_rec_names}",parse_mode="markdown")
+            bot.send_message(message.chat.id, f" (!روی اسم کلیک کنید کپی میشه)استاد مورد نظر یافت نشد، از لیست پیشنهادی زیر انتخاب کنید:\n \n {final_rec_names}",parse_mode="markdown")
             return
         else:
             similar_names = find_similar_names_2(name)
@@ -99,7 +99,7 @@ def people(message):
                 final_rec_names=""
                 for f in similar_names:
                     final_rec_names+= f"\t`{f[0]}` | دانشکده : {f[1]} \n"
-                bot.send_message(message.chat.id, f"استاد مورد نظر یافت نشد،از لیست پیشنهادی زیر انتخاب کنید:\n \n {final_rec_names}",parse_mode="markdown")
+                bot.send_message(message.chat.id, f"(!روی اسم کلیک کنید کپی میشه)استاد مورد نظر یافت نشد،از لیست پیشنهادی زیر انتخاب کنید:\n \n {final_rec_names}",parse_mode="markdown")
                 return
             # for department, department_data in primary_data.items():
             #     for person in department_data:
