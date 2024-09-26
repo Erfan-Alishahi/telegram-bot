@@ -1071,6 +1071,707 @@
       "ID": 15004,
       "Position": "Faculty"
     }
+  ],
+  "16000": [
+    {
+      "Name": "فرید آشتیانی",
+      "Room": "طبقه ششم- 607 بال شرقی",
+      "Phone": "+982166165924",
+      "E-Mail": "ashtianimt@sharif.edu",
+      "web": "https://sharif.edu/~ashtianimt",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/DSC_8626-526x526.jpg/e22cfd55-a759-61dd-b527-f3f8a6af5b16?t=1644315561968",
+      "ID": 16001,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "بهزاد آهی",
+      "Room": "طبقه سوم- اتاق 309 بال شرقی",
+      "Phone": "+982166165976",
+      "E-Mail": "ahi@sharif.edu",
+      "web": "https://sharif.edu/~ahi",
+      "pic": "https://www.ee.sharif.ir/o/adaptive-media/image/14150523/Preview-1000x0/%D8%A8%D9%87%D8%B2%D8%A7%D8%AF+%D8%A2%D9%87%DB%8C.jpg?t=1692170473457",
+      "ID": 16002,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مهدی احمدی بروجنی",
+      "Room": "طبقه ششم- 612 بال شرقی",
+      "Phone": "+982166165929",
+      "E-Mail": "ahmadi@sharif.edu",
+      "web": "https://sharif.ir/~ahmadi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324592/ahmadi-1.jpg/343ca29e-3e15-3a0e-16b0-1318bcbba2fa?t=1644321150649",
+      "ID": 16003,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "فاطمه اکبر",
+      "Room": "طبقه ششم- 611 بال شرقی",
+      "Phone": "+982166165928",
+      "E-Mail": "fakbar@sharif.edu",
+      "web": "https://sina.sharif.edu/~fakbar",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/Fatemeh_Akbar.jpg/622c211f-b610-3be4-3abc-10b1f2189df6?t=1668253767673",
+      "ID": 16004,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمود اکبری",
+      "Room": "طبقه همکف- 002 بال غربی",
+      "Phone": "+982166164372",
+      "E-Mail": "makbari@sharif.edu",
+      "web": "http://ee.sharif.ir/~makbari",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324592/akbari-e1466924429814.jpg/ac45be15-cc56-8ab6-c76a-9be8c634f7fe?t=1644321064746",
+      "ID": 16005,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "روح‌الله امیری",
+      "Room": "طبقه سوم- 314 بال شرقی",
+      "Phone": "+982166165945",
+      "E-Mail": "amiri@sharif.edu",
+      "web": "https://sharif.edu/~amiri",
+      "pic": "https://www.ee.sharif.ir/documents/1241460/20672208/Image.jpg/bf2c5ffd-1be5-ce2e-921a-b269d97fe918?t=1708411240044",
+      "ID": 16006,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "آرش امینی",
+      "Room": "طبقه هفتم- 718 بال شرقی",
+      "Phone": "+982166164382",
+      "E-Mail": "aamini@sharif.edu",
+      "web": "https://sharif.ir/~aamini",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/DSC_8612-526x526.jpg/d261622e-15aa-74a2-01a4-8ecb031023e3?t=1644315482226",
+      "ID": 16007,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "هاشم اورعی",
+      "Room": "طبقه ششم- 624 بال شرقی",
+      "Phone": "+982166165940",
+      "E-Mail": "oraee@sharif.edu",
+      "web": "https://ee.sharif.edu/~oraee",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/Oraee-300x300.jpg/3c6ce60d-12ad-c34b-34df-0bbca4bfdb13?t=1644317875479",
+      "ID": 16008,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مریم بابازاده",
+      "Room": "طبقه هفتم- 716 بال شرقی",
+      "Phone": "+982166164362",
+      "E-Mail": "babazadeh@sharif.ir",
+      "web": "https://sharif.ir/~babazadeh",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324589/MB8-e1491710255948.jpg/499c0c3b-9d73-0724-7a2e-330216dd4808?t=1644320197590",
+      "ID": 16009,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مسعود بابایی‌زاد",
+      "Room": "طبقه ششم- 608 بال شرقی",
+      "Phone": "+982166165925",
+      "E-Mail": "mbzadeh@sharif.edu",
+      "web": "https://sharif.edu/~mbzadeh",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/DSC_8732-526x526.jpg/54f9ebe2-4cad-496d-2137-fb82e979fb0f?t=1644319603278",
+      "ID": 16010,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "سعید باقری شکوری",
+      "Room": "طبقه اول- 105 بال غربی",
+      "Phone": "+982166164344",
+      "E-Mail": "bagheri-s@sharif.edu",
+      "web": "https://ee.sharif.edu/~bagheri-s",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/bagheri-e1466924465630.jpg/dc411337-322d-6036-8acc-2d12a34d87fd?t=1644319530203",
+      "ID": 16011,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "علی بنایی",
+      "Room": "طبقه سوم- 301 بال غربی",
+      "Phone": "+982166164355",
+      "E-Mail": "banai@sharif.edu",
+      "web": "https://sharif.edu/~banai",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324592/DSC_8573-526x526.jpg/c4f539a2-5973-46a9-07ad-ad10c8a3c770?t=1644320981433",
+      "ID": 16012,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "حمید بهروزی",
+      "Room": "طبقه ششم- 604 بال شرقی",
+      "Phone": "+982166165946",
+      "E-Mail": "behroozi@sharif.edu",
+      "web": "https://ee.sharif.edu/~behroozi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/DSC_8826-e1474170261141-526x526.jpg/77491b04-52db-fd5c-d24f-8d5c9f01253b?t=1644315128998",
+      "ID": 16013,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "فریدون بهنیا",
+      "Room": "طبقه چهارم- 421 بال شرقی",
+      "Phone": "+982166165967",
+      "E-Mail": "behnia@sharif.edu",
+      "web": "https://sina.sharif.ir/~behnia",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/behnia-1-e1467097684678.jpg/fc39d5e2-4cb2-8a1e-4238-3b7609c9fb6f?t=1644315062432",
+      "ID": 16014,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمدرضا پاکروان",
+      "Room": "طبقه هفتم- 714 بال شرقی",
+      "Phone": "+982166165922",
+      "E-Mail": "pakravan@sharif.edu",
+      "web": "https://sina.sharif.ac.ir/~pakravan",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/DSC_8824-526x526.jpg/a7f3d294-e602-600d-561e-1234b5b2afa9?t=1644319451926",
+      "ID": 16015,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مصطفی پرنیانی",
+      "Room": "طبقه چهارم- 417 بال شرقی",
+      "Phone": "+982166165963",
+      "E-Mail": "parniani@sharif.edu",
+      "web": "https://sharif.edu/~parniani",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/DSC_8725-e1474170743935-526x526.jpg/b536510f-5add-ac03-ab72-80ae86117a18?t=1644317803187",
+      "ID": 16016,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمدصالح تواضعی",
+      "Room": "طبقه هفتم- 715 بال شرقی",
+      "Phone": "+982166164386",
+      "E-Mail": "tavazoei@sharif.edu",
+      "web": "https://sharif.edu/~tavazoei",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324589/DSC_8760-526x526.jpg/97075932-f2a4-96b3-4018-f0357172869a?t=1644320122358",
+      "ID": 16017,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "فرزاد تهامی",
+      "Room": "طبقه چهارم- 415 بال شرقی",
+      "Phone": "+982166165961",
+      "E-Mail": "tahami@sharif.edu",
+      "web": "https://sharif.edu/~tahami",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/Tahami.jpg/36e4e2ce-3d8f-b92e-8810-11033bfcfe4c?t=1644317711331",
+      "ID": 16018,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مهران جاهد",
+      "Room": "طبقه ششم- 621 بال شرقی",
+      "Phone": "+982166165937",
+      "E-Mail": "jahed@sharif.edu",
+      "web": "https://sina.sharif.edu/~jahed",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/Mehran-Jahed1-e1471344537137.jpg/aba6f00c-a9ac-c71b-737b-6b223a10206c?t=1644319378987",
+      "ID": 16019,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "خسرو حاج‌صادقی",
+      "Room": "طبقه ششم- 601 بال شرقی",
+      "Phone": "+982166165918",
+      "E-Mail": "ksadeghi@sharif.edu",
+      "web": "https://ee.sharif.edu/~ksadegh",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/hajsadeghi-e1466925447714.jpg/fb33eabf-d34b-3c26-241f-d8ca1f3b625f?t=1644319081033",
+      "ID": 16020,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "احسان حاجی‌پور",
+      "Room": "طبقه ششم- 602 بال شرقی",
+      "Phone": "+982166164394",
+      "E-Mail": "e_hajipour@sharif.edu",
+      "web": "https://sina.sharif.edu/~e_hajipour",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/Photo_Hajipour2-1-e1524374794985.jpg/47bbbdc8-36ee-cbfe-04ac-58e3e83b86c1?t=1644317600966",
+      "ID": 16021,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "سپیده حاجی‌پور",
+      "Room": "طبقه ششم- 613 بال شرقی",
+      "Phone": "+982166165930",
+      "E-Mail": "hajipour@sharif.edu",
+      "web": "https://sharif.edu/~hajipour",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324576/DSC_8686-526x526.jpg/cc5b8aef-2592-d287-867b-a04a35a66576?t=1644312552167",
+      "ID": 16022,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمد حائری",
+      "Room": "طبقه چهارم- 418 بال شرقی",
+      "Phone": "+982166165964",
+      "E-Mail": "haeri@sharif.ir",
+      "web": "https://ee.sharif.edu/~haeri",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324589/DSC_8689-e1474170885261-526x526.jpg/91edbb33-8c05-adad-2d52-c5ac2c1daab8?t=1644320048307",
+      "ID": 16023,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "بابک حسین‌خلج",
+      "Room": "طبقه چهارم- 413 بال شرقی",
+      "Phone": "+982166165958",
+      "E-Mail": "khalaj@sharif.edu",
+      "web": "https://sharif.edu/~khalaj",
+      "pic": "https://www.ee.sharif.ir/o/adaptive-media/image/6528056/Preview-1000x0/Dr+Khalaj+Photo.jpg?t=1667289170255",
+      "ID": 16024,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "سیدحمید حسینی",
+      "Room": "طبقه ششم- 615 بال شرقی",
+      "Phone": "+982166165932",
+      "E-Mail": "hosseini@sharif.edu",
+      "web": "https://ee.sharif.edu/~hosseini",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/DSC_8631-526x526.jpg/a1d0e73e-193a-b1e9-f6d0-cec2748ad38f?t=1644317504475",
+      "ID": 16025,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "امین خواصی",
+      "Room": "طبقه هفتم- 709 بال شرقی",
+      "Phone": "+982166164392",
+      "E-Mail": "khavasi@sharif.ir",
+      "web": "https://ee.sharif.edu/~khavasi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324592/DSC_8580-e1474170968353-526x526.jpg/d0e1883a-c7cd-8854-ec2b-2ea165a51f89?t=1644320898457",
+      "ID": 16026,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمدرضا ذوالقدری",
+      "Room": "طبقه چهارم- 419 بال شرقی",
+      "Phone": "+982166165965",
+      "E-Mail": "zolghadr@sharif.edu",
+      "web": "https://ee.sharif.edu/~zolghadr",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/zolghadr.jpg/08df920e-962c-71f3-a4f6-b9fab642553b?t=1644317434166",
+      "ID": 16027,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمدحسن راونجی",
+      "Room": "طبقه سوم- 312 بال غربی",
+      "Phone": "+982166164318",
+      "E-Mail": "ravanji@sharif.edu",
+      "web": "http://sharif.edu/~ravanji",
+      "pic": "https://www.ee.sharif.ir/documents/1241460/8010012/Mohammad+20230219.png/4ad802cc-72c7-bdc6-63e6-795c3761de22?t=1676789514971",
+      "ID": 16028,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "بهزاد رجائی سلماسی",
+      "Room": "طبقه ششم- 620 بال شرقی",
+      "Phone": "+982166165936",
+      "E-Mail": "rejaei@sharif.edu",
+      "web": "https://ee.sharif.edu/~rejaei",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324592/DSC_8576-526x526.jpg/ee90e797-dd0e-8dd3-9d4f-df0849cc0511?t=1644320813541",
+      "ID": 16029,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "بیژن رشیدیان",
+      "Room": "طبقه ششم- 628 بال شرقی",
+      "Phone": "+982166165938",
+      "E-Mail": "rashidia@sharif.edu",
+      "web": "https://ee.sharif.edu/~rashidia",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324573/DSC_8796-526x526.jpg/7d65076e-7e4d-7aa5-4acc-a94b112d08bd?t=1644311549495",
+      "ID": 16030,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "امین رضایی‌زاده",
+      "Room": "طبقه اول- 108 بال غربی",
+      "Phone": "+982166164345",
+      "E-Mail": "aminre@sharif.ir",
+      "web": "http://control.ee.sharif.ir/~aminre",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324589/aminre.jpg/ae15c0e5-4e66-3e36-8315-0a6e334bc7db?t=1644319978553",
+      "ID": 16031,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مصطفی زرقانی",
+      "Room": "طبقه سوم- 309 بال شرقی",
+      "Phone": "+982166165976",
+      "E-Mail": "zarghani@sharif.edu",
+      "web": "http://sharif.edu/~zarghani",
+      "pic": "https://www.ee.sharif.ir/documents/1241460/27635070/Dr+Mostafa+Zarghani+Photo.jpg/4a201096-d6e5-6bd3-10f7-172e60a9b781?t=1726291830495",
+      "ID": 16032,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "رضا سروری",
+      "Room": "طبقه اول- 120 بال غربی",
+      "Phone": "+982166164334",
+      "E-Mail": "sarvari@sharif.edu",
+      "web": "https://sharif.edu/~sarvari",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324573/DSC_8652-526x526.jpg/a713f6da-8a44-3d78-713c-88ffab543566?t=1644311457476",
+      "ID": 16033,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "حامد شاه‌منصوری",
+      "Room": "طبقه ششم- 605 بال شرقی",
+      "Phone": "+982166164387",
+      "E-Mail": "hamedsh@sharif.edu",
+      "web": "https://sharif.edu/~hamedsh",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/shahmansoori.jpg/726cb3a3-c445-a7a5-6333-93f46226fe57?t=1644319673535",
+      "ID": 16034,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمد شریف‌خانی",
+      "Room": "طبقه هفتم- 710 بال شرقی",
+      "Phone": "+982166164391",
+      "E-Mail": "msharifk@sharif.edu",
+      "web": "https://ee.sharif.edu/~msharifk",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/sharifkhani-e1466925907773.jpg/692ebb5c-4076-9728-e8aa-4c5b23a69847?t=1644318898130",
+      "ID": 16035,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مهدی شعبانی",
+      "Room": "طبقه هفتم- 707 بال شرقی",
+      "Phone": "+982166164366",
+      "E-Mail": "mahdi@sharif.edu",
+      "web": "http://www.sina.sharif.edu/~mahdi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/shabani-e1466925882323.jpg/c180ff21-b7cd-c2c3-f3b7-6e661efc6008?t=1644318764104",
+      "ID": 16036,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمدباقر شمس‌اللهی",
+      "Room": "طبقه اول- 101 بال غربی",
+      "Phone": "+982166164356",
+      "E-Mail": "mbshams@sharif.edu",
+      "web": "https://sharif.edu/~mbshams",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324576/DSC_8648-526x526.jpg/33204bbb-fc04-4bb0-f0a0-2e3a89d01fc5?t=1644312488170",
+      "ID": 16037,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "امیراحمد شیشه‌گر",
+      "Room": "طبقه دوم- 210 بال غربی",
+      "Phone": "+982166164371",
+      "E-Mail": "shishegar@sharif.edu",
+      "web": "https://ee.sharif.edu/~shishegar",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324592/DSC_8602-526x526.jpg/16c6792f-f1a7-085f-4675-f30b5f22bca6?t=1644320722591",
+      "ID": 16038,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "جواد صالحی",
+      "Room": "طبقه اول- 118 بال غربی",
+      "Phone": "+982166164346",
+      "E-Mail": "jasalehi@sharif.edu",
+      "web": "https://sharif.edu/~jasalehi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/salehi-1.jpg/f45e1534-88bb-bd40-b8fd-f143007eb7d9?t=1644314552192",
+      "ID": 16039,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "امیر صفدریان",
+      "Room": "طبقه اول- 113 بال غربی",
+      "Phone": "+982166164381",
+      "E-Mail": "safdarian@sharif.edu",
+      "web": "https://sharif.edu/~safdarian",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/DSC_8773-526x526.jpg/1b524331-14f8-f071-69b4-79b67b275434?t=1644317299232",
+      "ID": 16040,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمدرضا عارف",
+      "Room": "طبقه ششم- 619 بال شرقی",
+      "Phone": "+982166165935",
+      "E-Mail": "aref@sharif.edu",
+      "web": "https://ee.sharif.edu/~aref",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/Aref.jpg/cd9fe4a3-5ecd-cc30-6ab2-8d974ca6a774?t=1644314489734",
+      "ID": 16041,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "سیدمجتبی عطاردی",
+      "Room": "طبقه اول- 107 بال غربی",
+      "Phone": "+982166164336",
+      "E-Mail": "atarodi@sharif.edu",
+      "web": "https://sharif.edu/~atarodi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324573/aaatarodi-e1485928845996.png/7eac9993-431a-4d5b-cd67-4d04dbec24a9?t=1644311205429",
+      "ID": 16042,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "عمادالدین فاطمی‌زاده",
+      "Room": "طبقه اول- 110 بال غربی",
+      "Phone": "+982166164351",
+      "E-Mail": "fatemizadeh@sharif.edu",
+      "web": "https://ee.sharif.edu/~fatemizadeh",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324576/DSC_8660-e1474171315303-526x526.jpg/d9ffc6da-9810-a386-bde8-9bbf301a6389?t=1644312386249",
+      "ID": 16043,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "علی فتوت احمدی",
+      "Room": "طبقه هفتم- 706 بال شرقی",
+      "Phone": "+982166165919",
+      "E-Mail": "afotowat@sharif.edu",
+      "web": "https://ee.sharif.edu/~afotowat",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324573/fotowat-e1466926886389.jpg/863d11b2-f837-29ad-d3e5-42f0d13b7f50?t=1644311107993",
+      "ID": 16044,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمود فتوحی فیروزآباد",
+      "Room": "طبقه ششم- 630 بال شرقی",
+      "Phone": "+982166165921",
+      "E-Mail": "fotuhi@sharif.edu",
+      "web": "https://ee.sharif.edu/~fotuhi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/fotouhi-e1466926745554.jpg/f3fe9cff-37f2-4f5e-5105-d0de44104965?t=1644317054661",
+      "ID": 16045,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمد فخارزاده",
+      "Room": "طبقه هفتم- 711 بال شرقی",
+      "Phone": "+982166164390",
+      "E-Mail": "fakharzadeh@sharif.edu",
+      "web": "https://sharif.edu/~fakharzadeh",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324573/DSC_8590-526x526.jpg/8d7a5c5b-28ec-89f6-d462-ee12b15865b1?t=1644311013658",
+      "ID": 16046,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مهدی فردمنش",
+      "Room": "طبقه ششم- 603 بال شرقی",
+      "Phone": "+982166165920",
+      "E-Mail": "fardmanesh@sharif.edu",
+      "web": "https://ee.sharif.ir/~fardmanesh",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324576/DSC_8643-526x526.jpg/cdde273e-0c60-1811-2f1f-a64c692bc3f0?t=1644312316000",
+      "ID": 16047,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "فروهر فرزانه",
+      "Room": "طبقه سوم- 310 بال غربی",
+      "Phone": "+982166164331",
+      "E-Mail": "farzaneh@sharif.edu",
+      "web": "https://sina.sharif.edu/~farzaneh",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324592/DSC_8815-526x526.jpg/5c98bcf3-fb78-5394-6969-9613541f37a8?t=1644320634403",
+      "ID": 16048,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "علی‌رضا فرهادی",
+      "Room": "طبقه ششم- 623 بال شرقی",
+      "Phone": "+982166165939",
+      "E-Mail": "afarhadi@sharif.edu",
+      "web": "https://sharif.edu/~afarhadi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/farhadi-1.jpg/7d670e59-480f-6629-42a1-ac7c00294b2e?t=1644318577485",
+      "ID": 16049,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "علی قاضی‌زاده احسائی",
+      "Room": "طبقه هفتم- 706 بال شرقی",
+      "Phone": "+982166164364",
+      "E-Mail": "afarhadi@sharif.edu",
+      "web": "http://ee.sharif.ir/~ghazizadeh",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324576/PhotoAliGhazizadeh-526x526.jpg/55ba842f-91e7-5c40-3375-4fb04bfb8ca2?t=1644312247211",
+      "ID": 16050,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "شهریار کابلی",
+      "Room": "طبقه ششم- 622 بال شرقی",
+      "Phone": "+982166165944",
+      "E-Mail": "kaboli@sharif.edu",
+      "web": "https://ee.sharif.edu/~kaboli",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/DSC_8697-526x526.jpg/2dc82ddb-49e3-81a4-b67a-1a48bbfce842?t=1644317367663",
+      "ID": 16051,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "زهرا کاوه‌وش",
+      "Room": "طبقه هفتم- 713 بال شرقی",
+      "Phone": "+982166164388",
+      "E-Mail": "kavehvash@sharif.edu",
+      "web": "https://sharif.edu/~kavehvash",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324573/DSC_8676-526x526.jpg/1d40afaa-84c9-5101-c9f8-5d5c5b7c7284?t=1644311286818",
+      "ID": 16052,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "سیدمحمد کرباسی",
+      "Room": "طبقه پنجم- 501 بال شرقی",
+      "Phone": "+982166165903",
+      "E-Mail": "m.karbasi@sharif.ir",
+      "web": "https://sina.sharif.ir/~m.karbasi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/Karbasipic2.jpg/bffe2b88-222a-b382-6038-ba5f9f89be95?t=1644315734651",
+      "ID": 16053,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمدمهدی مجاهدیان",
+      "Room": "طبقه سوم- 313 بال شرقی",
+      "Phone": "+982166165931",
+      "E-Mail": "mojahedian@sharif.edu",
+      "web": "https://sharif.edu/~mojahedian",
+      "pic": "https://www.ee.sharif.ir/documents/1241460/16149138/%D8%B9%DA%A9%D8%B3+%D9%BE%D8%B1%D8%B3%D9%86%D9%84%DB%8C.png/d5a00a9e-9559-7b56-e37a-f68b3f48079c?t=1697530998574",
+      "ID": 16054,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "هدی محمدزاده",
+      "Room": "طبقه ششم- 610 بال شرقی",
+      "Phone": "+982166165927",
+      "E-Mail": "hoda@sharif.edu",
+      "web": "https://sharif.edu/~hoda",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/DSC_8833-526x526.jpg/984bef2a-ac96-618d-bbec-c4ee8d18d3e1?t=1644318504475",
+      "ID": 16055,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "حسین مختاری",
+      "Room": "طبقه چهارم- 416 بال شرقی",
+      "Phone": "+982166165962",
+      "E-Mail": "mokhtari@sharif.edu",
+      "web": "https://ee.sharif.edu/~mokhtari",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/DSC_88221-526x526.jpg/52ee07f0-a4a8-2444-e788-8227c89c92ea?t=1644316988661",
+      "ID": 16056,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "علی مدی",
+      "Room": "طبقه همکف- 004 بال غربی",
+      "Phone": "+982166164340",
+      "E-Mail": "medi@sharif.edu",
+      "web": "https://sharif.edu/~medi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324573/MEDI.jpg/3809fead-08a2-a3cd-aeea-9362eb057f26?t=1644309554158",
+      "ID": 16057,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمد معماریان",
+      "Room": "طبقه اول- 109 بال غربی",
+      "Phone": "+982166164352",
+      "E-Mail": "mmemarian@sharif.ir",
+      "web": "https://sharif.edu/~mmemarian",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324592/Memarian-1-526x526.jpg/fd16a93b-b614-f6da-94c6-b32992cf8987?t=1644320559184",
+      "ID": 16058,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "خشایار مهرانی",
+      "Room": "طبقه اول- 111 بال غربی",
+      "Phone": "+982166164326",
+      "E-Mail": "mehrany@sharif.edu",
+      "web": "https://ee.sharif.edu/~mehrany",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324592/DSC_8819-e1474171559539-526x526.jpg/afe9f742-4a6b-139c-a094-8859dad71004?t=1644320435690",
+      "ID": 16059,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مهتاب میرمحسنی",
+      "Room": "طبقه ششم- 609 بال شرقی",
+      "Phone": "+982166165926",
+      "E-Mail": "mirmohseni@sharif.edu",
+      "web": "https://ee.sharif.edu/~mirmohseni",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/DSC_8735-526x526.jpg/d257caa1-54da-782e-1769-379a4e809dd0?t=1644314154894",
+      "ID": 16060,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مهرزاد نامور",
+      "Room": "طبقه ششم- 606 بال شرقی",
+      "Phone": "+982166165923",
+      "E-Mail": "namvar@sharif.edu",
+      "web": "https://sharif.edu/~namvar",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/namvar-e1466924113761.jpg/ba428815-5829-73fe-72f0-73bc53994487?t=1644318420288",
+      "ID": 16061,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمدمهدی نایبی",
+      "Room": "طبقه ششم- 627 بال شرقی",
+      "Phone": "+982166165943",
+      "E-Mail": "nayebi@sharif.edu",
+      "web": "https://ee.sharif.edu/~nayebi",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/DSC_8597-526x526.jpg/f4c684fe-a586-3818-30d5-b1be4e737237?t=1644314064017",
+      "ID": 16062,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "زهرا نصیری قیداری",
+      "Room": "طبقه هفتم- 712 بال شرقی",
+      "Phone": "+982166164389",
+      "E-Mail": "znasiri@sharif.edu",
+      "web": "https://sharif.edu/~znasiri",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/DSC_8669-526x526.jpg/23606977-c9e1-8f2f-4716-019730d14ae6?t=1644316911402",
+      "ID": 16063,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "معصومه نصیری کناری",
+      "Room": "طبقه اول- 117 بال غربی",
+      "Phone": "+982166164333",
+      "E-Mail": "mnasiri@sharif.edu",
+      "web": "http://ee.sharif.ir/~mnasiri",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/nasiri-1-e1466927186700.jpg/f70c76dc-ce8d-9c6d-1cc8-066cfddf7b36?t=1644312884555",
+      "ID": 16064,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "امین نوبختی",
+      "Room": "طبقه هفتم- 708 بال شرقی",
+      "Phone": "+982166164393",
+      "E-Mail": "nobakhti@sharif.edu",
+      "web": "https://sharif.edu/~nobakhti",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324589/nobakhti-e1466927130766.jpg/dcf315d8-31a8-292b-bd1e-411cc95d98c1?t=1644319818028",
+      "ID": 16065,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "بیژن وثوقی وحدت",
+      "Room": "طبقه ششم - اتاق 616 بال شرقی",
+      "Phone": "+982166165933",
+      "E-Mail": "vahdat@sharif.edu",
+      "web": "https://ee.sharif.edu/~vahdat",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324576/DSC_8768-526x526.jpg/48116cdf-3fab-0ecf-9ee4-99d0e178c8f5?t=1644311808989",
+      "ID": 16066,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مهدی وکیلیان",
+      "Room": "طبقه ششم- 625 بال شرقی",
+      "Phone": "+982166165941",
+      "E-Mail": "vakilian@sharif.edu",
+      "web": "https://ee.sharif.edu/~vakilian",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324582/DSC_8617-526x526.jpg/e38dd90a-2d4a-6058-a7b4-62906e6bcf44?t=1644316824046",
+      "ID": 16067,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمد هادی",
+      "Room": "طبقه اول - اتاق 107 بال غربی",
+      "Phone": "+982166164383",
+      "E-Mail": "mohammad.hadi@sharif.edu",
+      "web": "http://ee.sharif.edu/~mohammad.hadi/",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/hadi001-526x526.jpg/7251df58-e32a-39c5-7634-f5bdbe50f8f8?t=1644315792015",
+      "ID": 16068,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "متین هاشمی",
+      "Room": "طبقه اول - اتاق 119 بال غربی",
+      "Phone": "+982166164307",
+      "E-Mail": "matin@sharif.edu",
+      "web": "https://sharif.edu/~matin",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324585/matin_hashemi-e1466927155318.jpg/74b932dd-a45c-2a1f-07b3-5eec6bf0209b?t=1644318344618",
+      "ID": 16069,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمدحسین یاسائی میبدی",
+      "Room": "طبقه هفتم- 717 بال شرقی",
+      "Phone": "+982166164327",
+      "E-Mail": "yassaee@sharif.edu",
+      "web": "https://sharif.edu/~yassaee",
+      "pic": "https://www.ee.sharif.ir/documents/1230688/3324579/9D3FCE40-8CFF-407B-8E37-AE08B5F58709-526x526.jpeg/1f256675-398b-120b-cf9c-3bcb146a3690?t=1644315851583",
+      "ID": 16070,
+      "Position": "Faculty"
+    }
   ]
-
 }

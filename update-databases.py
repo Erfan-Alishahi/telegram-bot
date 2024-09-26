@@ -62,9 +62,9 @@ def convert(path_of_data_bot, path_of_txt_file, path_of_second_data, department_
 
 department_id = int(input('Department ID: '))
 department_name = input('Department Name: ')
-path_of_data_bot = os.getcwd()+'\\data-bot.json'
-path_of_txt_file = os.getcwd()+'\\basic-info.txt'
-path_of_second_data = os.getcwd()+'\\data.json'
+path_of_data_bot = os.getcwd()+'/data-bot.json'
+path_of_txt_file = os.getcwd()+'/basic-info.txt'
+path_of_second_data = os.getcwd()+'/data.json'
 
 convert(path_of_data_bot, path_of_txt_file, path_of_second_data, department_id, department_name)
 print('Done.')
