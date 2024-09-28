@@ -2550,5 +2550,49 @@
       "ID": 17064,
       "Position": "Faculty"
     }
+  ],
+  "18000": [
+    {
+      "Name": "ابراهیم آزادگان",
+      "Phone": "+98-21-66164146 / +98-9122083192",
+      "E-Mail": "azadegan@sharif.edu",
+      "pic": "https://philsci.sharif.ir/documents/1634622/9089564/azadegan2-pddtyicwbiulkmc6wzasbn1mip3v3h4wjpo0i7a9hk.jpg/c6115e66-e99b-a976-e0b4-ec9dbc3068b7?t=1675524460750",
+      "ID": 18001,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "جواد اکبری تختمشلو",
+      "E-Mail": "",
+      "pic": "https://philsci.sharif.ir/documents/1634622/9089564/581-javad-akbari-pddw0mwpa6bn5knz2ismgfn8zlqx46ev2lrhyrdkso.jpg/9914cf93-2ec1-5d1c-fb11-79a666592ee3?t=1675524483666",
+      "ID": 18002,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "سید حسن حسینی",
+      "Phone": "+98 21 66022718",
+      "E-Mail": "hoseinih@sharif.edu / hosseinisarvary@yahoo.com",
+      "web": "https://sharif.academia.edu/hosseini",
+      "pic": "https://philsci.sharif.ir/documents/1634622/9089564/Hosseini-pddtyicwbiulkmc6wzasbn1mip3v3h4wjpo0i7a9hk.jpg/b0645251-2821-249c-f3d8-00790a95d262?t=1675524483504",
+      "ID": 18003,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "سید علی طاهری",
+      "Phone": "+982166164145",
+      "E-Mail": "ataheri@sharif.edu",
+      "P.O.Box": "11365-8639",
+      "Fax": "+982166022718",
+      "pic": "https://sina.sharif.edu/~ataheri/sharif_small.jpg",
+      "ID": 18004,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مصطفی تقوی",
+      "Phone": "+98-21-66164144",
+      "E-Mail": "m_taqavi@sharif.edu / mostafa.taqavi@gmail.com",
+      "pic": "https://philsci.sharif.ir/o/adaptive-media/image/3667268/Preview-1000x0/taghavi-768x427.jpeg?t=1675524483584",
+      "ID": 18005,
+      "Position": "Faculty"
+    }
   ]
 }
