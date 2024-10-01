@@ -2761,5 +2761,260 @@
       "ID": 19017,
       "Position": "Faculty"
     }
+  ],
+  "20000": [
+    {
+      "Name": "تقی اخوان نیاکی",
+      "Phone": "02166165740",
+      "E-Mail": "niaki@sharif.edu",
+      "web": "http://sina.sharif.edu/~niaki/",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3260593/Prof.Niaki+.png/3574096f-a141-de8f-c5be-47502e4e35fe?t=1651389359132",
+      "ID": 20001,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "عبدالحمید اشراق نیای جهرمی",
+      "Phone": "02166165705",
+      "E-Mail": "eshragh@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/eshragh",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3260784/eshragh.jpg/13724d5d-a714-d1e9-e497-a8926eb27482?t=1644052023435",
+      "ID": 20002,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمد رضا اکبری جوکار",
+      "Phone": "02166165742",
+      "E-Mail": "reza.akbari@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/akbari",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3260887/akbari.jpg/2c0c0e6f-a857-8074-112a-1c8b90262607?t=1644052207371",
+      "ID": 20003,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمد هادی چمران",
+      "Phone": "02166165707",
+      "E-Mail": "chamran@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/chamran",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3262116/chamran.jpg/4914128f-74a1-4bb1-c1a9-903a575c73bb?t=1644057140638",
+      "ID": 20004,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مسلم حبیبی",
+      "Phone": "02166165735",
+      "E-Mail": "mhabibi@sharif.edu",
+      "web": "http://sharif.edu/~mhabibi/",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3262168/habibi.jpg/9d69365f-5eca-8f52-6235-bed64b05f135?t=1644057508280",
+      "ID": 20005,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "رسول حجی",
+      "Phone": "02166165708",
+      "E-Mail": "haji@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/haji",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3263067/rasoolhaji.jpg/2da4cd76-b810-f77e-b565-3e4ebd48b0ad?t=1644058251678",
+      "ID": 20006,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "علیرضا حجی",
+      "Phone": "02166165704",
+      "E-Mail": "ahaji@sharif.edu",
+      "web": "http://sharif.edu/~ahaji/",
+      "pic": "https://www.ie.sharif.ir/documents/1230706/1378585/WhatsApp+Image+2022-05-08+at+8.08.38+AM.jpeg/5c10ace4-5992-89ff-37b4-661635378220?t=1651981289989",
+      "ID": 20007,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "عرفان حسن نایبی",
+      "Phone": "02166165734",
+      "E-Mail": "hassannayebi@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/nayebi",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3263344/nayebi.jpg/3db9584e-b90b-c305-5b5c-b6bba350ee09?t=1644059229990",
+      "ID": 20008,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "زهرا سادات حسن‌پور جسری",
+      "Phone": "02166165729",
+      "E-Mail": "hasanpourjesri@sharif.edu",
+      "pic": "https://www.ie.sharif.ir/o/adaptive-media/image/16440379/Preview-1000x0/IMG_5908.jpg?t=1698470840934",
+      "ID": 20009,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "سید موسی خالصی زاده",
+      "E-Mail": "khalessi@sharif.edu",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3263123/khalesizadeh.jpg/3d4cf84a-7968-c468-493d-2ab08e52c497?t=1644058743166",
+      "ID": 20010,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مجید خدمتی",
+      "Phone": "02166165714",
+      "E-Mail": "Khedmati@sharif.edu",
+      "web": "http://sharif.edu/~khedmati/",
+      "pic": "https://www.ie.sharif.ir/o/adaptive-media/image/3263498/Preview-1000x0/khedmati.jpg?t=1644059507225",
+      "ID": 20011,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "شکرانه خشخاشی مقدم",
+      "Phone": "02166165738",
+      "E-Mail": "moghaddam@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb//?p=faculty/moghaddam",
+      "pic": "https://www.ie.sharif.ir/o/adaptive-media/image/3263322/Preview-1000x0/moghaddam.jpg?t=1644059055398",
+      "ID": 20012,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مریم رادمان",
+      "Phone": "02166165706",
+      "E-Mail": "radman@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/radman",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/4319626/7.jpg/d4432752-d291-3001-0435-cceb59448105?t=1651907690153",
+      "ID": 20013,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مریم رضاپور نیاری",
+      "Phone": "02166165711",
+      "E-Mail": "maryam.rezapour@sharif.edu",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/5268583/WhatsApp+Image+2022-09-03+at+11.25.16.jpeg/733cd9d8-f720-6d03-9835-5cb91a1d8318?t=1662188681080",
+      "ID": 20014,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مجید رفیعی",
+      "Phone": "02166165725",
+      "E-Mail": "Rafiee@sharif.edu",
+      "web": "http://sharif.edu/~rafiee/",
+      "pic": "https://www.ie.sharif.ir/o/adaptive-media/image/4681629/Preview-1000x0/My+Pic1.+%281%29.jpg?t=1655704705768",
+      "ID": 20015,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "شهرام شادرخ",
+      "Phone": "02166165741",
+      "E-Mail": "shadrokh@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/shadrokh",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3263632/img051+%281%29.jpg/b4d2cdbf-fb20-f65d-1a6b-9ebdebe80ff5?t=1649818958430",
+      "ID": 20016,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "حسن شوندی",
+      "E-Mail": "shavandi@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/shavandi",
+      "pic": "https://www.ie.sharif.ir/o/adaptive-media/image/4441760/Preview-1000x0/shavandi+%281%29.jpg?t=1652691940867",
+      "ID": 20017,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "نفیسه صدقی",
+      "Phone": "02166165710",
+      "E-Mail": "nafiseh.sedghi@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/sedghi",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3263780/sedghi.jpg/669556da-d0e5-606d-3b68-d75b3fcc3a71?t=1644060617644",
+      "ID": 20018,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "علی عبدالهی فر",
+      "E-Mail": "Abdollahifar@sharif.edu",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3263942/abdollahifar.jpg/08f7a042-b874-2958-4f77-5f9022dbaab8?t=1644061485774",
+      "ID": 20019,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "کوروش عشقی",
+      "Phone": "02166165712",
+      "E-Mail": "eshghi@sharif.edu",
+      "web": "http://sharif.edu/~eshghi",
+      "pic": "https://www.ie.sharif.ir/o/adaptive-media/image/6193576/Preview-1000x0/20220721_161619_resized+%281%29.jpg?t=1665813720488",
+      "ID": 20020,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "فرهاد قاسمی طاری",
+      "E-Mail": "ghasemi@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/ghasemi",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3263987/ghasemi.jpg/041294ac-c1de-b8be-bc8d-5e89edd0f96a?t=1644061806260",
+      "ID": 20021,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "فرهاد کیانفر",
+      "Phone": "02166165716",
+      "E-Mail": "fkianfar@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/fkianfar",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3264045/Farhadkianfar.jpg/189bee3f-d331-1b36-18d0-99e6bdb1ad4b?t=1644062228530",
+      "ID": 20022,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "فریدون کیانفر",
+      "Phone": "02166165715",
+      "E-Mail": "kianfar@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/kianfar",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3264020/Fereydonkianfar.jpg/aaa76973-6ef9-cf64-1276-00ccfffd9a66?t=1644062076192",
+      "ID": 20023,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمد مدرس یزدی",
+      "Phone": "02166165719",
+      "E-Mail": "modarres@sharif.edu",
+      "web": "http://sina.sharif.edu/~modarres",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3264109/modarres.jpg/761b0f7f-7db6-3b9d-1456-76a20eae8d3d?t=1644062637638",
+      "ID": 20024,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مصطفی مصطفوی",
+      "Phone": "02166165718",
+      "E-Mail": "mostafavi@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/mostafavi",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3264150/mostafavi.jpg/8e91a124-1a76-251b-cf3c-f67ea870c33d?t=1644062829521",
+      "ID": 20025,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "عباس مظفر",
+      "Phone": "02166165720",
+      "E-Mail": "mozaffar@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/mozaffar",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3264179/mozaffar.jpg/b21a145e-8948-f84a-c55c-51a528fcc15f?t=1644062973292",
+      "ID": 20026,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "مهدی نجفی",
+      "Phone": "02166165709",
+      "E-Mail": "najafi.mehdi@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/najafi",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3264204/najafi.jpg/7bda1764-79b4-3bd1-d22c-859616bc0f00?t=1644063179993",
+      "ID": 20027,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محسن ورمزیار",
+      "Phone": "66165713",
+      "E-Mail": "varmazyar@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/varmazyar",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3264227/varmazyar.jpg/e19052c3-4f87-3c2e-6a5b-11c47d4a7be9?t=1644063384674",
+      "ID": 20028,
+      "Position": "Faculty"
+    },
+    {
+      "Name": "محمود هوشمند",
+      "Phone": "66165721",
+      "E-Mail": "hoshmand@sharif.edu",
+      "web": "http://ie.sharif.ir/~ieweb/?p=faculty/hoshmand",
+      "pic": "https://www.ie.sharif.ir/documents/1243168/3264249/hoshmand.png/88ccce29-ceb0-b090-1955-57a5539fdeef?t=1666163278174",
+      "ID": 20029,
+      "Position": "Faculty"
+    }
   ]
 }

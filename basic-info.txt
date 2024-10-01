@@ -1,114 +1,166 @@
-Name^مهرداد بروشکی
-Room^طبقه سوم
-E-Mail^boroushaki@sharif.edu
-web^http://sharif.edu/~boroushaki
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/boroushaki-199x300.jpg/dfa60f8c-829c-da73-6551-1d48452b5cd9?t=1631165535483
+Name^تقی اخوان نیاکی
+Phone^02166165740
+E-Mail^niaki@sharif.edu
+web^http://sina.sharif.edu/~niaki/
+pic^https://www.ie.sharif.ir/documents/1243168/3260593/Prof.Niaki+.png/3574096f-a141-de8f-c5be-47502e4e35fe?t=1651389359132
 #
-Name^حسین خواجه پور
-Room^طبقه سوم
-Phone^02166166124
-E-Mail^khajehpour@sharif.edu
-web^http://sina.sharif.edu/~khajehpour/
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/khajepour-228x300.jpg/23a232fd-7a82-2177-e16e-3039209e4249?t=1631165535343
+Name^عبدالحمید اشراق نیای جهرمی
+Phone^02166165705
+E-Mail^eshragh@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/eshragh
+pic^https://www.ie.sharif.ir/documents/1243168/3260784/eshragh.jpg/13724d5d-a714-d1e9-e497-a8926eb27482?t=1644052023435
 #
-Name^عباس رجبی قهنویه
-Room^طبقه سوم
-Phone^02166166138
-E-Mail^rajabi@sharif.edu
-web^http://sharif.edu/~rajabi
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/rajabi1-226x300.jpg/be618deb-712c-db87-0fb9-e8cc123e5d31?t=1631165535623
+Name^محمد رضا اکبری جوکار
+Phone^02166165742
+E-Mail^reza.akbari@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/akbari
+pic^https://www.ie.sharif.ir/documents/1243168/3260887/akbari.jpg/2c0c0e6f-a857-8074-112a-1c8b90262607?t=1644052207371
 #
-Name^رامین روشندل
-Room^طبقه سوم
-Phone^02166166127
-E-Mail^roshandel@sharif.edu
-web^http://sharif.ir/~roshandel/
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/roshandel.jpg/7d641f59-69de-6722-49b6-35e01aba2b1d?t=1631165535684
+Name^محمد هادی چمران
+Phone^02166165707
+E-Mail^chamran@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/chamran
+pic^https://www.ie.sharif.ir/documents/1243168/3262116/chamran.jpg/4914128f-74a1-4bb1-c1a9-903a575c73bb?t=1644057140638
 #
-Name^سورنا ستاری
-Room^طبقه سوم
-Phone^02166166128
-E-Mail^sattari@sharif.edu
-web^https://sharif.ir/~sattari/
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/sattari-150x150.jpg/25a7c990-a1bd-dc20-f46c-a4cbc4d30e25?t=1631165535755
+Name^مسلم حبیبی
+Phone^02166165735
+E-Mail^mhabibi@sharif.edu
+web^http://sharif.edu/~mhabibi/
+pic^https://www.ie.sharif.ir/documents/1243168/3262168/habibi.jpg/9d69365f-5eca-8f52-6235-bed64b05f135?t=1644057508280
 #
-Name^اکرم عوامی
-Room^طبقه دوم
-Phone^02166166135
-E-Mail^avami@sharif.edu
-web^http://sharif.ir/~avami
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/Ak_Avami.jpg/2b6d46e8-dcde-a238-aa13-ec544173bf78?t=1631165535874
+Name^رسول حجی
+Phone^02166165708
+E-Mail^haji@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/haji
+pic^https://www.ie.sharif.ir/documents/1243168/3263067/rasoolhaji.jpg/2da4cd76-b810-f77e-b565-3e4ebd48b0ad?t=1644058251678
 #
-Name^معین معینی اقطاعی
-Room^طبقه دوم
-Phone^02166166103
-E-Mail^mail:moeini@sharif.edu
-web^http://sina.sharif.edu/~moeini
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/moeini-236x300.jpg/6ce1f5b6-d198-a2b8-c7b2-51053404954d?t=1631165536021
+Name^علیرضا حجی
+Phone^02166165704
+E-Mail^ahaji@sharif.edu
+web^http://sharif.edu/~ahaji/
+pic^https://www.ie.sharif.ir/documents/1230706/1378585/WhatsApp+Image+2022-05-08+at+8.08.38+AM.jpeg/5c10ace4-5992-89ff-37b4-661635378220?t=1651981289989
 #
-Name^عباس ملکی
-Room^طبقه سوم
-Phone^02166166129
-E-Mail^maleki@sharif.edu
-web^http://sharif.ir/~maleki
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/Abbas_Maleki-210x300.jpg/f89038af-66bf-701d-6af9-fb7385dcb7ee?t=1631165536069
+Name^عرفان حسن نایبی
+Phone^02166165734
+E-Mail^hassannayebi@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/nayebi
+pic^https://www.ie.sharif.ir/documents/1243168/3263344/nayebi.jpg/3db9584e-b90b-c305-5b5c-b6bba350ee09?t=1644059229990
 #
-Name^محمد اتوکش
-Room^طبقه سوم
-Phone^02166166126
-E-Mail^outokesh@sharif.edu
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/outekesh.jpg/4b54e119-04d4-39d6-0ad3-0ab894f87c51?t=1631165535205
+Name^زهرا سادات حسن‌پور جسری
+Phone^02166165729
+E-Mail^hasanpourjesri@sharif.edu
+pic^https://www.ie.sharif.ir/o/adaptive-media/image/16440379/Preview-1000x0/IMG_5908.jpg?t=1698470840934
 #
-Name^سیدابوالفضل حسینی
-Room^طبقه اول
-Phone^02166166107
-E-Mail^sahosseini@sharif.edu
-web^http://sina.sharif.edu/~sahosseini
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/hosseini-238x300.jpg/a2c9f85e-b198-25e5-5732-6faa675af2df?t=1631165535547
+Name^سید موسی خالصی زاده
+E-Mail^khalessi@sharif.edu
+pic^https://www.ie.sharif.ir/documents/1243168/3263123/khalesizadeh.jpg/3d4cf84a-7968-c468-493d-2ab08e52c497?t=1644058743166
 #
-Name^علی اکبرصالحی
-Room^طبقه سوم
-Phone^02166166132
-E-Mail^salehi@sharif.edu
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/salehi-232x300.png/28164e33-73d0-b6c0-3e21-7d1618950c15?t=1631252006532
+Name^مجید خدمتی
+Phone^02166165714
+E-Mail^Khedmati@sharif.edu
+web^http://sharif.edu/~khedmati/
+pic^https://www.ie.sharif.ir/o/adaptive-media/image/3263498/Preview-1000x0/khedmati.jpg?t=1644059507225
 #
-Name^محمد صمدفام
-Room^طبقه سوم
-Phone^02166166137
-E-Mail^samadfam@sharif.edu
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/Dr.Samadfam.jpg/f8db0235-cd4d-af40-6d54-c00e2fc70dde?t=1631165535824
+Name^شکرانه خشخاشی مقدم
+Phone^02166165738
+E-Mail^moghaddam@sharif.edu
+web^http://ie.sharif.ir/~ieweb//?p=faculty/moghaddam
+pic^https://www.ie.sharif.ir/o/adaptive-media/image/3263322/Preview-1000x0/moghaddam.jpg?t=1644059055398
 #
-Name^محسن غفاری
-Room^طبقه سوم
-Phone^02166166147
-E-Mail^ghaffari@sharif.edu
-web^http://sina.sharif.ir/~ghaffari/
-pic^https://www.energy.sharif.ir/o/adaptive-media/image/27223996/Preview-1000x0/Dr.ghaffari.jpg?t=1725171395135
+Name^مریم رادمان
+Phone^02166165706
+E-Mail^radman@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/radman
+pic^https://www.ie.sharif.ir/documents/1243168/4319626/7.jpg/d4432752-d291-3001-0435-cceb59448105?t=1651907690153
 #
-Name^خلیل مشکبار بخشایش
-Room^طبقه سوم
-Phone^02166166145
-E-Mail^moshkbar@sharif.edu
-web^http://sina.sharif.edu/~moshkbar
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/moshkbar-150x150.jpg/8101ac94-4192-6fbb-cba1-06e7d1c27aca?t=1631165535970
+Name^مریم رضاپور نیاری
+Phone^02166165711
+E-Mail^maryam.rezapour@sharif.edu
+pic^https://www.ie.sharif.ir/documents/1243168/5268583/WhatsApp+Image+2022-09-03+at+11.25.16.jpeg/733cd9d8-f720-6d03-9835-5cb91a1d8318?t=1662188681080
 #
-Name^ناصر وثوقی
-Room^طبقه دوم
-Phone^02166166101
-E-Mail^nvosoughi@sharif.edu
-web^http://energy.sharif.ir/~nvosoughi/
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/nvosoughi.jpg/6a75e341-05de-56ee-f7db-1e4dfb9dd235?t=1631165535415
+Name^مجید رفیعی
+Phone^02166165725
+E-Mail^Rafiee@sharif.edu
+web^http://sharif.edu/~rafiee/
+pic^https://www.ie.sharif.ir/o/adaptive-media/image/4681629/Preview-1000x0/My+Pic1.+%281%29.jpg?t=1655704705768
 #
-Name^یداله سبوحی
-Room^طبقه سوم
-Phone^02166166133
-E-Mail^saboohi@sharif.edu
-web^http://sharif.edu/~saboohi
-pic^https://www.energy.sharif.ir/documents/1230681/1577844/Male+avatar+user.png/b3261217-2184-c4d2-9726-03ea294ab708?t=1630931369253
+Name^شهرام شادرخ
+Phone^02166165741
+E-Mail^shadrokh@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/shadrokh
+pic^https://www.ie.sharif.ir/documents/1243168/3263632/img051+%281%29.jpg/b4d2cdbf-fb20-f65d-1a6b-9ebdebe80ff5?t=1649818958430
 #
-Name^محمدباقر غفرانی
-Room^طبقه سوم
-Phone^02166166131
-E-Mail^ghofrani@sharif.edu
-pic^https://www.energy.sharif.ir/documents/1230681/1601644/ghofrani.png/a6043319-c167-e1e7-6104-b22de31987bd?t=1631165535924
+Name^حسن شوندی
+E-Mail^shavandi@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/shavandi
+pic^https://www.ie.sharif.ir/o/adaptive-media/image/4441760/Preview-1000x0/shavandi+%281%29.jpg?t=1652691940867
+#
+Name^نفیسه صدقی
+Phone^02166165710
+E-Mail^nafiseh.sedghi@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/sedghi
+pic^https://www.ie.sharif.ir/documents/1243168/3263780/sedghi.jpg/669556da-d0e5-606d-3b68-d75b3fcc3a71?t=1644060617644
+#
+Name^علی عبدالهی فر
+E-Mail^Abdollahifar@sharif.edu
+pic^https://www.ie.sharif.ir/documents/1243168/3263942/abdollahifar.jpg/08f7a042-b874-2958-4f77-5f9022dbaab8?t=1644061485774
+#
+Name^کوروش عشقی
+Phone^02166165712
+E-Mail^eshghi@sharif.edu
+web^http://sharif.edu/~eshghi
+pic^https://www.ie.sharif.ir/o/adaptive-media/image/6193576/Preview-1000x0/20220721_161619_resized+%281%29.jpg?t=1665813720488
+#
+Name^فرهاد قاسمی طاری
+E-Mail^ghasemi@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/ghasemi
+pic^https://www.ie.sharif.ir/documents/1243168/3263987/ghasemi.jpg/041294ac-c1de-b8be-bc8d-5e89edd0f96a?t=1644061806260
+#
+Name^فرهاد کیانفر
+Phone^02166165716
+E-Mail^fkianfar@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/fkianfar
+pic^https://www.ie.sharif.ir/documents/1243168/3264045/Farhadkianfar.jpg/189bee3f-d331-1b36-18d0-99e6bdb1ad4b?t=1644062228530
+#
+Name^فریدون کیانفر
+Phone^02166165715
+E-Mail^kianfar@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/kianfar
+pic^https://www.ie.sharif.ir/documents/1243168/3264020/Fereydonkianfar.jpg/aaa76973-6ef9-cf64-1276-00ccfffd9a66?t=1644062076192
+#
+Name^محمد مدرس یزدی
+Phone^02166165719
+E-Mail^modarres@sharif.edu
+web^http://sina.sharif.edu/~modarres
+pic^https://www.ie.sharif.ir/documents/1243168/3264109/modarres.jpg/761b0f7f-7db6-3b9d-1456-76a20eae8d3d?t=1644062637638
+#
+Name^مصطفی مصطفوی
+Phone^02166165718
+E-Mail^mostafavi@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/mostafavi
+pic^https://www.ie.sharif.ir/documents/1243168/3264150/mostafavi.jpg/8e91a124-1a76-251b-cf3c-f67ea870c33d?t=1644062829521
+#
+Name^عباس مظفر
+Phone^02166165720
+E-Mail^mozaffar@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/mozaffar
+pic^https://www.ie.sharif.ir/documents/1243168/3264179/mozaffar.jpg/b21a145e-8948-f84a-c55c-51a528fcc15f?t=1644062973292
+#
+Name^مهدی نجفی
+Phone^02166165709
+E-Mail^najafi.mehdi@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/najafi
+pic^https://www.ie.sharif.ir/documents/1243168/3264204/najafi.jpg/7bda1764-79b4-3bd1-d22c-859616bc0f00?t=1644063179993
+#
+Name^محسن ورمزیار
+Phone^66165713
+E-Mail^varmazyar@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/varmazyar
+pic^https://www.ie.sharif.ir/documents/1243168/3264227/varmazyar.jpg/e19052c3-4f87-3c2e-6a5b-11c47d4a7be9?t=1644063384674
+#
+Name^محمود هوشمند
+Phone^66165721
+E-Mail^hoshmand@sharif.edu
+web^http://ie.sharif.ir/~ieweb/?p=faculty/hoshmand
+pic^https://www.ie.sharif.ir/documents/1243168/3264249/hoshmand.png/88ccce29-ceb0-b090-1955-57a5539fdeef?t=1666163278174
 %
