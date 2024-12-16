@@ -1,166 +1,265 @@
-Name^تقی اخوان نیاکی
-Phone^02166165740
-E-Mail^niaki@sharif.edu
-web^http://sina.sharif.edu/~niaki/
-pic^https://www.ie.sharif.ir/documents/1243168/3260593/Prof.Niaki+.png/3574096f-a141-de8f-c5be-47502e4e35fe?t=1651389359132
+Name^محمدرضا آراستی
+Room^۴۱۲
+Phone^02166165873
+E-Mail^arasti@sharif.edu
+web^http://gsme.sharif.edu/~gsme2/profs/arasti/
+pic^https://www.gsme.sharif.ir/documents/232116/2300211/p3+%281%29.jpg/9a51c134-9cb7-4b89-74eb-28268b66c2ea?t=1636353199495
 #
-Name^عبدالحمید اشراق نیای جهرمی
-Phone^02166165705
-E-Mail^eshragh@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/eshragh
-pic^https://www.ie.sharif.ir/documents/1243168/3260784/eshragh.jpg/13724d5d-a714-d1e9-e497-a8926eb27482?t=1644052023435
+Name^شیرین اصلانی
+Room^۳۰۷
+Phone^02166165855
+E-Mail^sh.aslani@sharif.edu
+web^http://gsme.sharif.edu/~sh.aslani/
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%A7%D8%B5%D9%84%D8%A7%D9%86%DB%8C.jpg/646894ec-5e1a-44fe-f08a-8a0895c84454?t=1645335969391
 #
-Name^محمد رضا اکبری جوکار
-Phone^02166165742
-E-Mail^reza.akbari@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/akbari
-pic^https://www.ie.sharif.ir/documents/1243168/3260887/akbari.jpg/2c0c0e6f-a857-8074-112a-1c8b90262607?t=1644052207371
+Name^محسن بهرام‌گیری
+Room^414
+E-Mail^bahramgiri@sharif.edu
+web^http://gsme.sharif.edu/~bahramgiri
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%A8%D9%87%D8%B1%D8%A7%D9%85+%DA%AF%DB%8C%D8%B1%DB%8C.jpg/3d2741c7-14e8-9066-1e2f-0bc827761382?t=1645336080320
 #
-Name^محمد هادی چمران
-Phone^02166165707
-E-Mail^chamran@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/chamran
-pic^https://www.ie.sharif.ir/documents/1243168/3262116/chamran.jpg/4914128f-74a1-4bb1-c1a9-903a575c73bb?t=1644057140638
+Name^میثاق تصوری
+Room^413
+E-Mail^mtasavori@sharif.edu
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%AA%D8%B5%D9%88%D8%B1%DB%8C.jpg/b486a1cf-bcd8-fd13-a821-47e3b3d2806a?t=1645335379962
 #
-Name^مسلم حبیبی
-Phone^02166165735
-E-Mail^mhabibi@sharif.edu
-web^http://sharif.edu/~mhabibi/
-pic^https://www.ie.sharif.ir/documents/1243168/3262168/habibi.jpg/9d69365f-5eca-8f52-6235-bed64b05f135?t=1644057508280
+Name^مرضیه ثقفیان
+E-Mail^msaghafian@sharif.edu
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/14126980/thumbnail-600x600/IMG_20230813_152541.jpg?t=1692076391727
 #
-Name^رسول حجی
-Phone^02166165708
-E-Mail^haji@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/haji
-pic^https://www.ie.sharif.ir/documents/1243168/3263067/rasoolhaji.jpg/2da4cd76-b810-f77e-b565-3e4ebd48b0ad?t=1644058251678
+Name^محمدمهدی جهانبخت
+Room^301
+E-Mail^mohammad.jahanbakhtasharif@sharif.edu
+web^http://sharif.edu/~mohammad.jahanbakht/
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/3642433/thumbnail-600x600/dr_jahanbakht.jpg?t=1646463538252
 #
-Name^علیرضا حجی
-Phone^02166165704
-E-Mail^ahaji@sharif.edu
-web^http://sharif.edu/~ahaji/
-pic^https://www.ie.sharif.ir/documents/1230706/1378585/WhatsApp+Image+2022-05-08+at+8.08.38+AM.jpeg/5c10ace4-5992-89ff-37b4-661635378220?t=1651981289989
+Name^آرش خلیلی نصر
+Room^304
+E-Mail^khalilinasr@gsme.sharif.edu
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%AE%D9%84%DB%8C%D9%84%DB%8C+%D9%86%D8%B5%D8%B1.jpg/8a013bd4-8b84-0dd7-cc9f-df400faa4144?t=1645335380512
 #
-Name^عرفان حسن نایبی
-Phone^02166165734
-E-Mail^hassannayebi@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/nayebi
-pic^https://www.ie.sharif.ir/documents/1243168/3263344/nayebi.jpg/3db9584e-b90b-c305-5b5c-b6bba350ee09?t=1644059229990
+Name^ابراهیم سوزنچی کاشانی
+Room^303
+E-Mail^souzanchi@sharif.edu
+web^http://gsme.sharif.edu/~souzanchi
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%B3%D9%88%D8%B2%D9%86%DA%86%DB%8C.jpg/d70ecda0-1ed3-bbe8-cefe-9b761f808e0d?t=1645335381227
 #
-Name^زهرا سادات حسن‌پور جسری
-Phone^02166165729
-E-Mail^hasanpourjesri@sharif.edu
-pic^https://www.ie.sharif.ir/o/adaptive-media/image/16440379/Preview-1000x0/IMG_5908.jpg?t=1698470840934
+Name^مهران سپهری
+Room^416
+E-Mail^sepehri@sharif.edu
+web^http://gsme.sharif.edu/~sepehri
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%85%D9%87%D8%B1%D8%A7%D9%86+%D8%B3%D9%BE%D9%87%D8%B1%DB%8C.jpg/fd1d269d-61e9-de45-423d-82a0357dd272?t=1645335383589
 #
-Name^سید موسی خالصی زاده
-E-Mail^khalessi@sharif.edu
-pic^https://www.ie.sharif.ir/documents/1243168/3263123/khalesizadeh.jpg/3d4cf84a-7968-c468-493d-2ab08e52c497?t=1644058743166
+Name^مسعود شادنام
+Room^411
+Phone^02166165856
+E-Mail^shadnam@sharif.edu
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/7832197/thumbnail-600x600/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%85%D8%B3%D8%B9%D9%88%D8%AF+%D8%B4%D8%A7%D8%AF%D9%86%D8%A7%D9%85.jpg?t=1671856831983
 #
-Name^مجید خدمتی
-Phone^02166165714
-E-Mail^Khedmati@sharif.edu
-web^http://sharif.edu/~khedmati/
-pic^https://www.ie.sharif.ir/o/adaptive-media/image/3263498/Preview-1000x0/khedmati.jpg?t=1644059507225
+Name^مسعود طالبیان
+Room^307
+E-Mail^masoudtalebian@sharif.edu
+web^http://gsme.sharif.edu/~masoudtalebian
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%85%D8%B3%D8%B9%D9%88%D8%AF+%D8%B7%D8%A7%D9%84%D8%A8%DB%8C%D8%A7%D9%86.jpg/3963bf9a-e2e4-555e-d058-cf24591bae81?t=1645335383052
 #
-Name^شکرانه خشخاشی مقدم
-Phone^02166165738
-E-Mail^moghaddam@sharif.edu
-web^http://ie.sharif.ir/~ieweb//?p=faculty/moghaddam
-pic^https://www.ie.sharif.ir/o/adaptive-media/image/3263322/Preview-1000x0/moghaddam.jpg?t=1644059055398
+Name^سید بابک علوی
+Room^418
+E-Mail^sbalavi@sharif.edu
+web^http://sharif.edu/~sbalavi/
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%B9%D9%84%D9%88%DB%8C.jpg/c7aaff7a-76bf-27b1-c36e-766775573e40?t=1645335381426
 #
-Name^مریم رادمان
-Phone^02166165706
-E-Mail^radman@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/radman
-pic^https://www.ie.sharif.ir/documents/1243168/4319626/7.jpg/d4432752-d291-3001-0435-cceb59448105?t=1651907690153
+Name^محمد‌تقی عیسائی
+Room^421
+E-Mail^isaai@sharif.edu
+web^http://gsme.sharif.edu/~isaai
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%B9%DB%8C%D8%B3%D8%A7%D8%A6%DB%8C+2+copy.jpg/d6d2c9cc-2e1f-6786-4854-10dcb03c7e0f?t=1646542581672
 #
-Name^مریم رضاپور نیاری
-Phone^02166165711
-E-Mail^maryam.rezapour@sharif.edu
-pic^https://www.ie.sharif.ir/documents/1243168/5268583/WhatsApp+Image+2022-09-03+at+11.25.16.jpeg/733cd9d8-f720-6d03-9835-5cb91a1d8318?t=1662188681080
+Name^سید علیرضا فیض‌بخش
+E-Mail^alireza_feyz@sharif.edu
+web^http://gsme.sharif.edu/~alireza_feyz
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%81%DB%8C%D8%B6+%D8%A8%D8%AE%D8%B4.jpg/fc390c10-a38e-bc67-19e5-28c67ce23f56?t=1645336358937
 #
-Name^مجید رفیعی
-Phone^02166165725
-E-Mail^Rafiee@sharif.edu
-web^http://sharif.edu/~rafiee/
-pic^https://www.ie.sharif.ir/o/adaptive-media/image/4681629/Preview-1000x0/My+Pic1.+%281%29.jpg?t=1655704705768
+Name^عبدالحمید مدرس
+E-Mail^modares@sharif.edu
+web^http://gsme.sharif.edu/~modares
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%85%D8%AF%D8%B1%D8%B3.jpg/93986c53-2529-2510-a996-ec30d41bb677?t=1645335382896
 #
-Name^شهرام شادرخ
-Phone^02166165741
-E-Mail^shadrokh@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/shadrokh
-pic^https://www.ie.sharif.ir/documents/1243168/3263632/img051+%281%29.jpg/b4d2cdbf-fb20-f65d-1a6b-9ebdebe80ff5?t=1649818958430
+Name^سید علیرضا میرباقری
+E-Mail^mirbagheri@sharif.edu
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/7480375/thumbnail-600x600/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%85%DB%8C%D8%B1%D8%A8%D8%A7%D9%82%D8%B1%DB%8C.jpg?t=1670654365710
 #
-Name^حسن شوندی
-E-Mail^shavandi@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/shavandi
-pic^https://www.ie.sharif.ir/o/adaptive-media/image/4441760/Preview-1000x0/shavandi+%281%29.jpg?t=1652691940867
+Name^سید ایمان میرعمادی
+E-Mail^simiremadi@sharif.edu
+web^http://sharif.edu/~simiremadi
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%85%DB%8C%D8%B1%D8%B9%D9%85%D8%A7%D8%AF%DB%8C.jpg/fac87134-3f6f-49df-b46b-26434ad727c4?t=1645335383777
 #
-Name^نفیسه صدقی
-Phone^02166165710
-E-Mail^nafiseh.sedghi@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/sedghi
-pic^https://www.ie.sharif.ir/documents/1243168/3263780/sedghi.jpg/669556da-d0e5-606d-3b68-d75b3fcc3a71?t=1644060617644
+Name^عطیه‌سادات میرفخار
+Room^210
+E-Mail^mirfakhar@sharif.edu
+web^http://sharif.edu/~mirfakhar/
+pic^https://www.gsme.sharif.ir/documents/232944/9836255/Atieh+Mirfakhar+-+Photo+%281%29.jpg/d17ee309-fa6d-3f97-b339-2777c3dd2e6d?t=1678513358733
 #
-Name^علی عبدالهی فر
-E-Mail^Abdollahifar@sharif.edu
-pic^https://www.ie.sharif.ir/documents/1243168/3263942/abdollahifar.jpg/08f7a042-b874-2958-4f77-5f9022dbaab8?t=1644061485774
+Name^منوچهر نجمی
+Room^408
+E-Mail^m.najmi@sharif.edu
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%86%D8%AC%D9%85%DB%8C2+%281%29.jpg/c3cfa697-e234-aa3d-98a9-581243ebaad0?t=1646563062151
 #
-Name^کوروش عشقی
-Phone^02166165712
-E-Mail^eshghi@sharif.edu
-web^http://sharif.edu/~eshghi
-pic^https://www.ie.sharif.ir/o/adaptive-media/image/6193576/Preview-1000x0/20220721_161619_resized+%281%29.jpg?t=1665813720488
+Name^ناصر کرمی
+Room^415
+E-Mail^nr.karami@sharif.edu
+web^http://gsme.sharif.edu/~nr.karami
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%DA%A9%D8%B1%D9%85%DB%8C.jpg/c1e11f5c-c6fb-9a2e-2d7c-3e5583beb490?t=1645335382183
 #
-Name^فرهاد قاسمی طاری
-E-Mail^ghasemi@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/ghasemi
-pic^https://www.ie.sharif.ir/documents/1243168/3263987/ghasemi.jpg/041294ac-c1de-b8be-bc8d-5e89edd0f96a?t=1644061806260
+Name^مهدی کیامهر
+E-Mail^kiamehr@gsme.sharif.edu
+web^http://gsme.sharif.edu/~kiamehr
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%DA%A9%DB%8C%D8%A7%D9%85%D9%87%D8%B1.jpg/c06541c6-e97e-b029-6f20-6de88e7a5e3e?t=1645336537293
 #
-Name^فرهاد کیانفر
-Phone^02166165716
-E-Mail^fkianfar@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/fkianfar
-pic^https://www.ie.sharif.ir/documents/1243168/3264045/Farhadkianfar.jpg/189bee3f-d331-1b36-18d0-99e6bdb1ad4b?t=1644062228530
+Name^علینقی مشایخی
+E-Mail^mashayekhi@sharif.edu
+web^http://gsme.sharif.edu/~mashayekhi
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%85%D8%B4%D8%A7%DB%8C%D8%AE%DB%8C01.jpg/929c2f8f-a57a-f7d2-cf4a-f92733be6a82?t=1645335383403
 #
-Name^فریدون کیانفر
-Phone^02166165715
-E-Mail^kianfar@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/kianfar
-pic^https://www.ie.sharif.ir/documents/1243168/3264020/Fereydonkianfar.jpg/aaa76973-6ef9-cf64-1276-00ccfffd9a66?t=1644062076192
+Name^علی کرمانشاه
+E-Mail^akermanshah@sharif.edu
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%DA%A9%D8%B1%D9%85%D8%A7%D9%86%D8%B4%D8%A7%D9%87.jpg/cdefc3ba-5919-2f81-55e7-97deeff9d2b0?t=1645335382013
 #
-Name^محمد مدرس یزدی
-Phone^02166165719
-E-Mail^modarres@sharif.edu
-web^http://sina.sharif.edu/~modarres
-pic^https://www.ie.sharif.ir/documents/1243168/3264109/modarres.jpg/761b0f7f-7db6-3b9d-1456-76a20eae8d3d?t=1644062637638
+Name^اصغر زردکوهی
+E-Mail^azardkoohi@mays.tamu.edu
+pic^https://www.gsme.sharif.ir/documents/232944/12063610/AZ.jpg/763f2ce8-21c3-bbbd-6c4f-ed9c9dac00db?t=1685254638499
 #
-Name^مصطفی مصطفوی
-Phone^02166165718
-E-Mail^mostafavi@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/mostafavi
-pic^https://www.ie.sharif.ir/documents/1243168/3264150/mostafavi.jpg/8e91a124-1a76-251b-cf3c-f67ea870c33d?t=1644062829521
+Name^فرشاد حق‌پناه
+E-Mail^farshad.haghpanah@gmail.com
+web^https://hagh-panah.ir/
+pic^https://www.gsme.sharif.ir/documents/232944/8742224/FH-CA.jpg/3dc80e26-015b-3d16-7d23-64415f8fd1b7?t=1674277193648
 #
-Name^عباس مظفر
-Phone^02166165720
-E-Mail^mozaffar@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/mozaffar
-pic^https://www.ie.sharif.ir/documents/1243168/3264179/mozaffar.jpg/b21a145e-8948-f84a-c55c-51a528fcc15f?t=1644062973292
+Name^ایمان حاجی زاده
+Room^419
+E-Mail^hajizadeh@gsme.sharif.edu
+web^http://gsme.sharif.edu/~hajizadeh
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%AD%D8%A7%D8%AC%DB%8C+%D8%B2%D8%A7%D8%AF%D9%87.jpg/66c8ee23-a9e9-7e3b-8471-c36751a2825f?t=1645335380263
 #
-Name^مهدی نجفی
-Phone^02166165709
-E-Mail^najafi.mehdi@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/najafi
-pic^https://www.ie.sharif.ir/documents/1243168/3264204/najafi.jpg/7bda1764-79b4-3bd1-d22c-859616bc0f00?t=1644063179993
+Name^امین ناصری
+E-Mail^aminnaseriabc@gmail.com
+pic^https://www.gsme.sharif.ir/documents/232944/15546816/d-52481--naseri.jpg/a9ddfbd7-8e75-1d9c-0f6b-eb766d788f88?t=1695704231938
 #
-Name^محسن ورمزیار
-Phone^66165713
-E-Mail^varmazyar@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/varmazyar
-pic^https://www.ie.sharif.ir/documents/1243168/3264227/varmazyar.jpg/e19052c3-4f87-3c2e-6a5b-11c47d4a7be9?t=1644063384674
+Name^سید محمدرضا فرحی
+Room^201
+Phone^02191007240
+E-Mail^farahi@sharif.edu
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/13969058/thumbnail-600x600/IMG_20210301_092217.jpg?t=1691317171063
 #
-Name^محمود هوشمند
-Phone^66165721
-E-Mail^hoshmand@sharif.edu
-web^http://ie.sharif.ir/~ieweb/?p=faculty/hoshmand
-pic^https://www.ie.sharif.ir/documents/1243168/3264249/hoshmand.png/88ccce29-ceb0-b090-1955-57a5539fdeef?t=1666163278174
+Name^سمانه عربشاهی
+E-Mail^s.arabshahi@sharif.edu / sam.arabshahi@gmail.com
+pic^https://www.gsme.sharif.ir/documents/232944/8330109/3.4.jpg/e4d04367-353e-64fd-e975-9d10ac04e832?t=1673416726798
+#
+Name^حسین عبده تبریزی
+E-Mail^h.abdoh.tabrizi@gmail.com / abdoh@gsme.sharif.edu
+web^https://abdoh.net/
+pic^https://www.gsme.sharif.ir/documents/232944/8528898/abdoh.png/32f484e8-b5ce-1913-019b-7a345d0656ff?t=1673843688707
+#
+Name^رسول سرائیان
+E-Mail^Rasoul1341@gmail.com
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/8264971/thumbnail-600x600/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%B3%D8%B1%D8%A7%D8%A6%DB%8C%D8%A7%D9%86.png?t=1673241804184
+#
+Name^رضا دهقان
+E-Mail^rdehghan74@yahoo.com / r.dehghan@nioc.ir
+pic^https://www.gsme.sharif.ir/documents/232944/8276512/%D8%B9%DA%A9%D8%B3+%D8%B1%D8%B6%D8%A7+%D8%AF%D9%87%D9%82%D8%A7%D9%86.jpg/6dace5c5-9597-e876-189d-8f35f2c2ec9f?t=1673259655553
+#
+Name^مهدی حق‌باعلی
+E-Mail^m.haghbaali@teias.institute
+pic^https://www.gsme.sharif.ir/documents/232944/8265210/haghbaali.png/73ab6a48-c8f8-0e9d-3919-8ec141cfb6b1?t=1673242672302
+#
+Name^حامد تاج‌الدین
+Phone^02154536000
+E-Mail^hamed.tajedin@gmail.com
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/9003720/thumbnail-600x600/Tajedin.jpg?t=1675227828046
+#
+Name^احمد آژنگ
+E-Mail^ahmad.azhang@gmail.com
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/8742338/thumbnail-600x600/20230117_195955.jpg?t=1674277557984
+#
+Name^علی ابراهیم‌نژاد
+Room^111
+E-Mail^ebrahimnejad@sharif.edu
+web^http://gsme.sharif.edu/~ebrahimnejad/
+pic^https://www.gsme.sharif.ir/documents/232116/2300211/p2+%282%29.jpg/8d5ac816-0c5a-82ab-c1d1-d4b53817d769?t=1636353068723
+#
+Name^مهدی انصاری
+Room^۱۱۶
+E-Mail^mahdi.ansari@sharif.edu
+web^https://www.ansarimahdi.com/
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/28957689/thumbnail-600x600/Headshot+wo+Background+croped.png?t=1730088757447
+#
+Name^ناصر امن‌زاده
+Room^210
+E-Mail^http://amanzadeh@sharif.edu/
+web^https://naseramanzadeh.ir/
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/26132458/thumbnail-600x600/%D9%86%D8%A7%D8%B5%D8%B1+%D8%A7%D9%85%D9%86+%D8%B2%D8%A7%D8%AF%D9%87+2.jpg?t=1721642909755
+#
+Name^محمدحسین رحمتی
+Room^114
+E-Mail^rahmati@sharif.edu
+web^http://sharif.edu/~rahmati/
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%B1%D8%AD%D9%85%D8%AA%DB%8C.jpg/a7738767-5902-6811-596d-8fdd93aa998d?t=1645335380811
+#
+Name^شیوا زمانی
+Room^117
+E-Mail^zamani@sharif.edu
+web^http://gsme.sharif.edu/~zamani
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%B2%D9%85%D8%A7%D9%86%DB%8C+copy.jpg/99c18dfc-f96f-18b7-0caa-8f0002251ebb?t=1652164232108
+#
+Name^سید فرشاد فاطمی اردستانی
+E-Mail^ffatemi@sharif.edu
+web^http://gsme.sharif.edu/~ffatemi
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%81%D8%A7%D8%B7%D9%85%DB%8C.jpg/4c9bba8b-9ac3-a793-ed56-d49f177e6248?t=1645335381801
+#
+Name^امینه محمودزاده
+Room^113
+E-Mail^mahmoodzadeh@sharif.edu
+web^http://gsme.sharif.edu/~mahmoodzadeh
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%A7%D9%85%DB%8C%D9%86%D9%87+%D9%85%D8%AD%D9%85%D9%88%D8%AF%D8%B2%D8%A7%D8%AF%D9%87.jpg/052b0851-d397-a07e-da5f-ee3b19848d18?t=1647096813991
+#
+Name^سید علی مدنی‌زاده
+E-Mail^madanizadeh@sharif.edu
+web^http://gsme.sharif.edu/~madanizadeh
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%85%D8%AF%D9%86%DB%8C+%D8%B2%D8%A7%D8%AF%D9%87+2.jpg/1979ac23-abc8-00e0-801c-e8cf4c100b3f?t=1646562136377
+#
+Name^محمد وصال
+Room^120
+E-Mail^m.vesal@sharif.edu
+web^http://gsme.sharif.edu/~vesal
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%88%D8%B5%D8%A7%D9%84.jpg/26da8a91-cda8-afe1-a56a-fb9ad6d82c65?t=1645335384423
+#
+Name^غلامرضا کشاورز حداد
+Room^119
+E-Mail^G.K.Haddad@sharif.edu
+web^http://gsme.sharif.edu/~G.K.Haddad
+pic^https://www.gsme.sharif.ir/documents/232116/2300211/-5778148640546734885_120.jpg/7f10b03b-c5ca-0f5e-a7be-af939505a42b?t=1728902117338
+#
+Name^مسعود نیلی
+Room^107
+E-Mail^m.nili@sharif.edu
+web^http://gsme.sharif.edu/~m.nili
+pic^https://www.gsme.sharif.ir/documents/232116/3470606/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%86%DB%8C%D9%84%DB%8C.jpg/83c1194f-c45e-0934-d0d1-193404d05b67?t=1645335384182
+#
+Name^کوثر یوسفی
+E-Mail^yousefi.kowsar@gmail.com / k.yousefi@imps.ac.ir
+pic^https://www.gsme.sharif.ir/documents/232944/8957616/Untitled.jpg/cf550f91-daad-097f-0cb7-6af9c2eb6d4c?t=1675077999885
+#
+Name^محمدرضا حسام‌زاده
+E-Mail^hesamzadeh@sharif.ir
+pic^https://www.gsme.sharif.ir/documents/232944/12421519/MH.jpg/76a10fd3-5a91-f7d3-a543-499189270890?t=1686115547243
+#
+Name^علی ملکی
+E-Mail^a.maleki@sharif.edu
+pic^https://www.gsme.sharif.ir/documents/232116/2300211/%D8%B9%D9%84%DB%8C_%D9%85%D9%84%DA%A9%DB%8C.jpg/1bab3ada-965a-4231-e0aa-7ceb5e29549b?t=1660446084755
+#
+Name^سیدرضا میرنظامی
+E-Mail^srmirnezami@sharif.edu
+pic^https://www.gsme.sharif.ir/documents/232944/11632780/SRM.jpg/c96d5b48-d0d7-5e93-d412-64243db0c8bc?t=1684323667602
+#
+Name^روح‌الله هنرور
+E-Mail^Honarvar@sharif.edu
+pic^https://www.gsme.sharif.ir/o/adaptive-media/image/10825001/Preview-1000x0/20150916_121155_HDR-1.jpg?t=1681805915577
 %
