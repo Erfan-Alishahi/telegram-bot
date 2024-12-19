@@ -1,191 +1,238 @@
-Name^محمد طیبی رهنی
-Phone^021 6602 8168
-Fax^021 66022731
-E-Mail^taeibi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3569626/rahni.png/2e8edf87-e60f-3845-f519-19c3a8e80e6f?t=1645900869033
-# 
-Name^سید محمدباقر ملائک
-Phone^ +982166168149
-Fax^021 66022731
-E-Mail^malaek@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3603881/2.png/0b151236-7519-d1fb-718c-b4c742cc738b?t=1646199682824
+Name^حسین آشوری
+Phone^66165208
+Fax^66005717
+E-Mail^ashuri@sharif.edu
+web^http://sharif.edu/~ashuri//
+pic^https://mse.sharif.ir/documents/1230738/0/ashori+%281%29.jpg/c332afcc-92d4-5314-cc13-6286b04ab6ee?t=1637049342759
 #
-Name^سیدحسین پورتاکدوست
-Phone^ +982166168163
-Fax^021 66022731
-E-Mail^pourtak@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3603858/Capture.png/e08aabea-7440-4b63-ea81-fd6efdb2a5b4?t=1646199609478
+Name^عبداله افشار
+Phone^66165204
+Fax^6616520466005717
+E-Mail^afshar@sharif.ir
+web^http://sharif.edu/~afshar//
+pic^https://mse.sharif.ir/documents/1230738/0/a.afshar.jpg/9323dea4-2d0e-bd43-f1d2-8124af4d62c9?t=1646634150646
 #
-Name^محمد فرشچی
-Phone^02166168185
-Fax^021 66022731
-E-Mail^farshchi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3603826/1.png/2f5f59b3-6449-d6f9-9345-af1cd6a1153e?t=1646199508100
+Name^عباس اکبرزاده چنگیز
+Phone^66165206
+Fax^66005717
+E-Mail^abbasa@sharif.ir
+web^http://sharif.edu/~abbasa//
+pic^https://mse.sharif.ir/documents/1230738/0/a.abbaszadeh.jpg/b1142b25-6345-f5c8-5f53-b9152b4ba002?t=1646634150594
 #
-Name^کریم مظاهری
-Phone^ (+9821) 66168152
-Fax^02166022731
-E-Mail^mazaheri@sharif.ir
-pic^https://www.sharif.ir/documents/1247452/3603904/3.png/7bc37096-eac0-b22f-2ae9-050996fa9301?t=1646199776654
+Name^علی اکبر اکرامی
+Phone^66165205
+Fax^66005717
+E-Mail^ekrami@sharif.edu
+web^http://sharif.edu/~ekrami//
+pic^https://mse.sharif.ir/documents/1230738/0/ekrami+%281%29.jpg/68efff77-a7ba-9c4e-50c6-3fc4bea3a5af?t=1637049362558
 #
-Name^محمدرضا سلطانی
-Phone^021 66168116
-Fax^021 66022731
-E-Mail^msoltani@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3603928/4.png/8179422d-f3ba-49f0-4333-c693f28937d0?t=1646199841006
+Name^رضا باقری
+Phone^66165207
+Fax^66005717
+E-Mail^rezabagh@sharif.ir
+web^http://sharif.edu/~rezabagh//
+pic^https://mse.sharif.ir/documents/1230738/0/r.bagheri.jpg/afa0e131-9679-b19b-5892-6d764b32bf78?t=1646634150012
 #
-Name^سعید ادیب‌نظری
-Phone^021 66168158
-Fax^021 66022731
-E-Mail^adib@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3603957/5.png/4fcc11d0-b59c-3886-a1ae-9560db8bde26?t=1646199958448
+Name^کاظم پورآذرنگ
+Phone^66165244
+Fax^66005717
+E-Mail^purazarang@sharif.edu
+web^http://sharif.edu/~purazrang//
+pic^https://mse.sharif.ir/documents/1230738/0/azarang+%281%29.jpg/2dea0661-fa70-6586-1217-16cdb72894ce?t=1637049379112
 #
-Name^فریبرز ثقفی
-Phone^066168106
-Fax^021 66022731
-E-Mail^saghafi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3603990/6.png/bbd4d4c6-99f9-7c32-a9e3-83c7aa0f539b?t=1646200060645
+Name^مجید پورانوری
+Phone^66165250
+Fax^66005717
+E-Mail^pouranvari@sharif.edu
+web^http://sharif.edu/~pouranvari//
+pic^https://mse.sharif.ir/documents/1230738/0/m.poranvari.jpg/ade7b0ea-68b0-43b6-e4d3-1d6e083c6aac?t=1646634150543
 #
-Name^کاوه قربانیان
-Phone^021 66168124
-Fax^021 66022731
-E-Mail^ghorbanian@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604014/7.png/c4aff52b-a462-813f-c1cf-1bda5ac07ab4?t=1646200131679
+Name^غلامرضا پیرچراغی
+Phone^66165210
+Fax^66005717
+E-Mail^pircheraghi@sharif.ir
+web^http://sharif.edu/~pircheraghi//
+pic^https://mse.sharif.ir/documents/1230738/0/pircheraghi.jpg/b7d1a64e-c775-3274-1355-de5caf952eb2?t=1646634150492
 #
-Name^مسعود دربندی
-Phone^021 66168026
-Fax^021 66022731
-E-Mail^darbandi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604039/8.png/00ac73b1-7826-3165-c599-465e73957148?t=1646200215247
+Name^روح اله توکلی
+Phone^66165209
+Fax^66005717
+E-Mail^rtavakoli@sharif.ir
+web^http://sharif.edu/~rtavakoli//
+pic^https://mse.sharif.ir/documents/1230738/0/tavakoli.jpg/208a5c09-14ba-1cc8-7783-359c56f5eee8?t=1646634150442
 #
-Name^محمدعلی کوچک‌زاده
-Phone^021 66168169
-Fax^021 66022731
-E-Mail^mak@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604087/10.png/6da59ee9-d3ed-45d1-af8d-ade7fdff3730?t=1646200363452
+Name^محمد حلالی
+Phone^66165251
+Fax^66005717
+E-Mail^halali@sharif.edu
+web^http://sharif.edu/~halali//
+pic^https://mse.sharif.ir/documents/1230738/0/helali.jpg/f0a21535-647e-a1b0-d4f3-e26fe79112d8?t=1646634150387
 #
-Name^علی عابدیان
-Phone^021 66168166
-Fax^0216602 2731
-E-Mail^abedian@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604062/9.png/3ba890a2-3c7d-612e-45c3-168dc54d998a?t=1646200276236
+Name^منوچهر حکیم
+Phone^66165244
+Fax^66005717
+E-Mail^hakim@sharif.edu
+web^http://sharif.edu/~hakim//
+pic^https://mse.sharif.ir/documents/1230738/0/hakim+%281%29.jpg/0107be00-af70-d019-749e-b6d0419ad1e1?t=1637049413148
 #
-Name^حسن حدادپور
-Phone^021 66168147
-Fax^021 66022731
-E-Mail^haddadpour@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604110/11.png/5b4d77b5-d40b-3fc9-96b5-d5fd0adb1977?t=1646200432638
+Name^پرویز دوامی
+Phone^66036012 / 02166164683
+Fax^66005717
+E-Mail^davami@sharif.edu
+web^http://sharif.edu/~davami//
+pic^https://mse.sharif.ir/documents/1230738/0/davami+%281%29.jpg/098d5076-eb45-a4bd-919a-96a85244fbaa?t=1637049506535
 #
-Name^کاظم هجرانفر
-Phone^021 66168164
-Fax^021 66022731
-E-Mail^khejran@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604135/12.png/da9221ff-af61-8455-5c21-d1bed7d6674a?t=1646200510483
+Name^ابولقاسم دولتی
+Phone^66165259
+Fax^66005717
+E-Mail^dolati@sharif.edu
+web^http://sharif.edu/~dolati//
+pic^https://mse.sharif.ir/documents/1230738/0/dolati.jpg/6cebe665-55ca-eab1-baba-ce5fd5abb2d2?t=1646634149956
 #
-Name^هادی نوبهاری
-Phone^021 66168184
-Fax^021 66022731
-E-Mail^nobahari@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604280/13.png/61af2a22-1b3a-faf2-1f81-ac2ae6386816?t=1646204137314
+Name^سیامک سراج زاده
+Phone^66165218
+Fax^66005717
+E-Mail^serajzadeh@sharif.edu
+web^http://sharif.edu/~serajzadeh//
+pic^https://mse.sharif.ir/documents/1230738/0/serajzade.jpg/b30aad37-e44d-4819-0f79-fa261f029f11?t=1646634149737
 #
-Name^افشین بنازاده
-Phone^021 66168108
-Fax^021 66022731
-E-Mail^banazadeh@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604305/14.png/e5c487bc-9ded-814e-1b76-aed91c3a072b?t=1646204197913
+Name^سید مرتضی سیدریحانی
+Phone^66165212
+Fax^66005717
+E-Mail^reihani@sharif.edu
+web^http://sharif.edu/~reihani//
+pic^https://mse.sharif.ir/documents/1230738/0/reihani+%281%29.jpg/64f4437b-2f26-3ee7-af17-8e34bfcb6528?t=1637049655599
 #
-Name^نیما اسدیان
-Phone^021 66168105
-Fax^021 66022731
-E-Mail^assadian@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604374/17.png/2ee44238-8d7b-dc7b-bf68-ce619af6079f?t=1646204380583
+Name^عبدالرضا سیم چی
+Phone^66165261
+Fax^66005717
+E-Mail^simchi@sharif.edu
+web^http://cnam.ir//
+pic^https://mse.sharif.ir/documents/1230738/0/Simchi.jpg/77726c65-3a98-4725-da30-7910059cda2d?t=1646634149844
 #
-Name^سیدعلی حسینی کرد خیلی
-Phone^021 66168122
-Fax^021 66022731
-E-Mail^ali.hosseini@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604351/16.png/d3bf99a4-1194-741f-672c-4b2c8be8fc15?t=1646204322322
+Name^شقایق شعبانی
+Phone^66165294
+Fax^66005717
+E-Mail^shabani.sh@sharif.edu
+web^http://sharif.edu/~shabani.sh//
+pic^https://mse.sharif.ir/documents/1230738/0/1722552+%282%29.jpg/83beb86a-e0c0-430f-728f-5fa0673dbaf1?t=1695108270723
 #
-Name^روح‌الله دهقانی فیروزآبادی
-Phone^021 66168102
-Fax^021 6602 2731
-E-Mail^firouzabadi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604328/15.png/6048ed10-76c0-00f3-4c9f-97d712a2c108?t=1646204259198
+Name^سید خطیب الاسلام صدرنژاد
+Phone^66165215
+Fax^66005717
+E-Mail^sadrnezh@sharif.edu
+web^http://sadrnezhaad.ir/sk//
+pic^https://mse.sharif.ir/documents/1230738/0/sadrnejhad.jpg/1b2a2f54-2750-1e59-bed5-600986f82d61?t=1646634149894
 #
-Name^محسن فتحی
-Phone^021 66168129
-Fax^021 66022731
-E-Mail^fathi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604398/18.png/8671f68f-aea0-bc9b-d84f-5a4e6820721e?t=1646204440188
+Name^پروین عباچی
+Phone^66165217
+Fax^66005717
+E-Mail^abachi@sharif.edu
+web^http://sharif.edu/~abachi//
+pic^https://mse.sharif.ir/documents/1230738/0/abachi+%281%29.jpg/f5989eb5-f4fa-9a8b-3a7d-b1195ea28dc7?t=1637050158757
 #
-Name^خدایار جوادی
-Phone^021 6616 8107
-Fax^021 6602 2731
-E-Mail^kjavadi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604422/19.png/97206419-f350-9be8-7342-c7489b1521a5?t=1646204532880
+Name^مسعود عسکری
+Phone^66165206
+Fax^66005717
+E-Mail^askari@sharif.edu
+web^http://sharif.edu/~askar//
+pic^https://mse.sharif.ir/documents/1230738/0/masoud+asgari.jpg/1c09eae2-0ff8-e92a-b022-04a352fa5c05?t=1646634149675
 #
-Name^محمد فراهانی
-Phone^021 66168154
-Fax^02166022731
-E-Mail^mfarahani@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604447/20.png/68c6a6e1-3808-f605-6bfc-82b7637c7235?t=1646204594315
+Name^سیروس عسگری
+Phone^66165216
+Fax^66005717
+E-Mail^sasgari@sharif.edu
+web^http://sharif.edu/~sasgari//
+pic^https://mse.sharif.ir/documents/1230738/0/asgari.jpg/e70debb8-a21f-5128-0a87-16607a201649?t=1646634202565
 #
-Name^محمدرضا مراد
-Phone^021 6616 8103
-Fax^021 66022731
-E-Mail^morad(atsgin)sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604471/21.png/28e55704-7337-4fbe-3203-7142d56017fd?t=1646204683646
+Name^رضا علیزاده
+Phone^66165265
+Fax^66005717
+E-Mail^r.alizadeh@sharif.edu
+web^http://sharif.edu/~r.alizadeh//
+pic^https://mse.sharif.ir/o/adaptive-media/image/15378064/Preview-1000x0/IMG_0657_3.jpg?t=1695108248992
 #
-Name^امیر مردانی
-Phone^021 66168148
-Fax^021 66022731
-E-Mail^amardani@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604496/22.png/c8261cf1-fcd1-af0d-cec1-d754a5cd6dd6?t=1646204743560
+Name^محمد قربانی
+Phone^66165219
+Fax^66005717
+E-Mail^ghorbani@sharif.edu
+web^http://sharif.edu/~ghorbani//
+pic^https://mse.sharif.ir/documents/1230738/0/ghorbani.jpg/16181a46-aecd-54e1-3b07-9bc7d08d824d?t=1646634149491
 #
-Name^عباس ابراهیمی
-Phone^021 66168153
-Fax^ +982166022731
-E-Mail^ebrahimi_a@sharif.ir
-pic^https://www.sharif.ir/documents/1247452/3604520/23.png/f777d375-3ce2-7ffd-f4be-e21482d53790?t=1646204801222
+Name^محسن کاظمی نژاد
+Phone^66165227
+Fax^66005717
+E-Mail^mkazemi@sharif.edu
+web^http://sharif.edu/~mkazemi//
+pic^https://mse.sharif.ir/documents/1230738/0/kazeminejhad.jpg/a825ff1b-47e4-a674-1b36-7b1b430dd1fb?t=1646634149437
 #
-Name^آزاده کبریایی
-Phone^021 6616 8162
-Fax^021 6602 2731
-E-Mail^kebriaee@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604544/24.png/09733727-a1c1-1b56-d5b2-fd9c3f213d6f?t=1646204882214
+Name^مصطفی کرمی
+Phone^66165293
+Fax^66005717
+E-Mail^mkarami@sharif.edu
+web^http://sharif.edu/~mkarami//
+pic^https://mse.sharif.ir/documents/1230738/0/Image_Karami.jpg/2359ec16-2ac8-0a60-5b13-058c32de0bcb?t=1695199460992
 #
-Name^حسین محمدنوازی
-Phone^021 66168175
-Fax^ +982166022731
-E-Mail^navazi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604578/25.png/c3b02b63-7df3-8aea-4748-7d320d2d7357?t=1646204930064
+Name^علی کریمی طاهری
+Phone^66165220
+Fax^66005717
+E-Mail^ktaheri@sharif.edu
+web^http://sharif.edu/~ktaheri//
+pic^https://mse.sharif.ir/documents/1230738/0/taheri+%281%29.jpg/520dff10-b71a-783a-bd81-90b186a46428?t=1637049737554
 #
-Name^محمدمهدی صالحی
-Phone^021 66168146
-Fax^021 6602 2173
-E-Mail^mmsalehi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604713/27.png/b864e118-37e8-8b50-0796-fd52023f214a?t=1646205069700
+Name^امیرحسین کوکبی
+Phone^66165214
+Fax^66005717
+E-Mail^kokabi@sharif.edu
+web^http://sharif.edu/~kokabi//
+pic^https://mse.sharif.ir/documents/1230738/0/kokabi.jpg/c76b1ebb-759d-7afa-c13a-6babb05deac3?t=1646634149378
 #
-Name^مریم کیانی
-Phone^021 6616 8144
-Fax^021 66022731
-E-Mail^kiani(atsing)sharif.edu
-pic^https://www.sharif.ir/documents/1247452/3604689/26.png/cbb91c90-a2a4-2ee1-c03d-c95c7401ea04?t=1646204991986
+Name^محمدرضا محمدی
+Phone^66165211
+Fax^66005717
+E-Mail^mohammadi@sharif.edu
+web^http://sharif.edu/~mohammadi//
+pic^https://mse.sharif.ir/documents/1230738/0/Mohammadreza.jpg/d305b446-602c-4568-0f7e-24d068d3ee38?t=1646634149233
 #
-Name^سیدعلی امامی خوانساری
-Phone^066168115
-Fax^021 6602 2731
-E-Mail^ar.sharifi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/17936672/Screenshot+2023-12-10+091308.png/be9e57b8-4cca-b128-d5e7-85e325df91e8?t=1702186646767
+Name^سیدحمیدرضا مداح حسینی
+Phone^66165258
+Fax^66005717
+E-Mail^madaah@sharif.edu
+web^http://sharif.edu/~madaah//
+pic^https://mse.sharif.ir/documents/1230738/0/maddah.jpg/e408957a-ce80-b2a5-0777-0798a18d1afe?t=1646634149312
 #
-Name^علیرضا شریفی
-Phone^066168115
-Fax^021 6602 2731
-E-Mail^ar.sharifi@sharif.edu
-pic^https://www.sharif.ir/documents/1247452/17936703/Screenshot+2023-12-10+091546.png/383f8c53-7913-745e-901a-b86b901455c9?t=1702186762112
+Name^آدرینه ملک خاچاطوریان
+Phone^66165203
+Fax^66005717
+E-Mail^khachatourian@sharif.edu
+web^http://sharif.edu/~khachatourian//
+pic^https://mse.sharif.ir/documents/1246594/15377437/New+Photo.jpg/29ea29aa-2a71-5dbb-10f0-83ce211d6a86?t=1695107905821
 #
-Name^سیدحسن موُمنی ماسوله
-Phone^ 02166168101
-E-Mail^momeni@sharif.edu
-pic^https://www.aero.sharif.ir/o/shu-theme/images/default-image.jpg
+Name^مجتبی موحدی
+Phone^66165224
+Fax^66005717
+E-Mail^m_movahedi@sharif.edu
+web^http://sharif.edu/~m_movahedi//
+pic^https://mse.sharif.ir/documents/1230738/0/movahedi.jpg/77057b72-3aaf-924b-1746-278e29fe942f?t=1646634149146
+#
+Name^علی نعمتی
+Phone^66165223
+Fax^66005717
+E-Mail^nemati@sharif.edu
+web^http://sharif.edu/~nemati//
+pic^https://mse.sharif.ir/documents/1230738/0/Nemati.jpg/326bdd34-582f-ac5b-ed8b-fb6b396f1c2b?t=1646634149066
+#
+Name^ناصر ورهرام
+Phone^66164685
+Fax^66005717
+E-Mail^naserv@sharif.edu
+web^http://sharif.edu/~naserv//
+pic^https://mse.sharif.ir/documents/1230738/0/varahram+%281%29.jpg/a1b63519-e7e2-3120-d49d-bcaf065d9b94?t=1637049944338
+#
+Name^حسین یوزباشی زاده
+Phone^66165228
+Fax^66005717
+E-Mail^yoozbashi@sharif.edu
+web^http://sharif.edu/~yoozbashi//
+pic^https://mse.sharif.ir/documents/1230738/0/yozbashi+%281%29.jpg/0169fc49-1560-ca7b-9d61-70f32f9eebd5?t=1637050139603
 %
