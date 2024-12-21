@@ -68,8 +68,10 @@ def people(message):
                 department_secondary_data = secondary_data.get(department, [])
                 for secondary_person in department_secondary_data:
                     if secondary_person.get('ID') == person_id:
-                        info_str = "\n".join([f"`{key}`: `{value}`" for key, value in secondary_person.items() if key != 'pic' and key != 'ID'])
-                        info_str += "\nDepartment: "
+                        info_str = "\n".join([f"*{key}*: `{value}`" for key, value in secondary_person.items() if key != 'pic' and key != 'ID' and key != 'web'])
+                        if 'web' in secondary_person:
+                            info_str += '\n*personal page*: ' + f"[link]({secondary_person['web']})"
+                        info_str += "\n*Department*: "
                         info_str += person['Department']
                         bot.send_photo(message.chat.id, secondary_person.get('pic'), info_str, parse_mode="markdown")
                         break
@@ -113,8 +115,10 @@ def callback_handler(call):
                 department_secondary_data = secondary_data.get(department, [])
                 for secondary_person in department_secondary_data:
                     if secondary_person.get('ID') == person_id:
-                        info_str = "\n".join([f"`{key}`: `{value}`" for key, value in secondary_person.items() if key != 'pic' and key != 'ID'])
-                        info_str += "\nDepartment: "
+                        info_str = "\n".join([f"*{key}*: `{value}`" for key, value in secondary_person.items() if key != 'pic' and key != 'ID' and key != 'web'])
+                        if 'web' in secondary_person:
+                            info_str += '\n*personal page*: ' + f"[link]({secondary_person['web']})"
+                        info_str += "\n*Department*: "
                         info_str += person['Department']
                         bot.send_photo(call.message.chat.id, secondary_person.get('pic'), info_str, parse_mode="markdown")
                         break
