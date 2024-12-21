@@ -5153,5 +5153,63 @@
         "ID": 26030,
         "Position": "Faculty"
       }
+    ],
+    "27000": [
+      {
+        "Name": "رضا یوسفی",
+        "Phone": "02166166251",
+        "Fax": "02166005418",
+        "E-Mail": "yusefi@sharif.edu",
+        "web": "http://sharif.ir/~yusefi",
+        "pic": "http://ctw.sharif.ir/wp-content/uploads/2019/04/2.jpg",
+        "ID": 27001,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "صیاد نصیری",
+        "Phone": "02166166263",
+        "Fax": "021660025418",
+        "E-Mail": "nasiri@sharif.edu",
+        "web": "http://sharif.ir/~nasiri",
+        "pic": "http://ctw.sharif.ir/wp-content/uploads/2019/04/3.jpg",
+        "ID": 27002,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "مهدی متقی پور",
+        "Phone": "02166164825",
+        "Fax": "02166029174",
+        "E-Mail": "mmottaghi@sharif.edu",
+        "web": "http://sharif.ir/~mmottaghi",
+        "pic": "http://ctw.sharif.ir/wp-content/uploads/2019/04/71235960_410745206299029_7516274243529605120_n.jpg",
+        "ID": 27003,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "حمید حق شناس",
+        "Phone": "02166164823",
+        "E-Mail": "h_haghshenas@sharif.edu",
+        "pic": "http://ctw.sharif.ir/wp-content/uploads/2019/04/haghshenas.png",
+        "ID": 27004,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "سیما برومند",
+        "Phone": "02166164826",
+        "E-Mail": "Boroumand@sharif.ir",
+        "pic": "http://ctw.sharif.ir/wp-content/uploads/2019/04/index.jpg",
+        "ID": 27005,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "علیرضا جهانتیغ پاک",
+        "Phone": "02166164821",
+        "Fax": "02166029174",
+        "E-Mail": "jahantigh@sharif.ir",
+        "web": "http://sharif.ir/~jahantigh",
+        "pic": "http://ctw.sharif.ir/wp-content/uploads/2019/04/aks.jpg",
+        "ID": 27006,
+        "Position": "Faculty"
+      }
     ]
   }
