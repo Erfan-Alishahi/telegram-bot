@@ -1,284 +1,178 @@
-Name^محمد مهدی احمدی
-E-Mail^mmahmadi@sharif.edu
-Room^402
-Phone^02166164220
-web^http://sharif.edu/~mmahmadi/
-pic^https://civil.sharif.ir/documents/1230716/0/ahmadi1.jpg/d4c84ce0-2aa0-ce0e-365f-5ea66969361d?t=1648552465066&download=true
+Name^سید شهاب الدین آیت اللهی
+Phone^02166166405
+E-Mail^shahab[at]sharif.edu
+web^https://che.sharif.edu/~cheweb/index.php?Service=profile&Task=SHOW&Item=ayatollahi
+pic^https://www.che.sharif.ir/documents/1230695/3330381/Shahab-Pic-New-H.jpg/33741f11-a21b-0f6a-5632-d312b46cb913?t=1649743512237
 #
-Name^علی پاک
-E-Mail^pak@sharif.edu
-Room^402
-Phone^02166164225
-Fax^02166014828
-web^http://sharif.edu/~pak/
-pic^https://civil.sharif.ir/documents/1230716/0/pak-photo3.jpg/7bae99fd-ff52-318a-0a4a-7e971807cb47?t=1648551603404&download=true
+Name^محمـّد بازارگان
+Phone^02166166421
+E-Mail^mbazargan[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=bazargan
+pic^https://www.che.sharif.ir/documents/1230695/3330381/s.png/00bcaa0f-03f7-9335-d628-bf5a2084de1f?t=1644322124322
 #
-Name^فردین جعفرزاده
-E-Mail^fardin@sharif.edu
-Room^404
-Phone^02166164226
-pic^https://civil.sharif.ir/documents/1230716/0/12+%281%29.jpg/1eb9b94f-5a99-3514-ceea-56eed850bb2e?t=1634409331827&download=true
+Name^رامین بزرگمهری بوذرجمهری
+Phone^02166166445
+E-Mail^rbozorgmehry@sharif.edu
+web^http://sina.sharif.edu/~rbozorgmehry
+pic^https://www.che.sharif.ir/o/adaptive-media/image/3330810/Preview-1000x0/bozorg1.jpg?t=1652677218736
 #
-Name^سید محسن حائری
-E-Mail^smhaeri@sharif.edu
-Room^407
-Phone^02166164230
-web^http://sina.sharif.edu/~smhaeri/
-pic^https://civil.sharif.ir/documents/1230716/0/index.001.jpg/693e5c38-a8f2-6000-e088-27e8f01fa1d4?t=1648554000815&download=true
+Name^سید محمودرضا پیشوایی
+Phone^02166166429
+E-Mail^pishvaie[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=pishvaie
+pic^https://www.che.sharif.ir/documents/1230695/3330381/pishvaee.jpg/86bbdce4-ea77-dbf9-0a60-b74800825cb1?t=1650181014739
 #
-Name^حامد صادقی
-E-Mail^hsadeghi@sharif.edu
-Room^517
-Phone^02166164208
-web^http://sharif.edu/~hsadeghi/
-pic^https://civil.sharif.ir/documents/1230716/0/Hamed_Sadeghi.png/ab389d4f-1432-c61e-7686-6862b3252ecf?t=1648554710365&download=true
+Name^وحید تقی خانی
+Phone^02166166417
+E-Mail^taghikhani[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=taghikhani
+pic^https://www.che.sharif.ir/documents/1230695/3330381/taghi.jpg/1fe0c78c-9a90-a476-9dcc-d8461f993e61?t=1651295871265
 #
-Name^محمد حسین صدقیانی
-E-Mail^mhsadagh@sharif.edu
-Room^405
-Phone^02166164228
-web^http://sharif.edu/~hsadeghi/
-pic^https://civil.sharif.ir/documents/1230716/0/21+%281%29.jpg/cce7089c-608d-3002-66be-9f8a76674448?t=1641671743529&download=true
+Name^سعید جمشیدی
+Phone^02166166412
+E-Mail^jamshidi@sharif.edu
+web^http://sharif.ir/~jamshidi/index.html
+pic^https://www.che.sharif.ir/documents/1230695/3330381/Jamshidi.jpg/f1ae84cf-5987-be93-3dd1-6df68c02f709?t=1651387474591
 #
-Name^مرتضی رجبی گل
-E-Mail^rajabigol@sharif.edu
-Room^509
-Phone^02166164255
-web^http://sina.sharif.edu/~rajabigol
-pic^https://civil.sharif.ir/documents/1230716/0/photo_2024-09-24_15-40-52.jpg/85aadb20-c63c-84b1-820e-c96955a3d522?t=1727178986737&download=true
+Name^طیبه حمزه لوئیان
+Phone^02166165414
+E-Mail^thamzehlouyan[at]sharif.edu
+web^https://che.sharif.edu/~cheweb/index.php?Service=profile&Task=SHOW&Item=hamzelouyan
+pic^https://www.che.sharif.ir/o/adaptive-media/image/3332875/Preview-1000x0/Hamzehlouyan_personeli3.4-500KB.jpg?t=1649742990508
 #
-Name^مسعود آقامحمدحسین تجریشی
-E-Mail^tajrishy@sharif.edu
-Room^424
-Phone^02166164185 / 02166036016
-web^https://civil.sharif.ir/documents/1230716/1517123/Cv.+Tajrishi-1401-03-10-%D8%B3%D8%A7%DB%8C%D8%AA+%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87.pdf/6b5bca74-bf0c-1d55-0db6-d1e6aa118a51?t=1653994055695&download=true
-pic^https://civil.sharif.ir/documents/1230716/0/aHR0cHM6Ly9zdGF0aWMxLmlsbmFuZXdzLmNvbS90aHVtYm5haWwvaWNMR1ZSOGgxbGhNL3pEMmx5OTUxTGJlMVg0dkJYbWVZeG53dkJLZDJvLXVwQ0JvUnB1WFdXUTN4VllJd0J0RThTSmM1Q2dHOHcxU1IxSGhhZUhQY1dlN1o0UVF4d1E1YUNmaTZkVGJYeVIyZHZ6TkExQ.jpg/842a1133-6c7f-e690-4d43-6e184377dfcf?t=1648797079857&download=true
+Name^فرهاد خراشه
+Phone^02166165411
+E-Mail^khorashe[at]sharif.edu
+web^https://che.sharif.edu/~cheweb/index.php?Service=profile&Task=SHOW&Item=khorashe
+pic^https://www.che.sharif.ir/documents/1230695/3330381/%D9%82%D9%84s.jpg/e3840a7c-b429-a3da-fbb5-2072891787d5?t=1650966888172
 #
-Name^میرمصدق جمالی
-E-Mail^jamali@sharif.edu
-Room^411
-Phone^02166164215
-web^http://sharif.edu/~jamali/
-pic^https://civil.sharif.ir/documents/1230716/0/image002.jpg/058c3ad5-a0c3-5c7c-a775-bce3e605b2b3?t=1648560344991&download=true
+Name^داود رشتچیان
+Phone^02166165050
+E-Mail^rashtchian@sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=rashtchian
+pic^https://www.che.sharif.ir/documents/1230695/3330381/rasht.jpg/5ff70aa0-9bf0-50b6-9abe-4279d989812b?t=1650966769768
 #
-Name^فرخنده خراشادی زاده
-E-Mail^khorashadi@sharif.edu
-Room^418
-Phone^02166164286
-web^http://sharif.edu/~khorashadi/
-pic^https://civil.sharif.ir/documents/1230716/1517123/%D9%81%D8%B1%D8%AE%D9%86%D8%AF%D9%87+%D8%AE%D8%B1%D8%A7%D8%B4%D8%A7%D8%AF%DB%8C+%D8%B2%D8%A7%D8%AF%D9%87.jpg/77d033a6-6f37-f5be-ef28-f1192e33deb1?t=1667735878885&download=true
+Name^احمد رمضانی سعادت آبادی
+Phone^02166165431
+E-Mail^ramazani[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=ramazani
+pic^https://www.che.sharif.ir/documents/1230695/3330381/s%D9%82%D8%AB.gif/d82adc74-218e-e6b8-83f8-8be41298a7fc?t=1644322124830
 #
-Name^محمد دانش یزدی
-E-Mail^danesh@sharif.edu
-Room^425
-Phone^02166164241
-web^http://sharif.edu/~danesh
-pic^https://civil.sharif.ir/documents/1230716/0/%D9%85%D8%AD%D9%85%D8%AF+%D8%AF%D8%A7%D9%86%D8%B4+%DB%8C%D8%B2%D8%AF%DB%8C.jpg/2116a776-531a-9940-8fbd-5c3c28004a21?t=1649847908339&download=true
+Name^مریم سعادتمند
+Phone^02166166466
+E-Mail^m.saadatmand[at]sharif.edu
+web^http://che.sharif.edu/~mnbslab/index.html
+pic^https://www.che.sharif.ir/documents/1230695/3330381/s%D8%AA%D8%BA.jpg/9d4acf8a-4d3b-b7cc-5858-eaedd3d652fd?t=1644322124957
 #
-Name^محمد راعی
-E-Mail^raie@sharif.edu
-Room^415
-Phone^02166164203
-web^http://sina.sharif.edu/~raie/
-pic^https://civil.sharif.ir/documents/1230716/0/personal+%287%29.png/89b674ef-211c-855b-1a14-f185b317d16f?t=1648561164687&download=true
+Name^اکبر شجاعی
+Phone^02166166432
+E-Mail^akbar.shojaei[at]sharif.edu
+web^http://che.sharif.edu/~pcrg/
+pic^https://www.che.sharif.ir/documents/1230695/3330381/Shojaei.jpg/eb019d67-6a1a-3502-3ab3-3736610242f8?t=1654064694778
 #
-Name^رضی شیخ الاسلامی
-E-Mail^razi.sheikholeslami@sharif.edu
-Room^503
-Phone^02166164236
-web^http://sina.sharif.edu/~razi.sheikholeslami/index.html
-pic^https://civil.sharif.ir/documents/1230716/4357146/photo_color.jpg/28c01a8a-ceca-262a-c6ba-078a1c88b5e6?t=1697541612167&download=true
+Name^هانیه صفری
+E-Mail^hanieh.safari[at]sharif.edu
+pic^https://www.che.sharif.ir/documents/1230695/7421653/safari.jpg/b8757d82-833d-7017-03d1-12af2114c262?t=1671948416884
 #
-Name^عمار صفایی
-E-Mail^asafaie@sharif.edu
-Room^409
-Phone^02166164232
-web^http://sharif.edu/~asafaie
-pic^https://civil.sharif.ir/documents/1230716/0/personal+%286%29.png/ed165cb8-0878-6460-20c3-9aa949341e70?t=1648560890012&download=true
+Name^محمد جعفر عبدخدایی
+Phone^02166165421
+E-Mail^abdmj[at]sharif.edu
+web^http://che.sharif.edu/~abdlab/
+pic^http://che.sharif.edu/~abdlab/wp-content/uploads/2019/03/abdekhodaie.jpg
 #
-Name^ساناز مقیم
-E-Mail^moghim@sharif.edu
-Room^518
-Phone^02166164216
-pic^https://civil.sharif.ir/documents/1230716/0/%D9%85%D9%82%DB%8C%D9%85+%281%29.jpg/7b83e5cb-dedb-4e88-6ce0-064ff3480e48?t=1648797282557&download=true
+Name^حسین عسکری پور
+Phone^02166164104
+E-Mail^h_askaripour[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=h_askaripour
+pic^https://www.che.sharif.ir/o/adaptive-media/image/4056510/Preview-1000x0/Hossein+Askaripour.jpg?t=1650260034525
 #
-Name^علی بخشی
-E-Mail^bakhshi@sharif.edu
-Phone^02166164243
-Fax^02166014828
-web^http://sharif.edu/~bakhshi/
-pic^https://civil.sharif.ir/documents/1230716/0/img-profile+%282%29.jpg/e7bf7c90-eaed-d03a-318a-897a9852bdd2?t=1648799320135&download=true
+Name^سعید عینی
+Phone^02166166418
+E-Mail^saeed.eini[at]sharif.edu
+web^http://che.sharif.edu/~proset
+pic^https://www.che.sharif.ir/documents/1242314/4000454/eini.jpg/4e19149f-90dc-d449-4892-82c946f2096e?t=1649830185280
 #
-Name^فیاض رحیم زاده رفوئی
-E-Mail^rofooei@sharif.edu
-Room^410
-Phone^02166164233
-Fax^02166164233
-web^http://sina.sharif.ir/~rofooei/
-pic^https://civil.sharif.ir/documents/1230716/1501663/%D8%B1%D8%AD%DB%8C%D9%85.jpg/7e8da898-3daa-ff6d-6741-d6e9a357dd4b?t=1630481022214&download=true
+Name^محمد حسین غضنفری
+Phone^02166166413
+E-Mail^ghazanfari[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=ghazanfari
+pic^https://www.che.sharif.ir/documents/1230695/3330381/ghazanfari.jpg/3d3b65d3-9096-c127-7b33-6d97f9826644?t=1674992101138
 #
-Name^کیارش محتشم دولتشاهی
-E-Mail^dolatshahi@sharif.edu
-Room^515
-Phone^02166164219 
-web^http://sina.sharif.edu/~dolatshahi/
-pic^https://civil.sharif.ir/documents/1230716/0/KiarashDolatshahi+%281%29.jpg/8a299928-ebea-56cf-4cee-90c009542223?t=1648799402559&download=true
+Name^سید مبین فاطمی
+Phone^02166166409
+E-Mail^fatemi[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=fatemi
+pic^https://www.che.sharif.ir/documents/1230695/3330381/fatemi1.jpg/4f394065-aa81-ba27-99eb-706917beb393?t=1650261270898
 #
-Name^مجتبی محصولی
-E-Mail^mahsuli@sharif.edu
-Room^511
-Phone^02166164217
-web^http://sharif.edu/~mahsuli/
-pic^https://civil.sharif.ir/documents/1230716/0/mojtaba_mahsuli+%281%29.jpg/79a5c6a0-a94a-a30e-fb97-bcad409d0e3c?t=1648799337989&download=true
+Name^فرزام فتوت
+Phone^02166166431
+E-Mail^fotovat[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=fotovat
+pic^https://www.che.sharif.ir/documents/1230695/3330381/yhs.jpg/3909bcca-1668-908c-866d-f0e2fc800789?t=1644322125629
 #
-Name^حسن مقدم
-E-Mail^moghadam@sharif.edu
-Room^412
-Phone^02166164235
-web^http://sina.sharif.edu/~moghadam/
-pic^https://civil.sharif.ir/documents/1230716/0/%D8%AD%D8%B3%D9%86+%D9%85%D9%82%D8%AF%D9%85.jpg/df500db9-8dea-7cd6-47b2-c16b31f59ed5?t=1649848578032&download=true
+Name^مسعود فرونچی
+Phone^02166165422
+E-Mail^frounchi[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=frounchi
+pic^https://www.che.sharif.ir/o/adaptive-media/image/3330934/Preview-1000x0/forunchi.jpeg.jpg?t=1653111982932
 #
-Name^همایون اسمعیل پوراستکانچی
-E-Mail^stkanchi@sharif.edu
-Room^507
-Phone^02166164212
-Fax^02166014828
-web^http://sharif.edu/~stkanchi/
-pic^https://civil.sharif.ir/documents/1230716/0/estekanchi+%282%29.jpg/205575f9-6c35-2d23-f874-2d5140b0b609?t=1648809998120&download=true
+Name^سیروس قطبی
+Phone^02166165405
+E-Mail^ghotbi[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=ghotbi
+pic^https://www.che.sharif.ir/o/adaptive-media/image/4420196/Preview-1000x0/ghotbi.jpg?t=1652596567394
 #
-Name^وهب توفیق
-E-Mail^toufigh@sharif.edu
-Room^428
-Phone^02166164231
-Fax^02166014828
-web^http://sharif.edu/~toufigh/
-pic^https://civil.sharif.ir/documents/1230716/0/Dr.Toufigh+%282%29.jpg/41490010-d0b2-83ae-a464-033b53e6fbf8?t=1648810101491&download=true
+Name^محمد کاظمینی
+Phone^02166165425
+E-Mail^kazemini[at]sharif.edu
+web^https://che.sharif.edu/~cheweb/index.php?Service=profile&Task=SHOW&Item=kazemini
+pic^https://www.che.sharif.ir/o/adaptive-media/image/3335946/Preview-1000x0/kazemeini.jpg?t=1650258240389
 #
-Name^علیرضا خالو
-E-Mail^khaloo@sharif.edu
-Room^513
-Phone^02166164211
-web^http://sharif.ir/~khaloo/
-pic^https://civil.sharif.ir/documents/1230716/0/ARKhaloo+%281%29.jpg/c704632e-5580-15af-b831-b006d560b1ba?t=1648810226541&download=true
+Name^حسن ماهانی
+Phone^02166165418
+E-Mail^hmahani[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=mahani
+pic^https://www.che.sharif.ir/documents/1230695/3330381/Male+avatar+user.png.jpg/49920138-622d-8b52-6015-70deb0289f38?t=1650179237514
 #
-Name^وحید خوانساری
-E-Mail^khonsari@sharif.edu
-Room^505
-Phone^02166164213
-web^http://sharif.edu/~khonsari/
-pic^https://civil.sharif.ir/documents/1230716/0/download+%2855%29.jpg/2297f07a-4101-479b-e7de-29d58c8cd836?t=1648809816918&download=true
+Name^علی اصغر محمدی
+Phone^02166165410
+E-Mail^amohammadi[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=amohammadi
+pic^https://www.che.sharif.ir/documents/1230695/3330381/dys.jpg/bc4360d6-0bd8-1a2d-e3e5-9363faa66f4a?t=1644322123704
 #
-Name^امیررضا خوئی
-E-Mail^arkhoei@sharif.edu
-Room^430
-Phone^02166164277
-Fax^02166014228
-web^http://sharif.edu/~arkhoei/
-pic^https://civil.sharif.ir/documents/1230716/0/khoei+5+%281%29.jpg/a540a90d-962a-23a6-e130-76f2914caed1?t=1648810116746&download=true
+Name^محسن مسیحی
+Phone^02166166425
+E-Mail^masihi[at]sharif.edu
+web^http://sharif.edu/~masihi/
+pic^https://www.che.sharif.ir/o/adaptive-media/image/3331111/Preview-1000x0/masihi.jpg?t=1650179423504
 #
-Name^محمد علی فیوضات
-E-Mail^m.foyouzat@sharif.edu
-Room^514
-Phone^02166164275
-web^http://sina.sharif.ir/~m.foyouzat/
-pic^https://civil.sharif.ir/documents/1230716/0/%D8%B9%DA%A9%D8%B3.jpg/1d255b62-638c-37fa-8d40-4c1f52c31528?t=1650088343223&download=true
+Name^شهره مشایخان
+Phone^02166166414
+E-Mail^mashayekhan[at]sharif.edu
+web^http://sharif.edu/~mashayekhan/
+pic^https://www.che.sharif.ir/o/adaptive-media/image/3331131/Preview-1000x0/Mashayekhan.jpg?t=1650258735051
 #
-Name^محسن قائمیان
-E-Mail^ghaemian@sharif.edu
-Room^421
-Phone^02166164242
-pic^https://civil.sharif.ir/documents/1230716/0/4568.jpg/bb2d7a9f-d95d-c63c-6b98-7096bd100c60?t=1648810131250&download=true
+Name^سید عباس موسوی
+Phone^02166166427
+E-Mail^Musavi[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=mousavi
+pic^https://www.che.sharif.ir/documents/1230695/7265049/mosavi.jpg/6fe88dc0-a18e-ff7d-b908-01410c7fa628?t=1671949287906
 #
-Name^حسین محمدی شجاع
-E-Mail^shodja@sharif.edu
-Room^421
-Phone^02166164209
-Fax^02166072555
-web^http://sharif.edu/~shodja/
-pic^https://civil.sharif.ir/documents/1230716/0/%D8%AF%DA%A9%D8%AA%D8%B1+%D8%AD%D8%B3%DB%8C%D9%86+%D9%85%D8%AD%D9%85%D8%AF%DB%8C%E2%80%8C%D8%B4%D8%AC%D8%A7%D8%B9.jpg/1391ca00-063f-3b8c-e937-f1c79a32214a?t=1649848409695&download=true
+Name^اصغر مولایی دهکردی
+Phone^02166165412
+E-Mail^amolaeid[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=molaei
+pic^https://www.che.sharif.ir/documents/1230695/3330381/syj.jpg/61ab7989-9309-f9a0-4ccd-cfc6eb729783?t=1644322121187
 #
-Name^علیرضا معززی مهر طهران
-E-Mail^a.moazezi@sharif.edu
-Room^432
-Phone^02166164252
-web^http://sina.sharif.edu/~a.moazezi/
-pic^https://civil.sharif.ir/documents/1230716/0/pic-low+%281%29.png/12818c4d-13b7-baa9-4bce-896d0dd44f04?t=1648809984697&download=true
+Name^احسان وفا
+Phone^02166165469
+E-Mail^e.vafa[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=vafa
+pic^https://www.che.sharif.ir/o/adaptive-media/image/3330890/Preview-1000x0/vafa.jpg?t=1650260603949
 #
-Name^مسعود مفید
-E-Mail^mofid@sharif.edu
-Room^516
-Phone^02166164214
-pic^https://civil.sharif.ir/documents/1230716/0/%D8%AF%DA%A9%D8%AA%D8%B1+%D9%85%D8%B3%D8%B9%D9%88%D8%AF+%D9%85%D9%81%DB%8C%D8%AF.jpg/fffbcbdf-8993-36a6-a210-5760f877b2ad?t=1649848213105&download=true
-#
-Name^شروین ملکی
-E-Mail^smaleki@sharif.edu
-Room^506
-Phone^02166164294
-web^http://sharif.ir/~smaleki/
-pic^https://civil.sharif.ir/documents/1230716/0/personal+%289%29.png/2b59a022-9ccf-33d7-179f-27be35edaf64?t=1648809972856&download=true
-#
-Name^زهرا امینی
-E-Mail^zahra.amini@sharif.edu
-Room^522
-Phone^02166164203
-Fax^02166014828
-web^http://sharif.edu/~zahra.amini/
-pic^https://civil.sharif.ir/documents/1230716/0/personal+%288%29.png/9977ec57-45a0-0e52-7968-144bf2e0c4dd?t=1648805781293&download=true
-#
-Name^یوسف شفاهی
-E-Mail^shafahi@sharif.edu
-Room^426
-Phone^02166164246
-web^http://sharif.edu/~shafahi/
-pic^https://civil.sharif.ir/documents/1230716/0/drshafahi.jpg/cb80158e-2b2c-de78-c116-1b90a99efaae?t=1648806073700&download=true
-#
-Name^محمدرضا صبوری
-E-Mail^sabouri@sharif.edu
-Room^525
-Phone^02166164247
-web^http://sina.sharif.edu/~sabouri/
-pic^https://civil.sharif.ir/documents/1230716/0/download+%2853%29.jpg/6ad2a27f-d79b-6133-831e-72f60ec15856?t=1648806016382&download=true
-#
-Name^امیر صمیمی
-E-Mail^asamimi@sharif.edu
-web^http://sina.sharif.edu/~asamimi/
-pic^https://civil.sharif.ir/documents/1230716/0/download+%2852%29.jpg/04f87395-47a2-ea31-32e3-65a18da56dce?t=1648805983022&download=true
-#
-Name^نادر طباطبائی
-E-Mail^nader@sharif.edu
-Room^416
-Phone^02166164239 / 02166164181
-web^http://sharif.ir/~nader/
-pic^https://civil.sharif.ir/documents/1230716/0/tabatabaee+%281%29.gif/ef263eda-2d35-536d-122d-4de0aadc490d?t=1648805761171&download=true
-#
-Name^امیرحسن کرمانشاه
-E-Mail^kermanshah@sharif.edu
-pic^https://civil.sharif.ir/documents/1230716/0/%DA%A9%D8%B1%D9%85%D8%A7+%281%29.jpg/b043ec11-76cb-5430-41aa-4af2a5dba38d?t=1648805907739&download=true
-#
-Name^امین الوانچی
-E-Mail^alvanchi@sharif.edu
-Room^427
-Phone^02166164221
-Fax^02166014828
-web^http://sharif.edu/~alvanchi/index.html
-pic^https://civil.sharif.ir/documents/1230716/0/Alvanchi_Personal_2.jpg/3eaa2d51-28b5-42e5-7631-ed2aeef12d3a?t=1649844924502&download=true
-#
-Name^حامد کاشانی
-E-Mail^hamed.kashani@sharif.edu
-Room^512
-Phone^02166164245
-web^http://sina.sharif.edu/~hamed.kashani/
-pic^https://civil.sharif.ir/documents/1230716/0/%D8%AD%D8%A7%D9%85%D8%AF+%DA%A9%D8%A7%D8%B4%D8%A7%D9%86%DB%8C.jpeg/1244411b-0876-770e-8831-0198a70546f0?t=1649847810301&download=true
-#
-Name^محمدمهدی مرتهب
-E-Mail^mortaheb@sharif.edu
-Room^517
-Phone^02166014255
-pic^https://civil.sharif.ir/documents/1230716/0/%D9%85%D8%AD%D9%85%D8%AF%D9%85%D9%87%D8%AF%DB%8C+%D9%85%D8%B1%D8%AA%D9%87%D8%A8.jpg/b6273c85-0472-315d-e2c3-51fb8d774257?t=1649850337012&download=true
-#
-Name^محمد رضا حیدری
-E-Mail^mrz.heidari@sharif.edu
-Room^417
-Phone^02166164240
-pic^https://civil.sharif.ir/documents/1230716/0/Screenshot+From+2024-11-03+19-17-40.png/f566a5cd-2fac-7a07-bd3b-036d927a32ed?t=1730647931196&download=true
+Name^سهیلا یغمایی
+Phone^02166166430
+E-Mail^yaghmaei[at]sharif.edu
+web^http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=yaghmaei
+pic^https://www.che.sharif.ir/documents/1230695/3330381/yaghmaee.jpg/ed74b8cc-a8d8-ff48-37f7-5bedba36d10b?t=1653724128894
 %

@@ -4883,5 +4883,275 @@
         "ID": 25041,
         "Position": "Faculty"
       }
+    ],
+    "26000": [
+      {
+        "Name": "سید شهاب الدین آیت اللهی",
+        "Phone": "02166166405",
+        "E-Mail": "shahab[at]sharif.edu",
+        "web": "https://che.sharif.edu/~cheweb/index.php?Service=profile&Task=SHOW&Item=ayatollahi",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/Shahab-Pic-New-H.jpg/33741f11-a21b-0f6a-5632-d312b46cb913?t=1649743512237",
+        "ID": 26001,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "محمـّد بازارگان",
+        "Phone": "02166166421",
+        "E-Mail": "mbazargan[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=bazargan",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/s.png/00bcaa0f-03f7-9335-d628-bf5a2084de1f?t=1644322124322",
+        "ID": 26002,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "رامین بزرگمهری بوذرجمهری",
+        "Phone": "02166166445",
+        "E-Mail": "rbozorgmehry@sharif.edu",
+        "web": "http://sina.sharif.edu/~rbozorgmehry",
+        "pic": "https://www.che.sharif.ir/o/adaptive-media/image/3330810/Preview-1000x0/bozorg1.jpg?t=1652677218736",
+        "ID": 26003,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "سید محمودرضا پیشوایی",
+        "Phone": "02166166429",
+        "E-Mail": "pishvaie[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=pishvaie",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/pishvaee.jpg/86bbdce4-ea77-dbf9-0a60-b74800825cb1?t=1650181014739",
+        "ID": 26004,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "وحید تقی خانی",
+        "Phone": "02166166417",
+        "E-Mail": "taghikhani[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=taghikhani",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/taghi.jpg/1fe0c78c-9a90-a476-9dcc-d8461f993e61?t=1651295871265",
+        "ID": 26005,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "سعید جمشیدی",
+        "Phone": "02166166412",
+        "E-Mail": "jamshidi@sharif.edu",
+        "web": "http://sharif.ir/~jamshidi/index.html",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/Jamshidi.jpg/f1ae84cf-5987-be93-3dd1-6df68c02f709?t=1651387474591",
+        "ID": 26006,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "طیبه حمزه لوئیان",
+        "Phone": "02166165414",
+        "E-Mail": "thamzehlouyan[at]sharif.edu",
+        "web": "https://che.sharif.edu/~cheweb/index.php?Service=profile&Task=SHOW&Item=hamzelouyan",
+        "pic": "https://www.che.sharif.ir/o/adaptive-media/image/3332875/Preview-1000x0/Hamzehlouyan_personeli3.4-500KB.jpg?t=1649742990508",
+        "ID": 26007,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "فرهاد خراشه",
+        "Phone": "02166165411",
+        "E-Mail": "khorashe[at]sharif.edu",
+        "web": "https://che.sharif.edu/~cheweb/index.php?Service=profile&Task=SHOW&Item=khorashe",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/%D9%82%D9%84s.jpg/e3840a7c-b429-a3da-fbb5-2072891787d5?t=1650966888172",
+        "ID": 26008,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "داود رشتچیان",
+        "Phone": "02166165050",
+        "E-Mail": "rashtchian@sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=rashtchian",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/rasht.jpg/5ff70aa0-9bf0-50b6-9abe-4279d989812b?t=1650966769768",
+        "ID": 26009,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "احمد رمضانی سعادت آبادی",
+        "Phone": "02166165431",
+        "E-Mail": "ramazani[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=ramazani",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/s%D9%82%D8%AB.gif/d82adc74-218e-e6b8-83f8-8be41298a7fc?t=1644322124830",
+        "ID": 26010,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "مریم سعادتمند",
+        "Phone": "02166166466",
+        "E-Mail": "m.saadatmand[at]sharif.edu",
+        "web": "http://che.sharif.edu/~mnbslab/index.html",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/s%D8%AA%D8%BA.jpg/9d4acf8a-4d3b-b7cc-5858-eaedd3d652fd?t=1644322124957",
+        "ID": 26011,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "اکبر شجاعی",
+        "Phone": "02166166432",
+        "E-Mail": "akbar.shojaei[at]sharif.edu",
+        "web": "http://che.sharif.edu/~pcrg/",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/Shojaei.jpg/eb019d67-6a1a-3502-3ab3-3736610242f8?t=1654064694778",
+        "ID": 26012,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "هانیه صفری",
+        "E-Mail": "hanieh.safari[at]sharif.edu",
+        "pic": "https://www.che.sharif.ir/documents/1230695/7421653/safari.jpg/b8757d82-833d-7017-03d1-12af2114c262?t=1671948416884",
+        "ID": 26013,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "محمد جعفر عبدخدایی",
+        "Phone": "02166165421",
+        "E-Mail": "abdmj[at]sharif.edu",
+        "web": "http://che.sharif.edu/~abdlab/",
+        "pic": "http://che.sharif.edu/~abdlab/wp-content/uploads/2019/03/abdekhodaie.jpg",
+        "ID": 26014,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "حسین عسکری پور",
+        "Phone": "02166164104",
+        "E-Mail": "h_askaripour[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=h_askaripour",
+        "pic": "https://www.che.sharif.ir/o/adaptive-media/image/4056510/Preview-1000x0/Hossein+Askaripour.jpg?t=1650260034525",
+        "ID": 26015,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "سعید عینی",
+        "Phone": "02166166418",
+        "E-Mail": "saeed.eini[at]sharif.edu",
+        "web": "http://che.sharif.edu/~proset",
+        "pic": "https://www.che.sharif.ir/documents/1242314/4000454/eini.jpg/4e19149f-90dc-d449-4892-82c946f2096e?t=1649830185280",
+        "ID": 26016,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "محمد حسین غضنفری",
+        "Phone": "02166166413",
+        "E-Mail": "ghazanfari[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=ghazanfari",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/ghazanfari.jpg/3d3b65d3-9096-c127-7b33-6d97f9826644?t=1674992101138",
+        "ID": 26017,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "سید مبین فاطمی",
+        "Phone": "02166166409",
+        "E-Mail": "fatemi[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=fatemi",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/fatemi1.jpg/4f394065-aa81-ba27-99eb-706917beb393?t=1650261270898",
+        "ID": 26018,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "فرزام فتوت",
+        "Phone": "02166166431",
+        "E-Mail": "fotovat[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=fotovat",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/yhs.jpg/3909bcca-1668-908c-866d-f0e2fc800789?t=1644322125629",
+        "ID": 26019,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "مسعود فرونچی",
+        "Phone": "02166165422",
+        "E-Mail": "frounchi[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=frounchi",
+        "pic": "https://www.che.sharif.ir/o/adaptive-media/image/3330934/Preview-1000x0/forunchi.jpeg.jpg?t=1653111982932",
+        "ID": 26020,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "سیروس قطبی",
+        "Phone": "02166165405",
+        "E-Mail": "ghotbi[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=ghotbi",
+        "pic": "https://www.che.sharif.ir/o/adaptive-media/image/4420196/Preview-1000x0/ghotbi.jpg?t=1652596567394",
+        "ID": 26021,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "محمد کاظمینی",
+        "Phone": "02166165425",
+        "E-Mail": "kazemini[at]sharif.edu",
+        "web": "https://che.sharif.edu/~cheweb/index.php?Service=profile&Task=SHOW&Item=kazemini",
+        "pic": "https://www.che.sharif.ir/o/adaptive-media/image/3335946/Preview-1000x0/kazemeini.jpg?t=1650258240389",
+        "ID": 26022,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "حسن ماهانی",
+        "Phone": "02166165418",
+        "E-Mail": "hmahani[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=mahani",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/Male+avatar+user.png.jpg/49920138-622d-8b52-6015-70deb0289f38?t=1650179237514",
+        "ID": 26023,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "علی اصغر محمدی",
+        "Phone": "02166165410",
+        "E-Mail": "amohammadi[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=amohammadi",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/dys.jpg/bc4360d6-0bd8-1a2d-e3e5-9363faa66f4a?t=1644322123704",
+        "ID": 26024,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "محسن مسیحی",
+        "Phone": "02166166425",
+        "E-Mail": "masihi[at]sharif.edu",
+        "web": "http://sharif.edu/~masihi/",
+        "pic": "https://www.che.sharif.ir/o/adaptive-media/image/3331111/Preview-1000x0/masihi.jpg?t=1650179423504",
+        "ID": 26025,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "شهره مشایخان",
+        "Phone": "02166166414",
+        "E-Mail": "mashayekhan[at]sharif.edu",
+        "web": "http://sharif.edu/~mashayekhan/",
+        "pic": "https://www.che.sharif.ir/o/adaptive-media/image/3331131/Preview-1000x0/Mashayekhan.jpg?t=1650258735051",
+        "ID": 26026,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "سید عباس موسوی",
+        "Phone": "02166166427",
+        "E-Mail": "Musavi[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=mousavi",
+        "pic": "https://www.che.sharif.ir/documents/1230695/7265049/mosavi.jpg/6fe88dc0-a18e-ff7d-b908-01410c7fa628?t=1671949287906",
+        "ID": 26027,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "اصغر مولایی دهکردی",
+        "Phone": "02166165412",
+        "E-Mail": "amolaeid[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=molaei",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/syj.jpg/61ab7989-9309-f9a0-4ccd-cfc6eb729783?t=1644322121187",
+        "ID": 26028,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "احسان وفا",
+        "Phone": "02166165469",
+        "E-Mail": "e.vafa[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=vafa",
+        "pic": "https://www.che.sharif.ir/o/adaptive-media/image/3330890/Preview-1000x0/vafa.jpg?t=1650260603949",
+        "ID": 26029,
+        "Position": "Faculty"
+      },
+      {
+        "Name": "سهیلا یغمایی",
+        "Phone": "02166166430",
+        "E-Mail": "yaghmaei[at]sharif.edu",
+        "web": "http://che.sharif.ir/~cheweb/index.php?Service=profile&Task=SHOW&Item=yaghmaei",
+        "pic": "https://www.che.sharif.ir/documents/1230695/3330381/yaghmaee.jpg/ed74b8cc-a8d8-ff48-37f7-5bedba36d10b?t=1653724128894",
+        "ID": 26030,
+        "Position": "Faculty"
+      }
     ]
   }
