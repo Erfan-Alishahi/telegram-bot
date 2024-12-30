@@ -1,29 +1,16 @@
-
-import os
 import telebot
 import requests
 import json
 from fuzzywuzzy import fuzz
-from telebot import types
-from dotenv import load_dotenv
+from github import Github
+from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 
-# Load environment variables from .env file if present
-load_dotenv()
-# Load the API token securely from an environment variable
+# bot API token
 API_TOKEN = "7055613975:AAFYOluPx0WUoAKhv_2Ft334fnsu9x9ei1A"
-bot = telebot.TeleBot(API_TOKEN)
-# Securely load the API token and admin credentials from environment variables
-ADMIN_CHAT_ID = ""  # Should be a string
-ADMIN_USERNAME = "test"
-ADMIN_PASSWORD = "1234"
-
-if not all([API_TOKEN, ADMIN_CHAT_ID, ADMIN_USERNAME, ADMIN_PASSWORD]):
-    raise Exception("Please set TELEGRAM_API_TOKEN, ADMIN_CHAT_ID, ADMIN_USERNAME, and ADMIN_PASSWORD environment variables.")
-
 bot = telebot.TeleBot(API_TOKEN)
 
 # Load the primary JSON data
-PRIMARY_DATA_URL = "https://raw.githubusercontent.com/Erfan-Alishahi/database/main/secondary-database.json"
+"""PRIMARY_DATA_URL = "https://raw.githubusercontent.com/Erfan-Alishahi/database/main/secondary-database.json"
 response_primary = requests.get(PRIMARY_DATA_URL)
 if response_primary.status_code == 200:
     primary_data = response_primary.json()
@@ -31,23 +18,33 @@ else:
     raise Exception("Could not retrieve data from the primary URL")
 
 # Load the secondary JSON data
-with open('data-bot.json', 'r', encoding='utf-8') as jsn:
-    secondary_data = json.load(jsn)
+with open('data-bot.json', 'r', encoding='utf-8') as jsn2:
+    secondary_data = json.load(jsn2)"""
+#-----------------------------------------------------------------
+# download both datas from github to read anad write
+GITHUB_TOKEN = "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"
+REPO_NAME = "Erfan-Alishahi/telegram-bot"
+BIG_JSON_FILE_PATH = "data-bot.json"
+LITLE_JSON_FILE_PATH = "data.json"
+# connect to github
+g = Github(GITHUB_TOKEN)
+repo = g.get_repo(REPO_NAME)
 
-# State management for users
-user_states = {}
+# download both json file's 
+big_data_content = repo.get_contents(BIG_JSON_FILE_PATH)
+litle_data_content = repo.get_contents(LITLE_JSON_FILE_PATH)
 
-# Admin authentication state
-admin_authenticated = False
+json_big_data = json.loads(big_data_content.decoded_content.decode('utf-8'))
+json_litle_data = json.loads(litle_data_content.decoded_content.decode('utf-8'))
 
-# Admin session state
-admin_session = {}
+
+#-----------------------------------------------------------------
 
 # Function to find similar names (partial match)
-def find_similar_names_partial(name):
+def find_similar_names_partial(name):        # find_similar_names_1
     matches = []
     name_parts = name.split(" ")
-    for department_data in primary_data.values():
+    for department_data in json_litle_data.values():
         for person in department_data:
             for na in name_parts:
                 if na.lower() in person['Name'].lower():
@@ -55,322 +52,771 @@ def find_similar_names_partial(name):
     return list(set(matches))
 
 # Function to find similar names (fuzzy match)
-def find_similar_names_fuzzy(name):
+def find_similar_names_fuzzy(name):          # find_similar_names_2
     matches = []
-    for department_data in primary_data.values():
+    for department_data in json_litle_data.values():
         for person in department_data:
             similarity_ratio = fuzz.ratio(name, person['Name'])
             if similarity_ratio >= 51:
                 matches.append((person['Name'], person['Department']))
     return matches
 
-# Function to send admin a message
-def send_to_admin(message):
-    bot.send_message(ADMIN_CHAT_ID, message)
+# people states
+user_states = {}
 
-# Handle '/start' command
+# admin tools
+selected_prof = str()
+
+# states
+STATE_MAIN_MENU = "main_menu"
+STATE_CONTACT_ADMIN = "contact_admin"
+STATE_SEARCH_PROFESSOR = "search_professor"
+STATE_ADMIN_MAIN_PANEL = "admin_panel"
+STATE_ADMIN_SECOND_PANEL = "admin_second_panel"
+STATE_ADMIN_THIRD_PANEL = "admin_third_panel"
+STATE_ADMIN_EDIT_PROF_PANEL = "admin_edit_prof_panel"
+STATE_ADMIN_NEW_PROF_PANEL = "admin_new_prof_panel"
+# for new prof
+STATE_ADMIN_NEW_PROF_PANEL_NAME = "admin_new_prof_panel_name"
+STATE_ADMIN_NEW_PROF_PANEL_ROOM = "admin_new_prof_panel_room"
+STATE_ADMIN_NEW_PROF_PANEL_EMAIL = "admin_new_prof_panel_email"
+STATE_ADMIN_NEW_PROF_PANEL_PHONE = "admin_new_prof_panel_phone"
+STATE_ADMIN_NEW_PROF_PANEL_FAX = "admin_new_prof_panel_fax"
+STATE_ADMIN_NEW_PROF_PANEL_WEB = "admin_new_prof_panel_web"
+STATE_ADMIN_NEW_PROF_PANEL_PIC = "admin_new_prof_panel_pic"
+STATE_ADMIN_NEW_PROF_PANEL_DEPARTMENT = "admin_new_prof_panel_department"
+STATE_ADMIN_NEW_PROF_PANEL_POSITION = "admin_new_prof_panel_position"
+# for edit prof
+STATE_ADMIN_EDIT_PROF_PANEL_EMAIL = "admin_edit-prof_panel_email"
+STATE_ADMIN_EDIT_PROF_PANEL_PHONE = "admin_edit-prof_panel_phone"
+STATE_ADMIN_EDIT_PROF_PANEL_ROOM = "admin_edit-prof_panel_room"
+#------------------
+ADMIN_CHAT_ID = "6919820799"
+ADMIN_SECRET_KEY = "itsmeimback"
+#------------------
+def send_to_admin(message, user_id):
+    bot.send_message(ADMIN_CHAT_ID, f'New message from `{user_id}`:\n\n*{message}*', parse_mode='markdown')
+
+# main buttons
+def main_menu_buttons():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+    markup.add(KeyboardButton("جستجوی استاد"), KeyboardButton("ارتباط با ادمین"))
+    return markup
+
+# back button
+def back_button():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+    markup.add(KeyboardButton("بازگشت"))
+    return markup
+
+# main admin buttons
+def admin_main_buttons():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+    button_1 = "انتخاب استاد"
+    button_2 = "خروج از پنل ادمین"
+    markup.add(button_1, button_2)
+    return markup
+
+# second admin butthons
+def admin_second_buttons():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+    button_1 = "اضافه کردن استاد جدید"
+    button_2 = "بازگشت"
+    markup.add(button_2, button_1)
+    return markup
+
+# third admin buttons
+def admin_third_buttons():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+    button_1 = "بازگشت"
+    button_2 = "حذف"
+    button_3 = "ویرایش"
+    markup.add(button_1, button_2, button_3)
+    return markup
+
+# add new prof buttons 
+def admin_new_prof_buttons():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+    button_1 = "Name"
+    button_2 = "Room"
+    button_3 = "E-Mail"
+    button_4 = "Phone"
+    button_5 = "Fax"
+    button_6 = "web"
+    button_7 = "pic"
+    button_8 = "Department"
+    button_9 = "Position"
+    button_10 = "بازگشت"
+    button_11 = "تمام"
+    markup.add(button_1,button_2,button_3,button_4,button_5,button_6,button_7,button_8,button_9,button_10,button_11)
+    return markup
+
+# edit prof buttons
+def admin_edit_prof_buttons():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+    button_1 = "Room"
+    button_2 = "E-Mail"
+    button_3 = "Phone"
+    button_4 = "بازگشت"
+    button_5 = "تمام"
+    markup.add(button_1,button_2,button_3,button_4,button_5)
+    return markup
+
+# new prof dictionary
+new_prof = dict()
+
+# edit prof dictionary
+edit_prof = dict()
+
+# هندلر برای دستور /start
 @bot.message_handler(commands=['start'])
-def send_welcome(message):
-    welcome_text = """
-سلام دوست عزیز، به بات ما خوش آمدید!
-برای پیدا کردن اطلاعات استاد مورد نظر، کافیست نام وی را به فارسی وارد کنید.
-در صورتی که نام را به درستی ندانید، می‌توانید تقریبا مشابه نام را وارد کنید و بات تلاش خواهد کرد تا نام متناظر را پیدا کند.
-"""
-    bot.send_message(message.chat.id, welcome_text)
+def handle_start(message):
+    user_states[message.chat.id] = STATE_MAIN_MENU
+    bot.send_message(
+        message.chat.id,
+        "به ربات خوش آمدید! یکی از گزینه‌های زیر را انتخاب کنید:",
+        reply_markup=main_menu_buttons()
+    )
 
-# Handle text messages
-@bot.message_handler(func=lambda message: True, content_types=['text'])
-def handle_text(message):
-    global admin_authenticated
+# هندلر برای دریافت پیام
+@bot.message_handler(func=lambda message: True)
+def handle_message(message):
+    user_id = message.chat.id
+    state = user_states.get(user_id, STATE_MAIN_MENU)
+    
+    global new_prof
+    global selected_prof
+    global edit_prof
 
-    user_id = message.from_user.id
-    text = message.text.strip()
+    if state == STATE_MAIN_MENU:
+        if message.text == "جستجوی استاد":
+            user_states[user_id] = STATE_SEARCH_PROFESSOR
+            bot.send_message(
+                user_id,
+                "لطفاً نام استاد را وارد کنید:",
+                reply_markup=back_button()
+            )
+        elif message.text == "ارتباط با ادمین":
+            user_states[user_id] = STATE_CONTACT_ADMIN
+            bot.send_message(
+                user_id,
+                "پیام خود را برای ادمین ارسال کنید:",
+                reply_markup=back_button()
+            )
+        elif message.text == ADMIN_SECRET_KEY and message.chat.id == int(ADMIN_CHAT_ID):
+            user_states[user_id] = STATE_ADMIN_MAIN_PANEL
+            bot.send_message(
+                user_id,
+                "به پنل ادمین خوش آمدید!",
+                reply_markup=admin_main_buttons()
+            )
+        else:
+            bot.send_message(
+                user_id,
+                "لطفاً یکی از گزینه‌ها را انتخاب کنید.",
+                reply_markup=main_menu_buttons()
+            )
 
-    # Check if the message is the hidden admin keyword
-    if text.lower() == "itsmeimback" and str(user_id) == ADMIN_CHAT_ID:
-        # Initiate admin login
-        user_states[user_id] = {'state': 'admin_login_username'}
-        bot.send_message(user_id, "لطفاً نام کاربری خود را وارد کنید:")
-        return
+    elif state == STATE_CONTACT_ADMIN:
+        if message.text == "بازگشت":
+            user_states[user_id] = STATE_MAIN_MENU
+            bot.send_message(
+                user_id,
+                "به منوی اصلی برگشتید.",
+                reply_markup=main_menu_buttons()
+            )
+        else:
+            send_to_admin(message.text, user_id)
+            bot.send_message(
+                user_id,
+                "پیام شما برای ادمین ارسال شد.",
+                reply_markup=back_button()
+            )
 
-    # Check if user is in a specific state
-    if user_id in user_states:
-        state = user_states[user_id].get('state')
+    elif state == STATE_SEARCH_PROFESSOR:
+        if message.text == "بازگشت":
+            user_states[user_id] = STATE_MAIN_MENU
+            bot.send_message(
+                user_id,
+                "به منوی اصلی برگشتید.",
+                reply_markup=main_menu_buttons()
+            )
+        else:
+#------------------------------------------------------------------------------------
+            found = False
+            name = message.text.strip()
+        
+            # First, attempt to find an exact match
+            for department, department_data in json_litle_data.items():
+                for person in department_data:
+                    if name == person['Name']:
+                        found = True
+                        person_id = person['ID']
+                        department_secondary_data = json_big_data.get(department, [])
+                        for secondary_person in department_secondary_data:
+                            if secondary_person.get('ID') == person_id:
+                                info_str = "\n".join([f"*{key}*: `{value}`" for key, value in secondary_person.items() if key != 'pic' and key != 'ID' and key != 'web'])
+                                if 'web' in secondary_person:
+                                    info_str += '\n*personal page*: ' + f"[link]({secondary_person['web']})"
+                                info_str += "\n*Department*: "
+                                info_str += person['Department']
+                                if secondary_person.get('pic') != None:
+                                    bot.send_photo(message.chat.id, secondary_person.get('pic'), info_str, parse_mode="markdown")
+                                else:
+                                    bot.send_message(message.chat.id, info_str, parse_mode="markdown")
+                                break
+                        break
+                    
+            # If no exact match is found, try to find similar names
+            if not found:
+                similar_names = find_similar_names_partial(name)
+                if similar_names:
+                    # Create an inline keyboard
+                    keyboard = InlineKeyboardMarkup(row_width=1)
+                    for f in similar_names:
+                        button_text = f"{f[0]} - دانشکده: {f[1]}"
+                        button = InlineKeyboardButton(button_text, callback_data=f[0])
+                        keyboard.add(button)
+                    bot.send_message(message.chat.id, "استاد مورد نظر یافت نشد. لطفاً از لیست پیشنهادی زیر انتخاب کنید:", reply_markup=keyboard)
+                    return
+                else:
+                    similar_names = find_similar_names_fuzzy(name)
+                    if similar_names:
+                        # Create an inline keyboard
+                        keyboard = InlineKeyboardMarkup(row_width=1)
+                        for f in similar_names:
+                            button_text = f"{f[0]} - دانشکده: {f[1]}"
+                            button = InlineKeyboardButton(button_text, callback_data=f[0])
+                            keyboard.add(button)
+                        bot.send_message(message.chat.id, "استاد مورد نظر یافت نشد. لطفاً از لیست پیشنهادی زیر انتخاب کنید:", reply_markup=keyboard)
+                        return
+        
+            if not found:
+                bot.send_message(message.chat.id, "متاسفانه اطلاعاتی در مورد این استاد یافت نشد.")
+        
 
-        if state == 'contact_admin':
-            # Forward the message to admin
-            send_to_admin(f"پیام از کاربر @{message.from_user.username} (ID: {user_id}):\n{text}")
-            bot.send_message(user_id, "پیام شما به مدیر ارسال شد. متشکریم!")
-            del user_states[user_id]
-            return
 
-        elif state == 'revision_id':
-            # Save the ID and ask for revision message
-            try:
-                prof_id = int(text)
-                user_states[user_id]['prof_id'] = prof_id
-                user_states[user_id]['state'] = 'revision_message'
-                bot.send_message(user_id, "لطفاً متن بازنگری مورد نظر خود را ارسال کنید:")
-            except ValueError:
-                bot.send_message(user_id, "لطفاً یک شماره ID معتبر وارد کنید:")
-            return
+#------------------------------------------------------------------------------------
+    elif state == STATE_ADMIN_MAIN_PANEL:
+        if message.text == "خروج از پنل ادمین":
+            user_states[user_id] = STATE_MAIN_MENU
+            bot.send_message(
+                user_id,
+                "از پنل ادمین خارج شدید.",
+                reply_markup=main_menu_buttons()
+            )
+        elif message.text == "انتخاب استاد":
+            user_states[user_id] = STATE_ADMIN_SECOND_PANEL
+            bot.send_message(
+                user_id,
+                "میتوانید برای تغییر اطلاعات استاد موجود در دیتابیس، آیدی ایشان را وارد نمایید و یا یکی از گزینه های زیر را انتخاب:",
+                reply_markup=admin_second_buttons()
+            )
 
-        elif state == 'revision_message':
-            # Save the revision message and forward to admin
-            prof_id = user_states[user_id].get('prof_id')
-            revision_text = text
-            send_to_admin(f"درخواست بازنگری:\nID استاد: {prof_id}\nپیام: {revision_text}\nاز طرف کاربر @{message.from_user.username} (ID: {user_id})")
-            bot.send_message(user_id, "درخواست بازنگری شما به مدیر ارسال شد. متشکریم!")
-            del user_states[user_id]
-            return
-
-        elif state == 'admin_login_username':
-            # Save the username and ask for password
-            entered_username = text
-            user_states[user_id]['entered_username'] = entered_username
-            user_states[user_id]['state'] = 'admin_login_password'
-            bot.send_message(user_id, "لطفاً رمز عبور خود را وارد کنید:")
-            return
-
-        elif state == 'admin_login_password':
-            # Verify password
-            entered_password = text
-            entered_username = user_states[user_id].get('entered_username')
-
-            if entered_username == ADMIN_USERNAME and entered_password == ADMIN_PASSWORD:
-                admin_authenticated = True
-                admin_session[user_id] = True
-                bot.send_message(user_id, "ورود موفقیت‌آمیز! به پنل مدیریت خوش آمدید.", reply_markup=admin_panel_keyboard())
-                del user_states[user_id]
-            else:
-                bot.send_message(user_id, "نام کاربری یا رمز عبور اشتباه است. دوباره تلاش کنید.")
-                del user_states[user_id]
-            return
-
-        elif state == 'admin_edit_id':
-            # Admin is providing the ID to edit
-            try:
-                prof_id = int(text)
-                user_states[user_id]['edit_prof_id'] = prof_id
-                user_states[user_id]['state'] = 'admin_edit_field'
-                bot.send_message(user_id, "لطفاً نام فیلدی که می‌خواهید ویرایش کنید را وارد کنید (مثلاً Name, Room, Phone, etc.):")
-            except ValueError:
-                bot.send_message(user_id, "لطفاً یک شماره ID معتبر وارد کنید:")
-            return
-
-        elif state == 'admin_edit_field':
-            # Admin is providing the field to edit
-            field = text
-            user_states[user_id]['edit_field'] = field
-            user_states[user_id]['state'] = 'admin_edit_value'
-            bot.send_message(user_id, "لطفاً مقدار جدید را وارد کنید:")
-            return
-
-        elif state == 'admin_edit_value':
-            # Admin is providing the new value
-            new_value = text
-            prof_id = user_states[user_id].get('edit_prof_id')
-            field = user_states[user_id].get('edit_field')
-
-            # Find and update the professor in secondary_data
-            updated = False
-            for department, dept_data in secondary_data.items():
-                for person in dept_data:
-                    if person.get('ID') == prof_id:
-                        if field in person:
-                            person[field] = new_value
-                            updated = True
-                            break
-                if updated:
-                    break
-
-            if updated:
-                # Save the updated secondary_data to the JSON file
-                with open('data-bot.json', 'w', encoding='utf-8') as jsn:
-                    json.dump(secondary_data, jsn, ensure_ascii=False, indent=4)
-                bot.send_message(user_id, f"فیلد `{field}` برای استاد با ID {prof_id} به `{new_value}` تغییر یافت.")
-            else:
-                bot.send_message(user_id, f"استادی با ID {prof_id} یافت نشد یا فیلد `{field}` نامعتبر است.")
-            
-            # Return to admin panel
-            bot.send_message(user_id, "برای ادامه از پنل مدیریت استفاده کنید.", reply_markup=admin_panel_keyboard())
-            del user_states[user_id]
-            return
-
-    # If not in any specific state, proceed with normal message handling
-    name = text
-
-    found = False
-    for department, department_data in primary_data.items():
-        for person in department_data:
-            if name == person['Name']:
-                found = True
-                person_id = person['ID']
-                department_secondary_data = secondary_data.get(department, [])
-                for secondary_person in department_secondary_data:
-                    if secondary_person.get('ID') == person_id:
-                        info_lines = [
-                            f"*Name*: `{secondary_person.get('Name', '')}`",
-                            f"*Room*: `{secondary_person.get('Room', '')}`",
-                            f"*P.O.Box*: `{secondary_person.get('P.O.Box', '')}`",
-                            f"*Phone*: `{secondary_person.get('Phone', '')}`",
-                            f"*Fax*: `{secondary_person.get('Fax', '')}`",
-                            f"*E-Mail*: `{secondary_person.get('E-Mail', '')}`",
-                            f"*Position*: `{secondary_person.get('Position', '')}`",
-                            f"*ID*: `{secondary_person.get('ID', '')}`"
-                        ]
-                        if 'web' in secondary_person:
-                            info_lines.append(f"*Personal Page*: [Link]({secondary_person['web']})")
-                        info_lines.append(f"*Department*: {person['Department']}")
-                        info_str = "\n".join(info_lines)
-                        
-                        # Create inline keyboard
-                        keyboard = types.InlineKeyboardMarkup(row_width=2)
-                        contact_button = types.InlineKeyboardButton("Contact Admin", callback_data="contact_admin")
-                        revision_button = types.InlineKeyboardButton("Revision", callback_data="revision")
-                        keyboard.add(contact_button, revision_button)
-                        
-                        bot.send_photo(
-                            message.chat.id,
-                            secondary_person.get('pic'),
-                            info_str,
-                            parse_mode="markdown",
-                            reply_markup=keyboard
+    elif state == STATE_ADMIN_SECOND_PANEL:
+        if message.text == "بازگشت":
+            user_states[user_id] = STATE_ADMIN_MAIN_PANEL
+            bot.send_message(
+                user_id,
+                "به منوی اصلی ادمین بازگشتید.",
+                reply_markup=admin_main_buttons()
+                )
+        elif message.text == "اضافه کردن استاد جدید":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_new_prof_buttons()
+            )
+        elif message.text.isdigit():# اینجا بعد از وارد کردن آیدی استاد، باید کلید و مقدار استاد رو از دیکشنری بیاره واسمون
+            Found = False
+            global prof_id
+            prof_id = int(message.text)
+            for dep in json_big_data: # dep --> 11000, 12000, 13000 and ..., type --> str
+                for people in json_big_data[dep]: # dicts, type --> dict
+                    if people["ID"] == prof_id:
+                        Found = True
+                        user_states[user_id] = STATE_ADMIN_THIRD_PANEL
+                        selected_prof = (dep, prof_id)
+                        bot.send_message(
+                            user_id,
+                            f"استاد یافت شد:\n *{people['Name']}*\n شماره دانشکده: *{dep}*",
+                            reply_markup=admin_third_buttons(),
+                            parse_mode='markdown'
                         )
                         break
-                break
-        if found:
-            break
+            if not Found:
+                bot.send_message(
+                user_id,
+                "استاد یافت نشد، مجددا تلاش کنید."
+            )
 
-    if not found:
-        # Attempt to find similar names
-        similar_names = find_similar_names_partial(name)
-        if similar_names:
-            # Create an inline keyboard with similar names
-            keyboard = types.InlineKeyboardMarkup(row_width=1)
-            for f in similar_names:
-                button_text = f"{f[0]} - دانشکده: {f[1]}"
-                button = types.InlineKeyboardButton(button_text, callback_data=f[0])
-                keyboard.add(button)
-            bot.send_message(message.chat.id, "استاد مورد نظر یافت نشد. لطفاً از لیست پیشنهادی زیر انتخاب کنید:", reply_markup=keyboard)
-            return
+    elif state == STATE_ADMIN_THIRD_PANEL:
+        if message.text == "بازگشت":
+            user_states[user_id] = STATE_ADMIN_SECOND_PANEL
+            bot.send_message(
+                user_id,
+                "میتوانید برای تغییر اطلاعات استاد موجود در دیتابیس، آیدی ایشان را وارد نمایید و یا یکی از گزینه های زیر را انتخاب:",
+                reply_markup=admin_second_buttons()
+            )
+        elif message.text == "حذف":
+            bot.send_message(
+                user_id,
+                "برای تایید حذف اطلاعات این استاد، کلمه `CONFIRM-DELETE` را بنویسید.",
+                parse_mode="markdown"
+                )
+        elif message.text == "ویرایش":
+            user_states[user_id] = STATE_ADMIN_EDIT_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "برای ویرایش اطلاعات، یکی از گزینه های زیر را انتخاب کنید:",
+                reply_markup=admin_edit_prof_buttons()
+            )
+        elif message.text == "CONFIRM-DELETE":
+            # delete from big json
+            for dep in json_big_data:
+                for people in json_big_data[dep]:
+                    if people['ID'] == selected_prof[1]:
+                        json_big_data[dep].remove(people)
+            # delete from little json
+            for dep in json_litle_data:
+                for people in json_litle_data[dep]:
+                    if people['ID'] == selected_prof[1]:
+                        json_litle_data[dep].remove(people)
+            # update big-json file
+            updated_json = json.dumps(json_big_data, indent=4)
+            repo.update_file(
+                path=BIG_JSON_FILE_PATH,
+                message="Updated json file from sharif-hub",
+                content=updated_json,
+                sha=big_data_content.sha
+            )
+            # update little-json file
+            updated_json = json.dumps(json_litle_data, indent=4)
+            repo.update_file(
+                path=LITLE_JSON_FILE_PATH,
+                message="Updated json file from sharif-hub",
+                content=updated_json,
+                sha=litle_data_content.sha
+            )
+            user_states[user_id] = STATE_ADMIN_SECOND_PANEL
+            # send message
+            bot.send_message(
+                user_id,
+                f"اطلاعات استاد مورد نظر با آیدی *{prof_id}* با موفقیت حذف شد.",
+                parse_mode='markdown',
+                reply_markup=admin_second_buttons()
+            )
+    elif user_states[user_id] == STATE_ADMIN_EDIT_PROF_PANEL:
+        if message.text == "بازگشت":
+            user_states[user_id] = STATE_ADMIN_THIRD_PANEL
+            bot.send_message(
+                user_id,
+                "بازگشتید، یک گزینه را انتخاب کنید",
+                reply_markup=admin_third_buttons()
+            )
+            edit_prof = dict()
+        elif message.text == "تمام":
+            for people in json_big_data[selected_prof[0]]:
+                if people["ID"] == selected_prof[1]:
+                    if edit_prof.get("Room") != None:
+                        people["Room"] = edit_prof["Room"]
+                    if edit_prof.get("Phone") != None:
+                        people["Phone"] = edit_prof["Phone"]
+                    if edit_prof.get("E-Mail") != None:   
+                        people["E-Mail"] = edit_prof["E-Mail"]
+                    ########################
+                    # update big-json file
+                    updated_json = json.dumps(json_big_data, indent=4)
+                    repo.update_file(
+                        path=BIG_JSON_FILE_PATH,
+                        message="Updated json file from sharif-hub",
+                        content=updated_json,
+                        sha=big_data_content.sha
+                    )
+                    # update little-json file
+                    updated_json = json.dumps(json_litle_data, indent=4)
+                    repo.update_file(
+                        path=LITLE_JSON_FILE_PATH,
+                        message="Updated json file from sharif-hub",
+                        content=updated_json,
+                        sha=litle_data_content.sha
+                    )
+                    ########################
+                    user_states[user_id] = STATE_ADMIN_THIRD_PANEL
+                    bot.send_message(
+                        user_id,
+                        f"اطلاعات استاد مورد نظر با آیدی: *{selected_prof[1]}* با موفقیت تغییر پیدا کرد",
+                        parse_mode="markdown",
+                        reply_markup=admin_third_buttons()
+                    )
+                    edit_prof = dict()
+
+        elif message.text == "Room":
+            user_states[user_id] = STATE_ADMIN_EDIT_PROF_PANEL_ROOM
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+        elif message.text == "E-Mail":
+            user_states[user_id] = STATE_ADMIN_EDIT_PROF_PANEL_EMAIL
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+        elif message.text == "Phone":
+            user_states[user_id] = STATE_ADMIN_EDIT_PROF_PANEL_PHONE
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+    
+    elif user_states[user_id] == STATE_ADMIN_EDIT_PROF_PANEL_ROOM:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_EDIT_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_edit_prof_buttons()
+            )
         else:
-            similar_names = find_similar_names_fuzzy(name)
-            if similar_names:
-                # Create an inline keyboard with similar names
-                keyboard = types.InlineKeyboardMarkup(row_width=1)
-                for f in similar_names:
-                    button_text = f"{f[0]} - دانشکده: {f[1]}"
-                    button = types.InlineKeyboardButton(button_text, callback_data=f[0])
-                    keyboard.add(button)
-                bot.send_message(message.chat.id, "استاد مورد نظر یافت نشد. لطفاً از لیست پیشنهادی زیر انتخاب کنید:", reply_markup=keyboard)
-                return
+            user_states[user_id] = STATE_ADMIN_EDIT_PROF_PANEL
+            edit_prof["Room"] = message.text
+            bot.send_message(
+                user_id,
+                "شماره اتاق استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_edit_prof_buttons()
+            )
 
-        # If still not found
-        bot.send_message(message.chat.id, "متاسفانه اطلاعاتی در مورد این استاد یافت نشد.")
+    elif user_states[user_id] == STATE_ADMIN_EDIT_PROF_PANEL_EMAIL:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_EDIT_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_edit_prof_buttons()
+            )
+        else:
+            user_states[user_id] = STATE_ADMIN_EDIT_PROF_PANEL
+            edit_prof["E-Mail"] = message.text
+            bot.send_message(
+                user_id,
+                "ایمیل استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_edit_prof_buttons()
+            )
+    elif user_states[user_id] == STATE_ADMIN_EDIT_PROF_PANEL_PHONE:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_EDIT_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_edit_prof_buttons()
+            )
+        else:
+            user_states[user_id] = STATE_ADMIN_EDIT_PROF_PANEL
+            edit_prof["Phone"] = message.text
+            bot.send_message(
+                user_id,
+                "شماره تلفن استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_edit_prof_buttons()
+            )
 
-# Handle callback queries from inline buttons
+    elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL:
+        if message.text == "بازگشت":
+            user_states[user_id] = STATE_ADMIN_SECOND_PANEL
+            bot.send_message(
+                user_id,
+                "میتوانید برای تغییر اطلاعات استاد موجود در دیتابیس، آیدی ایشان را وارد نمایید و یا یکی از گزینه های زیر را انتخاب:",
+                reply_markup=admin_second_buttons()
+            )
+        elif message.text == "Name":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL_NAME
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+        elif message.text == "Room":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL_ROOM
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+        elif message.text == "E-Mail":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL_EMAIL    
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+        elif message.text == "Phone":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL_PHONE
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+        elif message.text == "Fax":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL_FAX
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+        elif message.text == "web":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL_WEB
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+        elif message.text == "pic":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL_PIC
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+        elif message.text == "Department":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL_DEPARTMENT
+            bot.send_message(
+                user_id,
+                """نام دانشکده استاد مورد نظر را به درستی از لیست زیر کپی کرده و بفرستید:\n`فیزیک`\n\
+`علوم ریاضی`\n`شیمی`\n`مرکز زبان‌ها و زبان‌شناسی`\n`مرکز معارف اسلامی و علوم انسانی`\n\
+`مهندسی برق`\n`مهندسی مکانیک`\n`گروه فلسفه علم`\n`مهندسی انرژی`\n`مهندسی صنایع`\n\
+`مدیریت و اقتصاد`\n`مهندسی کامپیوتر`\n`مهندسی هوافضا`\n`مهندسی و علم مواد`\n\
+`مهندسی عمران`\n`مهندسی شیمی و نفت`\n`مرکز آموزش مهارت‌های مهندسی`""",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر"),
+                parse_mode="markdown"
+            )
+        elif message.text == "Position":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL_POSITION
+            bot.send_message(
+                user_id,
+                "اطلاعات مورد نظر را وارد کنید:",
+                reply_markup=ReplyKeyboardMarkup(resize_keyboard=True).add("بازگشت بدون تغییر")
+            )
+        elif message.text == "تمام":
+            Found_now = False
+            for dep in json_litle_data:
+                if json_litle_data[dep][-1]["Department"] == new_prof["Department"]:
+                    constant_dep = dep
+                    new_prof["ID"] = json_litle_data[dep][-1]["ID"] + 1
+                    litle_data_new_prof = {"ID":new_prof["ID"],"Department":new_prof["Department"],"Name":new_prof["Name"]}
+                    # add prof to little json data
+                    json_litle_data[dep].append(litle_data_new_prof)
+                    Found_now = True
+                    break
+            # add prof to big json data
+            del new_prof["Department"]
+            json_big_data[constant_dep].append(new_prof)
+            if Found_now:
+                user_states[user_id] = STATE_ADMIN_SECOND_PANEL
+                bot.send_message(
+                    user_id,
+                    f"استاد مورد نظر با موفقیت لیست اساتید دانشکده {new_prof['Department']} اضافه شد.\nبه پنل قبلی برگشتید.",
+                    reply_markup=admin_second_buttons(),
+                    parse_mode="markdown"
+                )
+                ########################
+                # update big-json file
+                updated_json = json.dumps(json_big_data, indent=4)
+                repo.update_file(
+                    path=BIG_JSON_FILE_PATH,
+                    message="Updated json file from sharif-hub",
+                    content=updated_json,
+                    sha=big_data_content.sha
+                )
+                # update little-json file
+                updated_json = json.dumps(json_litle_data, indent=4)
+                repo.update_file(
+                    path=LITLE_JSON_FILE_PATH,
+                    message="Updated json file from sharif-hub",
+                    content=updated_json,
+                    sha=litle_data_content.sha
+                )
+                ########################
+                new_prof = dict()
+            else:
+                user_states[user_id] = STATE_ADMIN_SECOND_PANEL
+                bot.send_message(
+                    user_id,
+                    "دانشکده و مرکزی با این نام پیدا نشد.\nبه پنل قبلی برگشتید.\nمیتوانید برای تغییر اطلاعات استاد موجود در دیتابیس، آیدی ایشان را وارد نمایید و یا یکی از گزینه های زیر را انتخاب:",
+                    reply_markup=admin_second_buttons()
+                )
+                new_prof = dict()
+
+    elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL_NAME:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_new_prof_buttons()
+            )
+        else:
+            new_prof["Name"] = message.text
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "نام استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_new_prof_buttons()
+            )
+
+    elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL_ROOM:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_new_prof_buttons()
+            )
+        else:
+            new_prof["Room"] = message.text
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "شماره اتاق استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_new_prof_buttons()
+            )
+
+    elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL_EMAIL:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_new_prof_buttons()
+            )
+        else:
+            new_prof["E-Mail"] = message.text
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "آدرس ایمیل استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_new_prof_buttons()
+            )
+    elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL_PHONE:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_new_prof_buttons()
+            )
+        else:
+            new_prof["Phone"] = message.text
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "شماره تلفن استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_new_prof_buttons()
+            )
+    elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL_FAX:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_new_prof_buttons()
+            )
+        else:
+            new_prof["Fax"] = message.text
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "فکس استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_new_prof_buttons()
+            )
+    elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL_WEB:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_new_prof_buttons()
+            )
+        else:
+            new_prof["web"] = message.text
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "آدرس صفحه شخصی استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_new_prof_buttons()
+            )
+    elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL_PIC:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_new_prof_buttons()
+            )
+        else:
+            new_prof["pic"] = message.text
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "آدرس عکس استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_new_prof_buttons()
+            )
+    elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL_DEPARTMENT:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_new_prof_buttons()
+            )
+        else:
+            new_prof["Department"] = message.text
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "نام دانشکده استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_new_prof_buttons()
+            )
+    elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL_POSITION:
+        if message.text == "بازگشت بدون تغییر":
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "با استفاده از دکمه های زیر، اطلاعات استاد مورد نظر را وارد کنید.",
+                reply_markup=admin_new_prof_buttons()
+            )
+        else:
+            new_prof["Position"] = message.text
+            user_states[user_id] = STATE_ADMIN_NEW_PROF_PANEL
+            bot.send_message(
+                user_id,
+                "سمت استاد در حافظه ذخیره شد، اطلاعات دیگر را وارد نمایید و یا روی دکمه تمام بزنید",
+                reply_markup=admin_new_prof_buttons()
+            )
+        
+
 @bot.callback_query_handler(func=lambda call: True)
 def callback_handler(call):
-    data = call.data
-    user_id = call.from_user.id
+    name = call.data
+    for department, department_data in json_litle_data.items():
+        for person in department_data:
+            if name == person['Name']:
+                person_id = person['ID']
+                department_secondary_data = json_big_data.get(department, [])
+                for secondary_person in department_secondary_data:
+                    if secondary_person.get('ID') == person_id:
+                        info_str = "\n".join([f"*{key}*: `{value}`" for key, value in secondary_person.items() if key != 'pic' and key != 'ID' and key != 'web'])
+                        if 'web' in secondary_person:
+                            info_str += '\n*personal page*: ' + f"[link]({secondary_person['web']})"
+                        info_str += "\n*Department*: "
+                        info_str += person['Department']
+                        if secondary_person.get('pic') != None:
+                            bot.send_photo(call.message.chat.id, secondary_person.get('pic'), info_str, parse_mode="markdown")
+                        else:
+                            bot.send_message(call.message.chat.id, info_str, parse_mode="markdown")
+                        break
 
-    if data == "contact_admin":
-        # Set state to contact_admin
-        user_states[user_id] = {'state': 'contact_admin'}
-        bot.send_message(user_id, "لطفاً پیام خود را برای مدیر ارسال کنید:")
-    
-    elif data == "revision":
-        # Set state to revision_id
-        user_states[user_id] = {'state': 'revision_id'}
-        bot.send_message(user_id, "لطفاً ID استاد مورد نظر را وارد کنید:")
-    
-    else:
-        # Assume data is a professor's name from similar names
-        name = data
-        found = False
-        for department, department_data in primary_data.items():
-            for person in department_data:
-                if name == person['Name']:
-                    found = True
-                    person_id = person['ID']
-                    department_secondary_data = secondary_data.get(department, [])
-                    for secondary_person in department_secondary_data:
-                        if secondary_person.get('ID') == person_id:
-                            info_lines = [
-                                f"*Name*: `{secondary_person.get('Name', '')}`",
-                                f"*Room*: `{secondary_person.get('Room', '')}`",
-                                f"*P.O.Box*: `{secondary_person.get('P.O.Box', '')}`",
-                                f"*Phone*: `{secondary_person.get('Phone', '')}`",
-                                f"*Fax*: `{secondary_person.get('Fax', '')}`",
-                                f"*E-Mail*: `{secondary_person.get('E-Mail', '')}`",
-                                f"*Position*: `{secondary_person.get('Position', '')}`",
-                                f"*ID*: `{secondary_person.get('ID', '')}`"
-                            ]
-                            if 'web' in secondary_person:
-                                info_lines.append(f"*Personal Page*: [Link]({secondary_person['web']})")
-                            info_lines.append(f"*Department*: {person['Department']}")
-                            info_str = "\n".join(info_lines)
-                            
-                            # Create inline keyboard
-                            keyboard = types.InlineKeyboardMarkup(row_width=2)
-                            contact_button = types.InlineKeyboardButton("Contact Admin", callback_data="contact_admin")
-                            revision_button = types.InlineKeyboardButton("Revision", callback_data="revision")
-                            keyboard.add(contact_button, revision_button)
-                            
-                            bot.send_photo(
-                                call.message.chat.id,
-                                secondary_person.get('pic'),
-                                info_str,
-                                parse_mode="markdown",
-                                reply_markup=keyboard
-                            )
-                            break
-                    break
-            if found:
-                break
-        if not found:
-            bot.send_message(call.message.chat.id, "اطلاعات مربوط به این استاد یافت نشد.")
-
-    bot.answer_callback_query(call.id)
-
-# Admin panel inline keyboard
-def admin_panel_keyboard():
-    keyboard = types.ReplyKeyboardMarkup(row_width=2, resize_keyboard=True)
-    edit_button = types.KeyboardButton("ویرایش اطلاعات استاد")
-    logout_button = types.KeyboardButton("خروج از پنل مدیریت")
-    keyboard.add(edit_button, logout_button)
-    return keyboard
-
-# Handle admin panel actions
-@bot.message_handler(func=lambda message: message.text in ["ویرایش اطلاعات استاد", "خروج از پنل مدیریت"])
-def admin_panel_actions(message):
-    global admin_authenticated
-    user_id = message.from_user.id
-
-    if user_id not in admin_session or not admin_session.get(user_id):
-        bot.send_message(user_id, "شما وارد پنل مدیریت نشده‌اید.")
-        return
-
-    if message.text == "ویرایش اطلاعات استاد":
-        user_states[user_id] = {'state': 'admin_edit_id'}
-        bot.send_message(user_id, "لطفاً ID استاد مورد نظر برای ویرایش را وارد کنید:")
-    
-    elif message.text == "خروج از پنل مدیریت":
-        admin_session[user_id] = False
-        bot.send_message(user_id, "از پنل مدیریت خارج شدید.", reply_markup=types.ReplyKeyboardRemove())
-
-# Handle admin editing steps
-@bot.message_handler(func=lambda message: True, content_types=['text'])
-def admin_edit_handler(message):
-    global admin_authenticated
-    user_id = message.from_user.id
-    text = message.text.strip()
-
-    # This handler is redundant as admin_panel_actions handles specific texts
-    pass  # Placeholder in case additional admin actions are needed
-
-# Start polling
-if __name__ == "__main__":
-    print("Bot is running...")
-    bot.infinity_polling()
+bot.infinity_polling()
