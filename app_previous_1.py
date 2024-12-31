@@ -6,58 +6,42 @@ from github import Github
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 
 # bot API token
-API_TOKEN = "7055613975:AAFYOluPx0WUoAKhv_2Ft334fnsu9x9ei1A"     #"7055613975:AAFYOluPx0WUoAKhv_2Ft334fnsu9x9ei1A"
+API_TOKEN = "7055613975:AAFYOluPx0WUoAKhv_2Ft334fnsu9x9ei1A"
 bot = telebot.TeleBot(API_TOKEN)
 
+# Load the primary JSON data
+"""PRIMARY_DATA_URL = "https://raw.githubusercontent.com/Erfan-Alishahi/database/main/secondary-database.json"
+response_primary = requests.get(PRIMARY_DATA_URL)
+if response_primary.status_code == 200:
+    primary_data = response_primary.json()
+else:
+    raise Exception("Could not retrieve data from the primary URL")
+
+# Load the secondary JSON data
+with open('data-bot.json', 'r', encoding='utf-8') as jsn2:
+    secondary_data = json.load(jsn2)"""
 #-----------------------------------------------------------------
 # download both datas from github to read anad write
-
 GITHUB_TOKEN = "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"
 REPO_NAME = "Erfan-Alishahi/telegram-bot"
 BIG_JSON_FILE_PATH = "data-bot.json"
 LITLE_JSON_FILE_PATH = "data.json"
 # connect to github
 g = Github(GITHUB_TOKEN)
-# download both json file's
 repo = g.get_repo(REPO_NAME)
+
+# download both json file's 
 big_data_content = repo.get_contents(BIG_JSON_FILE_PATH)
 litle_data_content = repo.get_contents(LITLE_JSON_FILE_PATH)
+
 json_big_data = json.loads(big_data_content.decoded_content.decode('utf-8'))
 json_litle_data = json.loads(litle_data_content.decoded_content.decode('utf-8'))
+
+
 #-----------------------------------------------------------------
-#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# update json files in github
-def update_datas(json_big_data, json_litle_data, repo):
-    global BIG_JSON_FILE_PATH, LITLE_JSON_FILE_PATH
-
-    # دریافت آخرین محتوای فایل big JSON
-    big_data_content = repo.get_contents(BIG_JSON_FILE_PATH)
-    updated_big_json = json.dumps(json_big_data, indent=4)
-
-    # به‌روزرسانی فایل big JSON
-    repo.update_file(
-        path=BIG_JSON_FILE_PATH,
-        message="Updated big JSON file",
-        content=updated_big_json,
-        sha=big_data_content.sha
-    )
-
-    # دریافت آخرین محتوای فایل little JSON
-    litle_data_content = repo.get_contents(LITLE_JSON_FILE_PATH)
-    updated_litle_json = json.dumps(json_litle_data, indent=4)
-
-    # به‌روزرسانی فایل little JSON
-    repo.update_file(
-        path=LITLE_JSON_FILE_PATH,
-        message="Updated little JSON file",
-        content=updated_litle_json,
-        sha=litle_data_content.sha
-    )
-
-#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Function to find similar names (partial match)
-def find_similar_names_partial(name, json_litle_data):        # find_similar_names_1
+def find_similar_names_partial(name):        # find_similar_names_1
     matches = []
     name_parts = name.split(" ")
     for department_data in json_litle_data.values():
@@ -68,7 +52,7 @@ def find_similar_names_partial(name, json_litle_data):        # find_similar_nam
     return list(set(matches))
 
 # Function to find similar names (fuzzy match)
-def find_similar_names_fuzzy(name, json_litle_data):          # find_similar_names_2
+def find_similar_names_fuzzy(name):          # find_similar_names_2
     matches = []
     for department_data in json_litle_data.values():
         for person in department_data:
@@ -197,18 +181,13 @@ def handle_start(message):
 # هندلر برای دریافت پیام
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
-    global repo
-    global big_data_content
-    global litle_data_content
-    global json_big_data
-    global json_litle_data
     user_id = message.chat.id
     state = user_states.get(user_id, STATE_MAIN_MENU)
-
+    
     global new_prof
     global selected_prof
     global edit_prof
-    
+
     if state == STATE_MAIN_MENU:
         if message.text == "جستجوی استاد":
             user_states[user_id] = STATE_SEARCH_PROFESSOR
@@ -266,7 +245,7 @@ def handle_message(message):
 #------------------------------------------------------------------------------------
             found = False
             name = message.text.strip()
-
+        
             # First, attempt to find an exact match
             for department, department_data in json_litle_data.items():
                 for person in department_data:
@@ -290,7 +269,7 @@ def handle_message(message):
                     
             # If no exact match is found, try to find similar names
             if not found:
-                similar_names = find_similar_names_partial(name, json_litle_data)
+                similar_names = find_similar_names_partial(name)
                 if similar_names:
                     # Create an inline keyboard
                     keyboard = InlineKeyboardMarkup(row_width=1)
@@ -301,7 +280,7 @@ def handle_message(message):
                     bot.send_message(message.chat.id, "استاد مورد نظر یافت نشد. لطفاً از لیست پیشنهادی زیر انتخاب کنید:", reply_markup=keyboard)
                     return
                 else:
-                    similar_names = find_similar_names_fuzzy(name, json_litle_data)
+                    similar_names = find_similar_names_fuzzy(name)
                     if similar_names:
                         # Create an inline keyboard
                         keyboard = InlineKeyboardMarkup(row_width=1)
@@ -335,7 +314,6 @@ def handle_message(message):
             )
 
     elif state == STATE_ADMIN_SECOND_PANEL:
-
         if message.text == "بازگشت":
             user_states[user_id] = STATE_ADMIN_MAIN_PANEL
             bot.send_message(
@@ -374,7 +352,6 @@ def handle_message(message):
             )
 
     elif state == STATE_ADMIN_THIRD_PANEL:
-
         if message.text == "بازگشت":
             user_states[user_id] = STATE_ADMIN_SECOND_PANEL
             bot.send_message(
@@ -406,26 +383,31 @@ def handle_message(message):
                 for people in json_litle_data[dep]:
                     if people['ID'] == selected_prof[1]:
                         json_litle_data[dep].remove(people)
-            try:
-                # به‌روزرسانی فایل‌ها
-                update_datas(json_big_data, json_litle_data, repo)
-                user_states[user_id] = STATE_ADMIN_SECOND_PANEL
-                bot.send_message(
-                    user_id,
-                    f"اطلاعات استاد مورد نظر با آیدی *{prof_id}* با موفقیت حذف شد.",
-                    parse_mode='markdown',
-                    reply_markup=admin_second_buttons()
-                )
-            except Github.GithubException as e:
-                if e.status == 409:  # خطای Conflict
-                    bot.send_message(
-                        user_id,
-                        "خطایی در همگام‌سازی داده‌ها رخ داد. لطفاً دوباره تلاش کنید.",
-                        reply_markup=admin_second_buttons()
-                    )
-            
+            # update big-json file
+            updated_json = json.dumps(json_big_data, indent=4)
+            repo.update_file(
+                path=BIG_JSON_FILE_PATH,
+                message="Updated json file from sharif-hub",
+                content=updated_json,
+                sha=big_data_content.sha
+            )
+            # update little-json file
+            updated_json = json.dumps(json_litle_data, indent=4)
+            repo.update_file(
+                path=LITLE_JSON_FILE_PATH,
+                message="Updated json file from sharif-hub",
+                content=updated_json,
+                sha=litle_data_content.sha
+            )
+            user_states[user_id] = STATE_ADMIN_SECOND_PANEL
+            # send message
+            bot.send_message(
+                user_id,
+                f"اطلاعات استاد مورد نظر با آیدی *{prof_id}* با موفقیت حذف شد.",
+                parse_mode='markdown',
+                reply_markup=admin_second_buttons()
+            )
     elif user_states[user_id] == STATE_ADMIN_EDIT_PROF_PANEL:
-
         if message.text == "بازگشت":
             user_states[user_id] = STATE_ADMIN_THIRD_PANEL
             bot.send_message(
@@ -443,9 +425,24 @@ def handle_message(message):
                         people["Phone"] = edit_prof["Phone"]
                     if edit_prof.get("E-Mail") != None:   
                         people["E-Mail"] = edit_prof["E-Mail"]
-                    # update both json files
-                    update_datas(json_big_data, json_litle_data, repo)
-
+                    ########################
+                    # update big-json file
+                    updated_json = json.dumps(json_big_data, indent=4)
+                    repo.update_file(
+                        path=BIG_JSON_FILE_PATH,
+                        message="Updated json file from sharif-hub",
+                        content=updated_json,
+                        sha=big_data_content.sha
+                    )
+                    # update little-json file
+                    updated_json = json.dumps(json_litle_data, indent=4)
+                    repo.update_file(
+                        path=LITLE_JSON_FILE_PATH,
+                        message="Updated json file from sharif-hub",
+                        content=updated_json,
+                        sha=litle_data_content.sha
+                    )
+                    ########################
                     user_states[user_id] = STATE_ADMIN_THIRD_PANEL
                     bot.send_message(
                         user_id,
@@ -528,7 +525,6 @@ def handle_message(message):
             )
 
     elif user_states[user_id] == STATE_ADMIN_NEW_PROF_PANEL:
-
         if message.text == "بازگشت":
             user_states[user_id] = STATE_ADMIN_SECOND_PANEL
             bot.send_message(
@@ -606,7 +602,6 @@ def handle_message(message):
             )
         elif message.text == "تمام":
             Found_now = False
-
             for dep in json_litle_data:
                 if json_litle_data[dep][-1]["Department"] == new_prof["Department"]:
                     constant_dep = dep
@@ -617,21 +612,34 @@ def handle_message(message):
                     Found_now = True
                     break
             # add prof to big json data
-            constant_dep_name = new_prof["Department"]
             del new_prof["Department"]
             json_big_data[constant_dep].append(new_prof)
-
             if Found_now:
                 user_states[user_id] = STATE_ADMIN_SECOND_PANEL
                 bot.send_message(
                     user_id,
-                    f"استاد مورد نظر با موفقیت لیست اساتید دانشکده {constant_dep_name} اضافه شد.\nبه پنل قبلی برگشتید.",
+                    f"استاد مورد نظر با موفقیت لیست اساتید دانشکده {new_prof['Department']} اضافه شد.\nبه پنل قبلی برگشتید.",
                     reply_markup=admin_second_buttons(),
                     parse_mode="markdown"
                 )
                 ########################
-                # update both json files
-                update_datas(json_big_data, json_litle_data, repo)
+                # update big-json file
+                updated_json = json.dumps(json_big_data, indent=4)
+                repo.update_file(
+                    path=BIG_JSON_FILE_PATH,
+                    message="Updated json file from sharif-hub",
+                    content=updated_json,
+                    sha=big_data_content.sha
+                )
+                # update little-json file
+                updated_json = json.dumps(json_litle_data, indent=4)
+                repo.update_file(
+                    path=LITLE_JSON_FILE_PATH,
+                    message="Updated json file from sharif-hub",
+                    content=updated_json,
+                    sha=litle_data_content.sha
+                )
+                ########################
                 new_prof = dict()
             else:
                 user_states[user_id] = STATE_ADMIN_SECOND_PANEL
@@ -792,14 +800,7 @@ def handle_message(message):
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback_handler(call):
-    global repo
-    global big_data_content
-    global litle_data_content
-    global json_big_data
-    global json_litle_data
-
     name = call.data
-
     for department, department_data in json_litle_data.items():
         for person in department_data:
             if name == person['Name']:
